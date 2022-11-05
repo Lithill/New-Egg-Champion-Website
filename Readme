@@ -49,4 +49,8 @@ This still didn't align it. Figured it might be because the left logo is too big
 
 6) nav bar looks rubbish on mobile. Words aren't verticaly centered. Tried display: flex;, didn't work. Tried a few other things but didn't work so gave up for now. 
 
-7) For first big egg in index, looked at https://www.bitdegree.org/learn/responsive-image#setting-background-size-to-fit-screen and love running. It didn't show up without setting both height and width (auto height made it disapear again). so crossing my fingers this will do for now
+7) For first big egg in index, looked at https://www.bitdegree.org/learn/responsive-image#setting-background-size-to-fit-screen and love running. It didn't show up without setting both height and width (auto height made it disapear again). so crossing my fingers this will do for now.
+
+8) Used animation for big eggs - took code from love running
+
+9) Had to change header height to pixels rather than % so that I could top-margin the 1st big egg without any gaps. But this messed up the text

@@ -52,7 +52,7 @@ h2 {
 
 header {
 	background-color: black;
-	height: 10%;
+	height: 60px;
   border: 3px solid #dfbc78;
   width: 100%;
   position: fixed;
@@ -79,4 +79,19 @@ header {
 	width: 100%;
 	background: url("https://live.staticflickr.com/65535/52460673942_1f776214b2_o_d.jpg") no-repeat center;
 	background-size: cover;
+	overflow: hidden;
+	margin-top: 60px;
+
+	animation-name: egg-1-zoom;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes egg-1-zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.1);
+	}
 }
