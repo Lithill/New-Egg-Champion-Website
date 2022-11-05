@@ -58,3 +58,5 @@ This still didn't align it. Figured it might be because the left logo is too big
 10) Need a big-egg-1-outer so that the bottom line doesn't move on zoom effect. Plus overflow: hidden; & position: relative;
 
 11) when I added a second big egg, I couldn't figure out how to stop the zoom spilling into second egg. So turned off zoom. 
+
+12) Can't seem to center big egg text 3. Tried text-align, and margin-left & right auto. Didn't work. Used right: 38%; instead.
