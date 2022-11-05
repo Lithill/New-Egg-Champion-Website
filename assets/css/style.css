@@ -1,9 +1,54 @@
-html, body {
-  height: 100%;
-  width: 100%;
+@import url(https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&family=Trirong&family=League+Gothic);
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body {
+	font-family: Trirong;
+	color: #777777;
+}
+
+h2 {
+	font-family: "League Gothic";
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #555555
 }
 
 #left-logo {
 	height: auto;
 	width: 250px;
+	float: left;
 }
+
+#menu {
+	font-size: 200%;
+	list-style: none;
+	letter-spacing: 2px;
+}
+
+#menu li {
+	float: left;
+	margin-left: 30px;
+}
+
+#menu, #left-logo {
+	line-height: 65px;
+}
+
+#menu a {
+	font-family: "League Gothic";
+	text-decoration: none;
+	color: inherit;
+}
+
+#menu a:hover {
+	color: #FFD800;
+}
+
+.active {
+	color: #FFD800;
+} 
