@@ -44,3 +44,5 @@ Then thought maybe it's because of the relationship between the header and the i
 }
 
 This still didn't align it. Figured it might be because the left logo is too big. So made it smaller. But changing left logo height didn't help.
+
+5) Right-egg logo. Couldn't turn the header into position: relative;, because that messed it up. So I figured I needed something else to make the position relative. But couldn't figure it out, so I went back to what I did a while ago, although I can't remember how I got there.
