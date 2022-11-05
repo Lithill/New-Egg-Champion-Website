@@ -1,3 +1,21 @@
 Difficulties:
 
 1) Egg Champion left logo wouldn't change size through pixel width in css. So I put the ID in the <img> rather than <a>. Not sure why that works
+
+2 ) Couldn't turn nav bar with 
+
+nav {
+	background-color: #000000
+}
+
+so tried this which didn't work
+
+header {
+	background-color: #000000
+}
+
+Then tried 
+
+#header {
+	background: #000000
+}

@@ -52,3 +52,7 @@ h2 {
 .active {
 	color: #FFD800;
 } 
+
+header {
+	background-color: black;
+}
