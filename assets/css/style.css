@@ -8,19 +8,19 @@
 
 body {
 	font-family: Trirong;
-	color: #777777;
+	color: white;
 }
 
 h2 {
 	font-family: "League Gothic";
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: #555555
+	color: white;
 }
 
 #left-logo {
-	height: auto;
-	width: 250px;
+	height: 100%;
+	width: auto;
 	float: left;
 }
 
@@ -36,7 +36,8 @@ h2 {
 }
 
 #menu, #left-logo {
-	line-height: 65px;
+/* 	line-height: 70px; */
+	vertical-align: middle;
 }
 
 #menu a {
@@ -55,4 +56,11 @@ h2 {
 
 header {
 	background-color: black;
+	height: 10%;
+  border: 3px solid #dfbc78;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+	z-index: 2;
 }

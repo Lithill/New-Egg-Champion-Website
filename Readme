@@ -19,3 +19,28 @@ Then tried
 #header {
 	background: #000000
 }
+
+Added width etc and it worked
+
+3) Left logo is overspilling header. Tried overflow: hidden, and z-index but didn't work.
+
+#left-logo {
+	height: auto;
+	width: 250px;
+	float: left;
+	z-index: 1;
+	overflow: hidden;
+}
+
+Tried also giving header z-index 2, didn't work.
+
+Then thought maybe it's because of the relationship between the header and the image, so I set left-logo image height to 100% and that worked. But then the rest of the nav words are out of line, so changed line-height.
+
+4) changing line height of nav bar words made them out of line depending on width of screen. Don't know why. So used -
+
+#menu, #left-logo {
+/* 	line-height: 70px; */
+	vertical-align: middle;
+}
+
+This still didn't align it. Figured it might be because the left logo is too big. So made it smaller. 
