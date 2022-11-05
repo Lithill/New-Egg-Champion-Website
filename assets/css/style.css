@@ -79,7 +79,7 @@ header {
 	z-index: 3;
 }
 
-#big-egg-1-outer {
+#big-egg-outer {
 	height: 1000px;
 	width: 100%;
 	overflow: hidden;
@@ -94,19 +94,19 @@ header {
 	overflow: hidden;
 	margin-top: 60px;
 
-	animation-name: egg-1-zoom;
+/* 	animation-name: egg-1-zoom;
 	animation-duration: 5s;
-	animation-fill-mode: forwards;
+	animation-fill-mode: forwards; */
 }
 
-@keyframes egg-1-zoom {
+/* @keyframes egg-1-zoom {
 	from {
 		transform: scale(1);
 	}
 	to {
 		transform: scale(1.1);
 	}
-}
+} */
 
 #big-egg-1-text {
 	font-size: 500%;
@@ -114,10 +114,28 @@ header {
 	text-transform: uppercase;
 	text-align: center;
 
-/* background-color: rgba(241, 109, 107, .7); */
-	
-	top: 400px;
+	top: 300px;
 	right: 75px;
+
+	position: absolute;
+}
+
+#big-egg-2 {
+	height: 1000px;
+	width: 100%;
+	background: url("https://live.staticflickr.com/65535/52479668456_335cc66f4d_o_d.jpg") no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#big-egg-2-text {
+	font-size: 500%;
+	font-family: "League Gothic";
+	text-transform: uppercase;
+	text-align: center;
+
+	top: 1400px;
+	left: 75px;
 
 	position: absolute;
 }
