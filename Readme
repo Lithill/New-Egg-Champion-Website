@@ -43,4 +43,4 @@ Then thought maybe it's because of the relationship between the header and the i
 	vertical-align: middle;
 }
 
-This still didn't align it. Figured it might be because the left logo is too big. So made it smaller. 
+This still didn't align it. Figured it might be because the left logo is too big. So made it smaller. But changing left logo height didn't help.
