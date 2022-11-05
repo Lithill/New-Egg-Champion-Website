@@ -11,9 +11,14 @@ body {
 	color: white;
 }
 
+h1 {
+	font-family: "League Gothic";
+	letter-spacing: 2px;
+	color: #D6A000;
+}
+
 h2 {
 	font-family: "League Gothic";
-	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: white;
 }
@@ -28,7 +33,7 @@ h2 {
 	font-size: 200%;
 	list-style: none;
 	letter-spacing: 2px;
-	line-height: 75px;
+	line-height: 60px;
 }
 
 #menu li {
@@ -74,6 +79,13 @@ header {
 	z-index: 3;
 }
 
+#big-egg-1-outer {
+	height: 1000px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
 #big-egg-1 {
 	height: 1000px;
 	width: 100%;
@@ -94,4 +106,18 @@ header {
 	to {
 		transform: scale(1.1);
 	}
+}
+
+#big-egg-1-text {
+	font-size: 500%;
+	font-family: "League Gothic";
+	text-transform: uppercase;
+	text-align: center;
+
+/* background-color: rgba(241, 109, 107, .7); */
+	
+	top: 400px;
+	right: 75px;
+
+	position: absolute;
 }

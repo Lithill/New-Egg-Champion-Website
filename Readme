@@ -53,4 +53,6 @@ This still didn't align it. Figured it might be because the left logo is too big
 
 8) Used animation for big eggs - took code from love running
 
-9) Had to change header height to pixels rather than % so that I could top-margin the 1st big egg without any gaps. But this messed up the text
+9) Had to change header height to pixels rather than % so that I could top-margin the 1st big egg without any gaps. But this messed up the text, so changed line-height: 60px; in #menu
+
+10) Need a big-egg-1-outer so that the bottom line doesn't move on zoom effect. Plus overflow: hidden; & position: relative;
