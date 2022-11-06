@@ -163,13 +163,11 @@ header {
 
  .container {
 	 background-color: blue;
-    width: 1920px;
-    height: 700px;
+    width: 100vi;
+    height: 655px;
  }
-/*  .video {
-     position: absolute;
-	 	 top: 0;
-     left: 0; 
-     width: 25vw;
-     height: 30vw;
- } */
+
+ .video {
+	 height: 100%;
+	 width: 100%;
+ }
