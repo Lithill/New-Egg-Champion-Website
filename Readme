@@ -75,3 +75,5 @@ This still didn't align it. Figured it might be because the left logo is too big
  }
 
 I wanted it to look less like a youtube video so used info here - https://freshysites.com/web-design-development/how-to-use-youtube-parameters-and-recent-changes/. And changed code to src="https://www.youtube.com/embed/-kl4j_AEC5k?rel=0&amp;controls=0" class="video".
+
+14) used love running footer as basic for my footer. Having trouble with white space under footer

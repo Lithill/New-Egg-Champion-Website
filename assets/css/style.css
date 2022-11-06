@@ -172,3 +172,23 @@ header {
 	 height: 100%;
 	 width: 100%;
  }
+
+footer {
+	height: 150px;
+	background-color: black;
+}
+
+.social-networks {
+	text-align: center;
+}
+
+.social-networks li {
+	display: inline;
+}
+
+.social-networks i {
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color:white;
+}
