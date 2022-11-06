@@ -76,4 +76,6 @@ This still didn't align it. Figured it might be because the left logo is too big
 
 I wanted it to look less like a youtube video so used info here - https://freshysites.com/web-design-development/how-to-use-youtube-parameters-and-recent-changes/. And changed code to src="https://www.youtube.com/embed/-kl4j_AEC5k?rel=0&amp;controls=0" class="video".
 
-14) used love running footer as basic for my footer. Having trouble with white space under footer
+14) used love running footer as basic for my footer. Having trouble with white space under footer. I read this - https://stackoverflow.com/questions/54836610/why-is-the-background-color-of-my-footer-not-filling-my-entire-footer and changed my background colour. But now when i put height to 60px, the border rides up. Degbugged in chrome, it looks like it is something to do with the class "social-networks" it is overspilling the footer, but when i add this to the class - height: 60px;, doesn't change anything. Then debugged and figured out it was the margin on the social network class.
+
+15)

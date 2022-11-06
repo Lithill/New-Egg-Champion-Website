@@ -9,6 +9,7 @@
 body {
 	font-family: Trirong;
 	color: white;
+	background-color: black;
 }
 
 h1 {
@@ -174,9 +175,22 @@ header {
  }
 
 footer {
-	height: 150px;
+	height: 60px;
 	background-color: black;
+	border: 3px solid #dfbc78;
+	bottom: 0;
 }
+
+/* header {
+	background-color: black;
+	height: 60px;
+  border: 3px solid #dfbc78;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+	z-index: 2;
+} */
 
 .social-networks {
 	text-align: center;
@@ -188,7 +202,8 @@ footer {
 
 .social-networks i {
 	font-size: 160%;
-	margin: 1%;
-	padding: 5%;
+/* 	margin: 1%; */
+	padding: 1%;
 	color:white;
 }
+
