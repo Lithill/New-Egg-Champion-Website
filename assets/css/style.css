@@ -241,5 +241,37 @@ li i:hover {
 	#menu li {
 		margin-left: 15px;
 	}
+	
+	#big-egg-1, #big-egg-2, #big-egg-3, .container {
+		height: 300px;
+	}
+
+	#big-egg-1-text {
+		top: 200px;
+		right: 10px;
+		font-size: 200%;
+		width: 20%;
+	}
+
+	#big-egg-2-text {
+		top: 460px;
+		left: 35px;
+		font-size: 200%;
+		width: 20%;
+	}
+
+	#big-egg-3-text {
+		top: 900px;
+		margin: auto;
+		font-size: 200%;
+	}
+
+	h1 {
+		font-size: 1.17em;
+	}
+
+	.social-networks li {
+	margin-bottom: 0px;
+}
 
 }
