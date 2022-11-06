@@ -152,7 +152,8 @@ header {
 	font-size: 500%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
-	right: 38%;
+	text-align: center;
+	right: 41%;
 	top: 2700px;
 	position: absolute;
 }
