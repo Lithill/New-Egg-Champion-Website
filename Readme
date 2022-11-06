@@ -80,4 +80,6 @@ I wanted it to look less like a youtube video so used info here - https://freshy
 
 15) Wanted the page you are on to be yellow. But the 'active' class was being overidden by "menu a" text colour. Making it an id didn't work. So I took the text color out of "menu a" and created a "not-active" class where the text is white, and applied that to all other header links. 
 
-16) Next trying to make h1 in index responsive. Thought there should be a way to make text position in relation to the div rather than the edges of the screen. But taking away the "top" property from "big-egg-1-text" and replacing it with "vertical-align: middle;" didn't work.
+16) Next trying to make h1 in index responsive. Thought there should be a way to make text position in relation to the div rather than the edges of the screen. But taking away the "top" property from "big-egg-1-text" and replacing it with "vertical-align: middle;" didn't work. Couldn't figure it out.
+
+17) Mobile fix for header - created a new link image in the header and turned off display when not in mobile view

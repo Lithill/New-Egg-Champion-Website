@@ -30,6 +30,10 @@ h2 {
 	float: left;
 }
 
+#left-logo-mobile-view {
+	display: none;
+}
+
 #menu {
 	font-size: 200%;
 	list-style: none;
@@ -81,6 +85,7 @@ header {
   top: 15px;
   right: 15px;
 	z-index: 3;
+	src: url("index.html");
 }
 
 #big-egg-outer {
@@ -117,8 +122,7 @@ header {
 	font-family: "League Gothic";
 	text-transform: uppercase;
 	text-align: center;
-/* 	background-color: blue;
-	vertical-align: middle; */
+	vertical-align: middle;
 	top: 300px;
 	right: 75px;
 
@@ -217,4 +221,25 @@ li i:hover {
 
 .active {
 	color: #FFD800;
+}
+
+@media screen and (max-width: 943px) {
+	#left-logo {
+		display:none;
+	}
+
+	#right-logo {
+		display:none;
+	}
+
+	#left-logo-mobile-view {
+		display: inline;
+		height: 60px;
+		margin-left: -12px;
+	}
+
+	#menu li {
+		margin-left: 15px;
+	}
+
 }
