@@ -60,3 +60,5 @@ This still didn't align it. Figured it might be because the left logo is too big
 11) when I added a second big egg, I couldn't figure out how to stop the zoom spilling into second egg. So turned off zoom. 
 
 12) Can't seem to center big egg text 3. Tried text-align, and margin-left & right auto. Didn't work. Used right: 38%; instead.
+
+13) The index page needed a payoff so I made a video. Difficulty getting video to show. This website helped - https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262. 
