@@ -45,7 +45,6 @@ h2 {
 #menu a {
 	font-family: "League Gothic";
 	text-decoration: none;
-	color: inherit;
 }
 
 #menu a:hover {
@@ -55,6 +54,10 @@ h2 {
 .active {
 	color: #FFD800;
 } 
+
+.not-active {
+	color: white;
+}
 
 header {
 	background-color: black;
@@ -160,7 +163,7 @@ header {
 }
 
 .chevron {
-	color: #D6A000;
+	color: #846100;
 }
 
  .container {
@@ -207,3 +210,10 @@ footer {
 	color:white;
 }
 
+li i:hover {
+	color: #FFD800;
+}
+
+.active {
+	color: #FFD800;
+}
