@@ -213,8 +213,6 @@ header {
 	color: white;
 	font-size: 170%;
 	text-align: center;
-/* 	width: 50%;
-	padding: 0 0 0 50%; */
 }
 
 #egg-quiz h2 {
@@ -325,19 +323,23 @@ li i:hover {
 	color: #FFD800;
 }
 
-@media screen and (min-device-width: 944px) and (max-device-width: 1362px) { 
-  	#big-egg-1, #big-egg-2, #big-egg-3, .container {
-			height: 70vw;
-		}
+@media screen and (min-device-width: 944px) and (max-device-width: 1417px) { 
+  #big-egg-1, #big-egg-2, #big-egg-3, .container {
+		height: 70vw;
+	}
 
-		#big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
-			position: static;
-			text-align: center;
-			font-size: 400%;
-		}
+	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
+		position: static;
+		text-align: center;
+		font-size: 400%;
+	}
+
+	#egg-quiz {
+		background-size: 100%;
+	}
 }
 
-@media screen and (max-width: 943px) {
+@media screen and (max-width: 944px) {
 	#left-logo {
 		display:none;
 	}
@@ -365,3 +367,8 @@ li i:hover {
 	text-align: center;
 	font-size: 200%;
 	}
+
+	#egg-quiz {
+		background-size: 300%;
+	}
+}
