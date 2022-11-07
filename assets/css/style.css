@@ -203,7 +203,50 @@ header {
 }
 
 #egg-quiz {
-	
+	margin-top: 40px;
+	background: url("https://live.staticflickr.com/65535/52484998649_3924bdb40c_o_d.jpg") no-repeat center right;
+	background-color: #313131;
+}
+
+#form {
+	color: white;
+	font-size: 170%;
+	text-align: center;
+	width: 50%;
+	padding: 0 0 0 50%;
+}
+
+#egg-quiz h2 {
+	color: white;
+	font: Trirong;
+	font-weight: 550;
+	letter-spacing: 2px;
+	padding: 10px 20px;
+}
+
+table {
+	margin-left:auto; 
+  margin-right:auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+select {
+/* 	width: 5%;
+	line-height: 200px; */
+	font-size: 100%;
+	color: black;
+	border-radius: 10px;
+}
+
+/* found this code here - https://stackoverflow.com/questions/3313456/css-borders-between-table-columns-only */
+table td + td { 
+	border-left:2px solid white; 
+}
+/* above */
+
+input, button {
+	font-size: 100%;
 }
 
  .container {
