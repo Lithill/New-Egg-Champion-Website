@@ -202,6 +202,7 @@ footer {
 
 .social-networks {
 	text-align: center;
+	line-height: 60px;
 }
 
 .social-networks li {
@@ -261,7 +262,7 @@ li i:hover {
 	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
 	position: static;
 	text-align: center;
-	font-size: 400%;
+	font-size: 200%;
 	}
 
 

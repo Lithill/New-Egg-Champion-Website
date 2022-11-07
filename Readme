@@ -82,4 +82,6 @@ I wanted it to look less like a youtube video so used info here - https://freshy
 
 16) Next trying to make h1 in index responsive. Thought there should be a way to make text position in relation to the div rather than the edges of the screen. But taking away the "top" property from "big-egg-1-text" and replacing it with "vertical-align: middle;" didn't work. Couldn't figure it out.
 
-17) Mobile fix for header - created a new link image in the header and turned off display when not in mobile view
+17) Mobile fix for header - created a new link image in the header and turned off display when not in mobile view. Decided to make big egg text not layer on div above under a certain screen width for ease of responsiveness.
+
+18) Wanted logos to become all yellow when hover on them. Found this - https://sirv.com/help/articles/hover-change-image/. 
