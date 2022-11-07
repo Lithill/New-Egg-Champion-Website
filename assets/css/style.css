@@ -167,6 +167,29 @@ header {
 	position: absolute;
 }
 
+#quiz-egg {
+	height: 500px;
+	width: 60%;
+	background: url("https://live.staticflickr.com/65535/52484589319_1386557b5a_o_d.jpg") no-repeat center center;
+	background-size: cover;
+	overflow: hidden;
+	margin-top: 100px;
+}
+
+#quiz-egg-text {
+	font-size: 500%;
+	font-family: "League Gothic";
+	text-transform: uppercase;
+	text-align: center;
+	right: 30%;
+	top: 260px;
+	position: absolute;
+}
+
+#quiz-info {
+	
+}
+
 .chevron {
 	color: #846100;
 }
