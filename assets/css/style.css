@@ -152,7 +152,7 @@ header {
 #big-egg-3 {
 	height: 1000px;
 	width: 100%;
-	background: url("https://live.staticflickr.com/65535/52480158110_73dea24e48_o_d.jpg") no-repeat center;
+	background: url("https://live.staticflickr.com/65535/52480158110_73dea24e48_o_d.jpg") no-repeat center center;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -223,6 +223,18 @@ li i:hover {
 	color: #FFD800;
 }
 
+@media screen and (min-device-width: 944px) and (max-device-width: 1362px) { 
+  	#big-egg-1, #big-egg-2, #big-egg-3, .container {
+			height: 70vw;
+		}
+
+		#big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
+			position: static;
+			text-align: center;
+			font-size: 400%;
+		}
+}
+
 @media screen and (max-width: 943px) {
 	#left-logo {
 		display:none;
@@ -243,32 +255,15 @@ li i:hover {
 	}
 	
 	#big-egg-1, #big-egg-2, #big-egg-3, .container {
-		height: 300px;
+		height: 100vw;
 	}
 
-	#big-egg-1-text {
-		top: 200px;
-		right: 10px;
-		font-size: 200%;
-		width: 20%;
+	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
+	position: static;
+	text-align: center;
+	font-size: 400%;
 	}
 
-	#big-egg-2-text {
-		top: 460px;
-		left: 35px;
-		font-size: 200%;
-		width: 20%;
-	}
-
-	#big-egg-3-text {
-		top: 900px;
-		margin: auto;
-		font-size: 200%;
-	}
-
-	h1 {
-		font-size: 1.17em;
-	}
 
 	.social-networks li {
 	margin-bottom: 0px;
