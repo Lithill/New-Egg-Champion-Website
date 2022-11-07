@@ -197,23 +197,24 @@ header {
 	text-align: center;
 }
 
-#small-print {
+#small-print-right {
 	float: right;
 	margin-right: 5%;
 }
 
 #egg-quiz {
 	margin-top: 40px;
-	background: url("https://live.staticflickr.com/65535/52484998649_3924bdb40c_o_d.jpg") no-repeat center right;
+	background: url("https://live.staticflickr.com/65535/52484998649_3924bdb40c_o_d.jpg") no-repeat center center;
 	background-color: #313131;
+	background-size: 60%;
 }
 
 #form {
 	color: white;
 	font-size: 170%;
 	text-align: center;
-	width: 50%;
-	padding: 0 0 0 50%;
+/* 	width: 50%;
+	padding: 0 0 0 50%; */
 }
 
 #egg-quiz h2 {
@@ -232,8 +233,6 @@ table {
 }
 
 select {
-/* 	width: 5%;
-	line-height: 200px; */
 	font-size: 100%;
 	color: black;
 	border-radius: 10px;
@@ -252,10 +251,25 @@ input, button {
 	padding: 5px;
 }
 
-#form-buttons {
-	position: absolute;
-	padding: 0;
-	margin: 0;
+button {
+	background-color: #DFBC78;
+}
+
+#reset {
+	background-color: transparent;
+	color: white;
+}
+
+input:hover {
+	background-color: #DFBC78;
+}
+      
+select:hover {
+  background-color: #DFBC78;
+}
+
+#small-print-left {
+	margin-left: 5%;
 }
 
  .container {
