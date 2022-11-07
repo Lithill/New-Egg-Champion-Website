@@ -167,6 +167,10 @@ header {
 	position: absolute;
 }
 
+.chevron {
+	color: #846100;
+}
+
 #quiz-egg {
 	height: 500px;
 	width: 60%;
@@ -187,15 +191,23 @@ header {
 }
 
 #quiz-info {
+	width: 30%;
+	margin-left: 230px;
+	font-size: 150%;
+	text-align: center;
+}
+
+#small-print {
+	float: right;
+	margin-right: 5%;
+}
+
+#egg-quiz {
 	
 }
 
-.chevron {
-	color: #846100;
-}
-
  .container {
-	 background-color: blue;
+	 background-color: black;
     width: 100vi;
     height: 655px;
  }
