@@ -415,6 +415,21 @@ blockquote::after {
 	background-attachment: fixed;
 }
 
+@media screen and (min-device-width: 944px) and (max-device-width: 1303px) {
+	#history-egg {
+		background-position: center;
+		width: 100%;
+		background-size: contain;
+		
+	}
+	
+	#history-egg-text {
+		position: static;
+		text-align: center;
+		font-size: 400%;
+	}
+}
+
 @media screen and (min-device-width: 944px) and (max-device-width: 1417px) { 
   #big-egg-1, #big-egg-2, #big-egg-3, .container {
 		height: 70vw;
@@ -454,17 +469,15 @@ blockquote::after {
 		height: 100vw;
 	}
 
-	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
+	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text, #history-egg-text {
 	position: static;
 	text-align: center;
 	font-size: 200%;
 	}
 
-	#quiz-egg {
-/* 		background-size: 120%; */
+	#quiz-egg, #history-egg {
 		width: 100%;
 		background-position: center;
-/* 		width: 120%; */
 	}
 
 	#quiz-egg-text {
@@ -487,5 +500,20 @@ blockquote::after {
 		width: 70%;
 		margin: 0 auto;
 	}
+
+	.article-text {
+		padding: 10px;
+		text-align: start;
+	}
+
+	.img-right-wrap, .img-left-wrap, #necklace {
+		float: none;
+		padding: 10px;
+		width: 90%;
+	}
+
+	.margin-bottom {
+			margin-bottom: 10px;
+		}
 
 }
