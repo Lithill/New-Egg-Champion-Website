@@ -195,11 +195,13 @@ header {
 	margin-left: 230px;
 	font-size: 150%;
 	text-align: center;
+	color: #A8ACAD;
 }
 
 #small-print-right {
 	float: right;
 	margin-right: 5%;
+	color: #A8ACAD;
 }
 
 #egg-quiz {
@@ -210,13 +212,13 @@ header {
 }
 
 #form {
-	color: white;
+	color: #F4F4F4;
 	font-size: 170%;
 	text-align: center;
 }
 
 #egg-quiz h2 {
-	color: white;
+	color: #F4F4F4;
 	font: Trirong;
 	font-weight: 550;
 	letter-spacing: 2px;
@@ -239,36 +241,37 @@ table {
 	margin-top: 100px;
 }
 
-#history-egg-text {
-	
-}
-
 select {
 	font-size: 100%;
 	color: black;
 	border-radius: 10px;
 	padding: 5px;
+	background-color: #F4F4F4;
 }
 
 /* found this code here - https://stackoverflow.com/questions/3313456/css-borders-between-table-columns-only */
 table td + td { 
-	border-left:2px solid white; 
+	border-left:2px solid #F4F4F4; 
 }
 /* above */
 
-input, button {
+input {
 	font-size: 100%;
 	border-radius: 10px;
 	padding: 5px;
+	background-color: #F4F4F4;
 }
 
 button {
+	font-size: 100%;
+	border-radius: 10px;
+	padding: 5px;
 	background-color: #DFBC78;
 }
 
 #reset {
 	background-color: transparent;
-	color: white;
+	color: #F4F4F4;
 }
 
 input:hover {
@@ -281,6 +284,7 @@ select:hover {
 
 #small-print-left {
 	margin-left: 5%;
+	color: #A8ACAD;
 }
 
  .container {
@@ -343,10 +347,45 @@ li i:hover {
 	width: 33%;
 }
 
+.img-left-wrap {
+	float: left; 
+	padding: 80px;
+	width: 33%;
+}
+
+article {
+	padding: 20px 0;
+}
+
 .article-text {
 	font-size: 150%;
-	padding: 40px 80px 0 80px;
+	padding: 20px 80px 20px 80px;
 	text-align: justify;
+	color: #A8ACAD;
+}
+
+/* Partly stolen from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+blockquote {
+	background: #313131;
+	text-align: center;
+  quotes: "“" "”" "‘" "’";
+	font-size: 160%;
+	font-style: italic;
+	width: 90%;
+	margin: 40px auto;
+}
+
+/* Next two are partly stolen from https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/ */
+blockquote::before {
+  content: open-quote;
+	font-size: 300%;
+	color: #bb9260;
+}
+
+blockquote::after {
+  content: close-quote;
+	font-size: 300%;
+	color: #bb9260;
 }
 
 @media screen and (min-device-width: 944px) and (max-device-width: 1417px) { 

@@ -85,3 +85,5 @@ I wanted it to look less like a youtube video so used info here - https://freshy
 17) Mobile fix for header - created a new link image in the header and turned off display when not in mobile view. Decided to make big egg text not layer on div above under a certain screen width for ease of responsiveness.
 
 18) When wrapped the img in history page, the caption didn't go with it. So applied class="img-right-wrap" to figure rather than img. But this made the image lose its padding and width sizing. So tried to seperate them into 2 different classes to apply to figure and caption, or img and caption, but couldn't figure it out, so got rid of caption.
+
+19) Searching for html for quotes in articles. Found this https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/. and https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
