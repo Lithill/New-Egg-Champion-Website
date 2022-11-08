@@ -180,7 +180,7 @@ header {
 	margin-top: 100px;
 }
 
-#quiz-egg-text {
+#quiz-egg-text, #history-egg-text {
 	font-size: 500%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
@@ -228,6 +228,19 @@ table {
   margin-right:auto;
   margin-bottom: 10px;
   text-align: center;
+}
+
+#history-egg {
+	height: 500px;
+	width: 60%;
+	background: url("https://live.staticflickr.com/65535/52486562835_6c2e59d639_o_d.jpg") no-repeat center center;
+	background-size: cover;
+	overflow: hidden;
+	margin-top: 100px;
+}
+
+#history-egg-text {
+	
 }
 
 select {
@@ -321,6 +334,19 @@ li i:hover {
 
 .active {
 	color: #FFD800;
+}
+
+/* Took this class code from https://www.thoughtco.com/wrapping-text-around-image-3466530#:~:text=Enter%20.,the%20text%20wraps%20around%20it. And edited it*/
+.img-right-wrap {
+	float: right; 
+	padding: 80px;
+	width: 33%;
+}
+
+.article-text {
+	font-size: 150%;
+	padding: 40px 80px 0 80px;
+	text-align: justify;
 }
 
 @media screen and (min-device-width: 944px) and (max-device-width: 1417px) { 
