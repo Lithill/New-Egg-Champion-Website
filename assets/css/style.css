@@ -350,7 +350,7 @@ li i:hover {
 .img-left-wrap {
 	float: left; 
 	padding: 80px;
-	width: 33%;
+	width: 15%;
 }
 
 article {
@@ -386,6 +386,13 @@ blockquote::after {
   content: close-quote;
 	font-size: 300%;
 	color: #bb9260;
+}
+
+#necklace {
+	width: 25%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-device-width: 944px) and (max-device-width: 1417px) { 
