@@ -180,6 +180,10 @@ header {
 	margin-top: 100px;
 }
 
+.margin-bottom {
+	margin-bottom: 120px;
+}
+
 #quiz-egg-text, #history-egg-text {
 	font-size: 500%;
 	font-family: "League Gothic";
@@ -355,6 +359,7 @@ li i:hover {
 
 article {
 	padding: 20px 0;
+	background: rgba(0,0,0,0.80);
 }
 
 .article-text {
@@ -364,27 +369,34 @@ article {
 	color: #A8ACAD;
 }
 
-/* Partly stolen from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+/* Partly stolen from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ and http://www.java2s.com/Code/HTMLCSS/Tags/borderforblockquote.htm*/
 blockquote {
-	background: #313131;
 	text-align: center;
   quotes: "“" "”" "‘" "’";
 	font-size: 160%;
 	font-style: italic;
 	width: 90%;
 	margin: 40px auto;
+	
+	border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #dfbc78;
+	
+	border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #dfbc78;
 }
 
 /* Next two are partly stolen from https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/ */
 blockquote::before {
   content: open-quote;
-	font-size: 300%;
+	font-size: 200%;
 	color: #bb9260;
 }
 
 blockquote::after {
   content: close-quote;
-	font-size: 300%;
+	font-size: 200%;
 	color: #bb9260;
 }
 
@@ -393,6 +405,14 @@ blockquote::after {
 	display: block;
   margin-left: auto;
   margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#history-box {
+	background-image: url("https://live.staticflickr.com/65535/52487174268_0200aa3bb9_o_d.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 @media screen and (min-device-width: 944px) and (max-device-width: 1417px) { 
