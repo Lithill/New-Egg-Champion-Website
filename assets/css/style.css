@@ -335,7 +335,7 @@ li i:hover {
 	}
 
 	#egg-quiz {
-		background-size: 100%;
+		background-size: cover;
 	}
 }
 
@@ -368,7 +368,32 @@ li i:hover {
 	font-size: 200%;
 	}
 
-	#egg-quiz {
-		background-size: 300%;
+	#quiz-egg {
+/* 		background-size: 120%; */
+		width: 100%;
+		background-position: center;
+/* 		width: 120%; */
 	}
+
+	#quiz-egg-text {
+		position: static;
+		font-size: 200%;
+	}
+	
+	#egg-quiz {
+		background-size: cover;
+	}
+
+	#egg-quiz-text {
+		position: static;
+		font-size: 200%;
+	}
+
+	#quiz-info {
+		position: static;
+		font-size: 150%;
+		width: 70%;
+		margin: 0 auto;
+	}
+
 }
