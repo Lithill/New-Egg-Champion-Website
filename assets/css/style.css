@@ -415,14 +415,28 @@ blockquote::after {
 	background-attachment: fixed;
 }
 
-	#shop-egg {
-		height: 500px;
-		width: 60%;
-		background: url("https://live.staticflickr.com/65535/52487380075_6104eb3453_o_d.png") no-repeat center center;
-		background-size: contain;
-		overflow: hidden;
-		margin-top: 100px;
+#shop-egg {
+	height: 500px;
+	width: 60%;
+	background: url("https://live.staticflickr.com/65535/52487380075_6104eb3453_o_d.png") no-repeat center center;
+	background-size: contain;
+	overflow: hidden;
+	margin-top: 100px;
 	}
+
+#shop-info {
+  font-size: 150%;
+  text-align: center;
+  color: #A8ACAD;
+	position: static;
+}
+
+#cans-outer {
+	height: 1000px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
 
 @media screen and (min-device-width: 944px) and (max-device-width: 1303px) {
 	#history-egg {
