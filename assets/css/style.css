@@ -413,20 +413,30 @@ blockquote::after {
 	margin-top: 100px;
 }
 
-#strong-egg {
-	height: 400px;
-	width: 100vi;
-	background: url("https://live.staticflickr.com/65535/52486632532_640ece6d1c_o_d.jpg") no-repeat center right;
-	background-size: contain;
-	margin-right: 100px;
+#shop-box {
+	background-image: url("https://live.staticflickr.com/65535/52489446559_7d9f5263b5_o_d.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+	background-position: center right;
+	margin-right: 220px;
 }
 
 #shop-info {
-	width: 80%;
   font-size: 150%;
   text-align: center;
   color: #A8ACAD;
-	
+/* 	margin-left: 110px; */
+  padding-top: 40px;
+	padding-bottom: 40px;
+	background: rgba(0,0,0,0.80);
+}
+
+#shop-egg-outer {
+	height: 400px;
+  width: 100vi;
+  background: url(https://live.staticflickr.com/65535/52486632532_640ece6d1c_o_d.jpg) no-repeat center right;
+  background-size: contain;
+  margin-right: 200px;
 }
 
 @media screen and (min-device-width: 944px) and (max-device-width: 1303px) {
