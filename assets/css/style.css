@@ -175,7 +175,7 @@ header {
 	height: 500px;
 	width: 60%;
 	background: url("https://live.staticflickr.com/65535/52484589319_1386557b5a_o_d.jpg") no-repeat center center;
-	background-size: cover;
+	background-size: contain;
 	overflow: hidden;
 	margin-top: 100px;
 }
@@ -184,7 +184,7 @@ header {
 	margin-bottom: 120px;
 }
 
-#quiz-egg-text, #history-egg-text, #shop-egg-text {
+#quiz-egg-text, #history-egg-text, #shop-egg-text, #news-egg-text {
 	font-size: 500%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
@@ -240,7 +240,7 @@ table {
 	height: 500px;
 	width: 60%;
 	background: url("https://live.staticflickr.com/65535/52486562835_6c2e59d639_o_d.jpg") no-repeat center center;
-	background-size: cover;
+	background-size: contain;
 	overflow: hidden;
 	margin-top: 100px;
 }
@@ -472,6 +472,15 @@ blockquote::after {
 	text-decoration: none; 
 	text-align: center;
 	font-size: 150%;
+}
+
+#news-egg {
+	height: 500px;
+	width: 60%;
+	background: url("https://live.staticflickr.com/65535/52491743048_870a835dea_o_d.png") no-repeat center center;
+	background-size: contain;
+	overflow: hidden;
+	margin-top: 100px;
 }
 
 @media screen and (min-device-width: 944px) and (max-device-width: 1303px) {
