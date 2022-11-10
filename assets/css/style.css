@@ -425,10 +425,10 @@ blockquote::after {
   font-size: 150%;
   text-align: center;
   color: #A8ACAD;
-/* 	margin-left: 110px; */
   padding-top: 40px;
 	padding-bottom: 40px;
 	background: rgba(0,0,0,0.80);
+	line-height: 2;
 }
 
 #shop-egg-outer {
@@ -437,6 +437,27 @@ blockquote::after {
   background: url(https://live.staticflickr.com/65535/52486632532_640ece6d1c_o_d.jpg) no-repeat center right;
   background-size: contain;
   margin-right: 200px;
+}
+
+
+/* Took the next two blocks from https://www.w3schools.com/howto/howto_css_three_columns.asp. Spliced with zazzle code. I don't understand what the point of 'content' is here */
+.column {
+	float: left;
+  width: 33.33%;
+	text-align: center;
+	line-height:150%;
+	background: transparent;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.shop-links {
+	color: #A8ACAD;
+	text-decoration: none; 
 }
 
 @media screen and (min-device-width: 944px) and (max-device-width: 1303px) {
