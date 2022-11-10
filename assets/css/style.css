@@ -297,7 +297,7 @@ select:hover {
     height: 655px;
  }
 
- .video {
+.video {
 	 height: 100%;
 	 width: 100%;
  }
@@ -446,6 +446,7 @@ blockquote::after {
   width: 33.33%;
 	text-align: center;
 	line-height:150%;
+	padding: 120px 0;
 }
 
 .left, .right {
@@ -470,6 +471,7 @@ blockquote::after {
 	color: white;
 	text-decoration: none; 
 	text-align: center;
+	font-size: 150%;
 }
 
 @media screen and (min-device-width: 944px) and (max-device-width: 1303px) {
@@ -525,13 +527,13 @@ blockquote::after {
 		height: 100vw;
 	}
 
-	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text, #history-egg-text {
+	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text, #history-egg-text, #shop-egg-text {
 	position: static;
 	text-align: center;
 	font-size: 200%;
 	}
 
-	#quiz-egg, #history-egg {
+	#quiz-egg, #history-egg, #shop-egg {
 		width: 100%;
 		background-position: center;
 	}
@@ -569,7 +571,28 @@ blockquote::after {
 	}
 
 	.margin-bottom {
-			margin-bottom: 10px;
-		}
+		margin-bottom: 10px;
+	}
+	
+	#shop-box {
+	  margin-right: 0;
+		background: transparent;
+		background-size: contain;
+	}
 
+	#shop-info {
+		padding: 0 10px;
+	}
+
+	.column {
+  	width: 100%;
+		text-align: center;
+		line-height:150%;
+		padding: 60px 0;
+	}
+
+	#zazzle-image {
+		width:90%;
+	}
+	
 }
