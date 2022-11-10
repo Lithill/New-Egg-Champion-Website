@@ -86,6 +86,6 @@ I wanted it to look less like a youtube video so used info here - https://freshy
 
 18) When wrapped the img in history page, the caption didn't go with it. So applied class="img-right-wrap" to figure rather than img. But this made the image lose its padding and width sizing. So tried to seperate them into 2 different classes to apply to figure and caption, or img and caption, but couldn't figure it out, so got rid of caption.
 
-19) Searching for html for quotes in articles. Found this https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/. and https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
+19) Searching for html for quotes in articles. Found this https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/. and https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/. Wanted to add extra padding, so edited that bit of code too. Realised I needed unequal columns to make the photos sit better with the same amount of padding between them.
 
-20) To make the shop bit of the shop, I used code from https://www.w3schools.com/howto/howto_css_three_columns.asp. I don't understand what the point of 'content' is here. I used the embed code from Zazzle
+

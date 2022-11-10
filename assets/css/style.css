@@ -446,7 +446,18 @@ blockquote::after {
   width: 33.33%;
 	text-align: center;
 	line-height:150%;
-	background: transparent;
+}
+
+.left, .right {
+  width: 38%;
+}
+
+.middle {
+  width: 24%;
+}
+
+.row {
+	background: #313131;
 }
 
 .row:after {
@@ -456,8 +467,9 @@ blockquote::after {
 }
 
 .shop-links {
-	color: #A8ACAD;
+	color: white;
 	text-decoration: none; 
+	text-align: center;
 }
 
 @media screen and (min-device-width: 944px) and (max-device-width: 1303px) {
