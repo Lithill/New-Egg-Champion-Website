@@ -402,6 +402,8 @@ blockquote::after {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	width: 60%;
+	margin: 0 auto;
 }
 
 #shop-egg {
@@ -537,6 +539,8 @@ blockquote::after {
 	#egg-quiz {
 		background-size: cover;
 	}
+
+	
 }
 
 @media screen and (max-width: 944px) {
@@ -624,6 +628,13 @@ blockquote::after {
 		text-align: center;
 		line-height:150%;
 		padding: 60px 0;
+	}
+
+	#history-box {
+		background-position: center top;
+		width: 85%;
+		margin: 0 auto;
+		background-attachment: fixed;
 	}
 	
 }
