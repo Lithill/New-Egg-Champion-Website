@@ -47,7 +47,14 @@ This website has been created for a fictional sport called Egg Champion. It give
 
 - My tutor Robert Mclaughlin for helpful feedback.
 
-## Add section on site testing
+## Testing
+
+- This website was tested on Google Chrome - add others browsers when you get to that stage
+- This website was viewed on a variety of devices such as Desktop, laptop, iPhone SE - add other devices
+- A large amount of testing was done to make sure the pages were correctly linked
+- Friends, colleagues and classmates were asked to review the site and documentation to point out any bugs or user experience issues
+
+## Known Bugs
 
 ## Deployment
 
@@ -61,6 +68,10 @@ This project was deployed to GitHub Pages using the following steps:
 4. Under "Source", click the dropdown called "Main", select folder ""/root" and click "save".
 5. Refresh the page
 6. Click on the "Visit site" button at the top of the page
+
+### How to fork the repository
+
+### How to clone the repository
 
 ## Difficulties I came across
 
