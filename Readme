@@ -17,8 +17,6 @@ This website has been created for a fictional sport called Egg Champion. It give
 - [Font Awesome] (https://fontawesome.com/) was used on the footer for the social media icons.
 - [Replit] (replit.com) was used as the main programm to write the code, which was then sent to GitHub for version control.
 - [GitHub] (https://github.com/) was used to store the project's code after being pushed from Replit.
-- [Dall-E 2] (https://openai.com/dall-e-2/) was used to create the majority of the artwork.
-- [Pexels] (https://www.pexels.com/) was used to find the hourglass background image on the history page.
 - [Paint.Net] (https://www.getpaint.net/download.html) was used to create the logos on each corner of the header.
 - [InVideo] (https://invideo.io/) was used to create the video on the index page. 
 - [YouTube] (https://www.youtube.com/) was used to host the video.
@@ -42,6 +40,27 @@ This website has been created for a fictional sport called Egg Champion. It give
 - The two Egg Champion logos in the menu bar were created by the developer
 - The egg timer photograph used on the history page was taken and edited by Jordan Benton, and found on [Pexels] (https://www.pexels.com/photo/shallow-focus-photography-of-hourglass-1095602/). 
 - Merchandise pictures were generated through [Zazzle] (https://www.zazzle.co.uk/).
+- [Dall-E 2] (https://openai.com/dall-e-2/) was used to create the rest of the artwork.
+- The video was made by the developer, using [InVideo] (https://invideo.io/).
+
+### Acknowledgements
+
+- My tutor Robert Mclaughlin for helpful feedback.
+
+## Add section on site testing
+
+## Deployment
+
+### GitHub Pages
+
+This project was deployed to GitHub Pages using the following steps:
+
+1. Log into GitHub and locate the [GitHub Repository] (https://github.com/Lithill/New-Egg-Champion-Website)
+2. Click the settings button (above the "add file" button)
+3. Click on "Pages" on the left-hand-side column
+4. Under "Source", click the dropdown called "Main", select folder ""/root" and click "save".
+5. Refresh the page
+6. Click on the "Visit site" button at the top of the page
 
 ## Difficulties I came across
 
