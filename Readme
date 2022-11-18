@@ -26,10 +26,22 @@ This website has been created for a fictional sport called Egg Champion. It give
 
 ## Credits
 
+### Code
+
 - The table border code on the Quiz page came from [this Stack Overflow post] (https://stackoverflow.com/questions/3313456/css-borders-between-table-columns-only)
 - I found code to help text wrap around an image on this [ThoughtCo article] (https://www.thoughtco.com/wrapping-text-around-image-3466530#:~:text=Enter%20.,the%20text%20wraps%20around%20it). I have lightly edited it.
 - I borrowed some blockquote stying code from [CSS Tricks - blockquote styling] (https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/), [Java2s] (http://www.java2s.com/Code/HTMLCSS/Tags/borderforblockquote.htm) and [CSS Tricks - html quotations] (https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/)
 - To create columns for the Zazzle products, I used code from [W3Schools] (https://www.w3schools.com/howto/howto_css_three_columns.asp)
+
+### Content
+
+- All content was written by the developer
+
+### Media
+
+- The two Egg Champion logos in the menu bar were created by the developer
+- The egg timer photograph used on the history page was taken and edited by Jordan Benton, and found on [Pexels] (https://www.pexels.com/photo/shallow-focus-photography-of-hourglass-1095602/). 
+- Merchandise pictures were generated through [Zazzle] (https://www.zazzle.co.uk/).
 
 ## Difficulties I came across
 
@@ -120,5 +132,3 @@ I wanted it to look less like a youtube video so used info here - [Freshy Sites]
 18) When wrapped the img in history page, the caption didn't go with it. So applied class="img-right-wrap" to figure rather than img. But this made the image lose its padding and width sizing. So tried to seperate them into 2 different classes to apply to figure and caption, or img and caption, but couldn't figure it out, so got rid of caption.
 
 19) Searching for html for quotes in articles. Found this [CSS Tricks, quoting in html] (https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/). and [CSS Tricks, blockquote styling] (https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/). Wanted to add extra padding, so edited that bit of code too. Realised I needed unequal columns to make the photos sit better with the same amount of padding between them. Then turned my attention to the zazzle photos that are too blurry. 
-
-

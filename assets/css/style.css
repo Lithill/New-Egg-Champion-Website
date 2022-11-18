@@ -103,6 +103,20 @@ header {
 	overflow: hidden;
 	margin-top: 60px;
 
+/* 	animation-name: egg-1-zoom;
+	animation-duration: 5s;
+	animation-fill-mode: forwards; */
+}
+
+/* @keyframes egg-1-zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.1);
+	}
+} */
+
 #big-egg-1-text {
 	font-size: 500%;
 	font-family: "League Gothic";
@@ -243,6 +257,7 @@ select {
 table td + td { 
 	border-left:2px solid #F4F4F4; 
 }
+/* above */
 
 input {
 	font-size: 100%;
@@ -305,6 +320,7 @@ footer {
 
 .social-networks i {
 	font-size: 160%;
+/* 	margin: 1%; */
 	padding: 1%;
 	color:white;
 }
@@ -342,7 +358,7 @@ article {
 	color: #A8ACAD;
 }
 
-/* Partly taken from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ and http://www.java2s.com/Code/HTMLCSS/Tags/borderforblockquote.htm*/
+/* Partly stolen from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ and http://www.java2s.com/Code/HTMLCSS/Tags/borderforblockquote.htm*/
 blockquote {
 	text-align: center;
   quotes: "“" "”" "‘" "’";
