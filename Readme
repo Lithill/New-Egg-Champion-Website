@@ -49,6 +49,8 @@ This website has been created for a fictional sport called Egg Champion. It give
 
 ## Testing
 
+The [W3C Markup Validator] (https://validator.w3.org/) and [W3C CSS Validator Services] (https://jigsaw.w3.org/css-validator/) were used to validate every page of the project to ensure there were no syntax errors in the project.
+
 - This website was tested on Google Chrome - add others browsers when you get to that stage
 - This website was viewed on a variety of devices such as Desktop, laptop, iPhone SE - add other devices
 - A large amount of testing was done to make sure the pages were correctly linked
