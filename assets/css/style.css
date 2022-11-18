@@ -85,7 +85,6 @@ header {
   top: 15px;
   right: 15px;
 	z-index: 3;
-	src: url("index.html");
 }
 
 #big-egg-outer {
@@ -223,7 +222,7 @@ header {
 
 #egg-quiz h2 {
 	color: #F4F4F4;
-	font: Trirong;
+	font-family: Trirong;
 	font-weight: 550;
 	letter-spacing: 2px;
 	padding: 10px 20px;
@@ -495,7 +494,7 @@ blockquote::after {
 	position: absolute;
 }
 
-@media screen and (min-device-width: 944px) and (max-device-width: 1303px) {
+@media screen and (min-width: 944px) and (max-width: 1303px) {
 	#history-egg {
 		background-position: center;
 		width: 100%;
@@ -525,7 +524,7 @@ blockquote::after {
 	
 }
 
-@media screen and (min-device-width: 944px) and (max-device-width: 1417px) { 
+@media screen and (min-width: 944px) and (max-width: 1417px) { 
   #big-egg-1, #big-egg-2, #big-egg-3, .container {
 		height: 70vw;
 	}
