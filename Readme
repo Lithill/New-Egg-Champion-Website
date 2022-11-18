@@ -2,6 +2,28 @@
 
 [View the live project here] (https://lithill.github.io/New-Egg-Champion-Website/)
 
+This website has been created for a fictional sport called Egg Champion. It gives up to date news on which egg is the current champion, history of the sport, a shop where fans can buy merchandise, and a quiz about eggs. It was been designed with a range of different screen sizes in mind. 
+
+## Technologies Used
+
+### Languages Used
+
+- HTML5
+- CSS3
+
+### Frameworks, Libraries & Programs Used
+
+- [Google Fonts] (https://fonts.google.com/) was used to import IM Fell Double Pica, Trirong, and League Gothic.
+- [Font Awesome] (https://fontawesome.com/) was used on the footer for the social media icons.
+- [Replit] (replit.com) was used as the main programm to write the code, which was then sent to GitHub for version control.
+- [GitHub] (https://github.com/) was used to store the project's code after being pushed from Replit.
+- [Dall-E 2] (https://openai.com/dall-e-2/) was used to create the majority of the artwork.
+- [Pexels] (https://www.pexels.com/) was used to find the hourglass background image on the history page.
+- [Paint.Net] (https://www.getpaint.net/download.html) was used to create the logos on each corner of the header.
+- [InVideo] (https://invideo.io/) was used to create the video on the index page. 
+- [YouTube] (https://www.youtube.com/) was used to host the video.
+- [Zazzle] (https://www.zazzle.co.uk/) was used to create functioning merchandise links.
+
 ## Difficulties I came across
 
 1) Egg Champion left logo wouldn't change size through pixel width in css. So I put the ID in the <img> rather than <a>. I'm not sure why that worked.
