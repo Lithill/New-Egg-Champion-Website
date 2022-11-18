@@ -24,6 +24,13 @@ This website has been created for a fictional sport called Egg Champion. It give
 - [YouTube] (https://www.youtube.com/) was used to host the video.
 - [Zazzle] (https://www.zazzle.co.uk/) was used to create functioning merchandise links.
 
+## Credits
+
+- The table border code on the Quiz page came from [this Stack Overflow post] (https://stackoverflow.com/questions/3313456/css-borders-between-table-columns-only)
+- I found code to help text wrap around an image on this [ThoughtCo article] (https://www.thoughtco.com/wrapping-text-around-image-3466530#:~:text=Enter%20.,the%20text%20wraps%20around%20it). I have lightly edited it.
+- I borrowed some blockquote stying code from [CSS Tricks - blockquote styling] (https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/), [Java2s] (http://www.java2s.com/Code/HTMLCSS/Tags/borderforblockquote.htm) and [CSS Tricks - html quotations] (https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/)
+- To create columns for the Zazzle products, I used code from [W3Schools] (https://www.w3schools.com/howto/howto_css_three_columns.asp)
+
 ## Difficulties I came across
 
 1) Egg Champion left logo wouldn't change size through pixel width in css. So I put the ID in the <img> rather than <a>. I'm not sure why that worked.
