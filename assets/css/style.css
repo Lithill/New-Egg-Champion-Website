@@ -342,7 +342,7 @@ li i:hover {
 .img-left-wrap {
 	float: left; 
 	padding: 80px;
-	width: 15%;
+	width: 30%;
 }
 
 #article {
@@ -351,9 +351,14 @@ li i:hover {
 }
 
 .article-text {
-	font-size: 150%;
+	font-size: 18px;
 	padding: 20px 80px 20px 80px;
 	text-align: justify;
+	color: #A8ACAD;
+}
+
+.article-text a{
+	text-decoration: underline; 
 	color: #A8ACAD;
 }
 
@@ -361,7 +366,7 @@ li i:hover {
 blockquote {
 	text-align: center;
   quotes: "“" "”" "‘" "’";
-	font-size: 160%;
+	font-size: 20px;
 	font-style: italic;
 	width: 90%;
 	margin: 40px auto;
@@ -378,13 +383,13 @@ blockquote {
 /* Next two are partly stolen from https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/ */
 blockquote::before {
   content: open-quote;
-	font-size: 200%;
+	font-size: 18px;
 	color: #bb9260;
 }
 
 blockquote::after {
   content: close-quote;
-	font-size: 200%;
+	font-size: 18px;
 	color: #bb9260;
 }
 
