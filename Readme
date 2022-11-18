@@ -1,8 +1,12 @@
-Difficulties:
+# Egg Champion Website Readme File
 
-1) Egg Champion left logo wouldn't change size through pixel width in css. So I put the ID in the <img> rather than <a>. Not sure why that works
+[View the live project here] (https://lithill.github.io/New-Egg-Champion-Website/)
 
-2 ) Couldn't turn nav bar with 
+## Difficulties I came across
+
+1) Egg Champion left logo wouldn't change size through pixel width in css. So I put the ID in the <img> rather than <a>. I'm not sure why that worked.
+
+2) I couldn't turn nav bar with 
 
 nav {
 	background-color: #000000
@@ -49,7 +53,7 @@ This still didn't align it. Figured it might be because the left logo is too big
 
 6) nav bar looks rubbish on mobile. Words aren't verticaly centered. Tried display: flex;, didn't work. Tried a few other things but didn't work so gave up for now. 
 
-7) For first big egg in index, looked at https://www.bitdegree.org/learn/responsive-image#setting-background-size-to-fit-screen and love running. It didn't show up without setting both height and width (auto height made it disapear again). so crossing my fingers this will do for now.
+7) For first big egg in index, looked at [Bit Degree] (https://www.bitdegree.org/learn/responsive-image#setting-background-size-to-fit-screen) and love running. It didn't show up without setting both height and width (auto height made it disapear again). so crossing my fingers this will do for now.
 
 8) Used animation for big eggs - took code from love running
 
@@ -61,7 +65,7 @@ This still didn't align it. Figured it might be because the left logo is too big
 
 12) Can't seem to center big egg text 3. Tried text-align, and margin-left & right auto. Didn't work. Used right: 38%; instead.
 
-13) The index page needed a payoff so I made a video. Difficulty getting video to show. This website helped - https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262. Then had difficulties with sizing, and used this as I wanted it full screen - https://stackoverflow.com/questions/24157940/iframe-height-auto-css. But it was too big and text got missed out when you played it. Nothing I tried worked out, so I made a div to fit the video to. Ended up doing this, but it isn't responsive:
+13) The index page needed a payoff so I made a video. Difficulty getting video to show. This website helped - [Free Code Camp] (https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262). Then had difficulties with sizing, and used this as I wanted it full screen - [Stack Overflow] (https://stackoverflow.com/questions/24157940/iframe-height-auto-css). But it was too big and text got missed out when you played it. Nothing I tried worked out, so I made a div to fit the video to. Ended up doing this, but it isn't responsive:
 
  .container {
 	 background-color: blue;
@@ -74,9 +78,9 @@ This still didn't align it. Figured it might be because the left logo is too big
 	 width: 100%;
  }
 
-I wanted it to look less like a youtube video so used info here - https://freshysites.com/web-design-development/how-to-use-youtube-parameters-and-recent-changes/. And changed code to src="https://www.youtube.com/embed/-kl4j_AEC5k?rel=0&amp;controls=0" class="video".
+I wanted it to look less like a youtube video so used info here - [Freshy Sites] (https://freshysites.com/web-design-development/how-to-use-youtube-parameters-and-recent-changes/). And changed code to src="https://www.youtube.com/embed/-kl4j_AEC5k?rel=0&amp;controls=0" class="video".
 
-14) used love running footer as basic for my footer. Having trouble with white space under footer. I read this - https://stackoverflow.com/questions/54836610/why-is-the-background-color-of-my-footer-not-filling-my-entire-footer and changed my background colour. But now when i put height to 60px, the border rides up. Degbugged in chrome, it looks like it is something to do with the class "social-networks" it is overspilling the footer, but when i add this to the class - height: 60px;, doesn't change anything. Then debugged and figured out it was the margin on the social network class.
+14) used love running footer as basic for my footer. Having trouble with white space under footer. I read this - [Stack Overflow] (https://stackoverflow.com/questions/54836610/why-is-the-background-color-of-my-footer-not-filling-my-entire-footer) and changed my background colour. But now when i put height to 60px, the border rides up. Degbugged in chrome, it looks like it is something to do with the class "social-networks" it is overspilling the footer, but when i add this to the class - height: 60px;, doesn't change anything. Then debugged and figured out it was the margin on the social network class.
 
 15) Wanted the page you are on to be yellow. But the 'active' class was being overidden by "menu a" text colour. Making it an id didn't work. So I took the text color out of "menu a" and created a "not-active" class where the text is white, and applied that to all other header links. 
 
@@ -86,6 +90,6 @@ I wanted it to look less like a youtube video so used info here - https://freshy
 
 18) When wrapped the img in history page, the caption didn't go with it. So applied class="img-right-wrap" to figure rather than img. But this made the image lose its padding and width sizing. So tried to seperate them into 2 different classes to apply to figure and caption, or img and caption, but couldn't figure it out, so got rid of caption.
 
-19) Searching for html for quotes in articles. Found this https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/. and https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/. Wanted to add extra padding, so edited that bit of code too. Realised I needed unequal columns to make the photos sit better with the same amount of padding between them. Then turned my attention to the zazzle photos that are too blurry. 
+19) Searching for html for quotes in articles. Found this [CSS Tricks, quoting in html] (https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/). and [CSS Tricks, blockquote styling] (https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/). Wanted to add extra padding, so edited that bit of code too. Realised I needed unequal columns to make the photos sit better with the same amount of padding between them. Then turned my attention to the zazzle photos that are too blurry. 
 
 
