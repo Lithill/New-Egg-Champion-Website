@@ -457,6 +457,9 @@ blockquote::after {
   .container-bootstrap {
     width: 750px;
   }
+	.col-sm-4-bootstrap {
+		float: left;
+	}
 }
 @media (min-width: 992px) {
   .container-bootstrap {
@@ -485,6 +488,14 @@ blockquote::after {
 .row-bootstrap {
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.col-sm-4-bootstrap {
+	position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+	width: 33.33333333%;
 }
 
 /* Took the next two blocks from https://www.w3schools.com/howto/howto_css_three_columns.asp. Spliced with zazzle code. I don't understand what the point of 'content' is here */
