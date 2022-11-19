@@ -445,58 +445,6 @@ blockquote::after {
   margin-right: 200px;
 }
 
-/* Taken from https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css */
-
-.container-bootstrap {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  .container-bootstrap {
-    width: 750px;
-  }
-	.col-sm-4-bootstrap {
-		float: left;
-	}
-}
-@media (min-width: 992px) {
-  .container-bootstrap {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container-bootstrap {
-    width: 1170px;
-  }
-}
-
-.container-bootstrap:before,
-.container-bootstrap:after, 
-.row-bootstrap:before,
-.row-bootstrap:after {
-	display: table;
-  content: " ";
-}
-
-.container-bootstrap:after, 
-.row-bootstrap:after {
-	clear: both;
-}
-
-.row-bootstrap {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-.col-sm-4-bootstrap {
-	position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-	width: 33.33333333%;
-}
 
 /* Took the next two blocks from https://www.w3schools.com/howto/howto_css_three_columns.asp. Spliced with zazzle code. I don't understand what the point of 'content' is here */
 .column {
