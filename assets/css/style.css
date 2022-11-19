@@ -102,20 +102,6 @@ header {
 	overflow: hidden;
 	margin-top: 60px;
 
-/* 	animation-name: egg-1-zoom;
-	animation-duration: 5s;
-	animation-fill-mode: forwards; */
-}
-
-/* @keyframes egg-1-zoom {
-	from {
-		transform: scale(1);
-	}
-	to {
-		transform: scale(1.1);
-	}
-} */
-
 #big-egg-1-text {
 	font-size: 500%;
 	font-family: "League Gothic";
@@ -290,11 +276,11 @@ select:hover {
 	color: #A8ACAD;
 }
 
- .container {
-	 background-color: black;
-    width: 100vi;
-    height: 655px;
- }
+.container {
+	background-color: black;
+  width: 100vi;
+  height: 655px;
+}
 
 .video {
 	 height: 100%;
@@ -445,6 +431,39 @@ blockquote::after {
   margin-right: 200px;
 }
 
+/* 	Taken from https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css. Modified some names due to clashes with current css */
+.container-bootstrap {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container-bootstrap {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container-bootstrap {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-bootsrap {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row-bootstrap {
+  margin-right: -15px;
+  margin-left: -15px;
+}
 
 /* Took the next two blocks from https://www.w3schools.com/howto/howto_css_three_columns.asp. Spliced with zazzle code. I don't understand what the point of 'content' is here */
 .column {
