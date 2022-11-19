@@ -88,33 +88,18 @@ header {
 }
 
 #big-egg-outer {
-	height: 1000px;
-	width: 100%;
+	height: 100vh;
 	overflow: hidden;
 	position: relative;
 }
 
 #big-egg-1 {
-	height: 1000px;
-	width: 100%;
+	height: 100vh;
 	background: url("https://live.staticflickr.com/65535/52460673942_1f776214b2_o_d.jpg") no-repeat center;
 	background-size: cover;
 	overflow: hidden;
 	margin-top: 60px;
-
-/* 	animation-name: egg-1-zoom;
-	animation-duration: 5s;
-	animation-fill-mode: forwards; */
 }
-
-/* @keyframes egg-1-zoom {
-	from {
-		transform: scale(1);
-	}
-	to {
-		transform: scale(1.1);
-	}
-} */
 
 #big-egg-1-text {
 	font-size: 500%;
@@ -129,8 +114,7 @@ header {
 }
 
 #big-egg-2 {
-	height: 1000px;
-	width: 100%;
+	height: 100vh;
 	background: url("https://live.staticflickr.com/65535/52479668456_335cc66f4d_o_d.jpg") no-repeat center;
 	background-size: cover;
 	overflow: hidden;
@@ -142,15 +126,14 @@ header {
 	text-transform: uppercase;
 	text-align: center;
 
-	top: 1400px;
+	top: 1100px;
 	left: 75px;
 
 	position: absolute;
 }
 
 #big-egg-3 {
-	height: 1000px;
-	width: 100%;
+	height: 100vh;
 	background: url("https://live.staticflickr.com/65535/52480158110_73dea24e48_o_d.jpg") no-repeat center center;
 	background-size: cover;
 	overflow: hidden;
@@ -162,7 +145,7 @@ header {
 	text-transform: uppercase;
 	text-align: center;
 	right: 41%;
-	top: 2700px;
+	top: 2000px;
 	position: absolute;
 }
 
@@ -171,9 +154,8 @@ header {
 }
 
 #quiz-egg {
-	height: 500px;
-	width: 60%;
-	background: url("https://live.staticflickr.com/65535/52484589319_1386557b5a_o_d.jpg") no-repeat center center;
+	height: 100vh;
+	background: url("https://live.staticflickr.com/65535/52484589319_1386557b5a_o_d.jpg") no-repeat center left;
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 100px;
@@ -188,7 +170,7 @@ header {
 	font-family: "League Gothic";
 	text-transform: uppercase;
 	text-align: center;
-	right: 30%;
+	right: 20%;
 	top: 260px;
 	position: absolute;
 }
@@ -236,12 +218,11 @@ table {
 }
 
 #history-egg {
-	height: 500px;
-	width: 60%;
-	background: url("https://live.staticflickr.com/65535/52486562835_6c2e59d639_o_d.jpg") no-repeat center center;
+	height: 100vh;
+	background: url("https://live.staticflickr.com/65535/52486562835_6c2e59d639_o_d.jpg") no-repeat center left;
 	background-size: contain;
 	overflow: hidden;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 select {
@@ -290,10 +271,9 @@ select:hover {
 	color: #A8ACAD;
 }
 
- .container {
-	 background-color: black;
-    width: 100vi;
-    height: 655px;
+.container {
+	background-color: black;
+  height: 100vh;
  }
 
 .video {
@@ -411,9 +391,8 @@ blockquote::after {
 }
 
 #shop-egg {
-	height: 500px;
-	width: 60%;
-	background: url("https://live.staticflickr.com/65535/52487380075_6104eb3453_o_d.png") no-repeat center center;
+	height: 100vh;
+	background: url("https://live.staticflickr.com/65535/52487380075_6104eb3453_o_d.png") no-repeat center left;
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 100px;
@@ -481,9 +460,8 @@ blockquote::after {
 }
 
 #news-egg {
-	height: 500px;
-	width: 70%;
-	background: url("https://live.staticflickr.com/65535/52493128848_a8127cf922_o_d.png") no-repeat center center;
+	height: 100vh;
+	background: url("https://live.staticflickr.com/65535/52493128848_a8127cf922_o_d.png") no-repeat center left;
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 100px;
@@ -494,7 +472,7 @@ blockquote::after {
 	font-family: "League Gothic";
 	text-transform: uppercase;
 	text-align: center;
-	right: 20%;
+	right: 10%;
 	top: 260px;
 	position: absolute;
 }
@@ -508,7 +486,7 @@ blockquote::after {
 	
 	#history-egg-text {
 		position: static;
-		text-align: center;
+		text-align: right;
 		font-size: 400%;
 	}
 
