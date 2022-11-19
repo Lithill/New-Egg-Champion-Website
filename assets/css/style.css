@@ -154,8 +154,9 @@ header {
 }
 
 #quiz-egg {
-	height: 100vh;
-	background: url("https://live.staticflickr.com/65535/52484589319_1386557b5a_o_d.jpg") no-repeat center left;
+	height: 70vh;
+	background: url("../images/quiz-egg.jpg") no-repeat;
+	background-position: 30% 50%;
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 100px;
@@ -170,14 +171,14 @@ header {
 	font-family: "League Gothic";
 	text-transform: uppercase;
 	text-align: center;
-	right: 20%;
+	right: 30%;
 	top: 260px;
 	position: absolute;
 }
 
 #quiz-info {
 	width: 30%;
-	margin-left: 230px;
+	margin-left: 20vw;
 	font-size: 150%;
 	text-align: center;
 	color: #A8ACAD;
@@ -218,8 +219,9 @@ table {
 }
 
 #history-egg {
-	height: 100vh;
-	background: url("https://live.staticflickr.com/65535/52486562835_6c2e59d639_o_d.jpg") no-repeat center left;
+	height: 70vh;
+	background: url("../images/history-egg.jpg") no-repeat;
+	background-position: 30% 50%;
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 80px;
@@ -391,8 +393,9 @@ blockquote::after {
 }
 
 #shop-egg {
-	height: 100vh;
-	background: url("https://live.staticflickr.com/65535/52487380075_6104eb3453_o_d.png") no-repeat center left;
+	height: 70vh;
+	background: url("../images/shop-egg.jpg") no-repeat;
+	background-position: 30% 50%;
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 100px;
@@ -460,8 +463,9 @@ blockquote::after {
 }
 
 #news-egg {
-	height: 100vh;
-	background: url("https://live.staticflickr.com/65535/52493128848_a8127cf922_o_d.png") no-repeat center left;
+	height: 70vh;
+	background: url("../images/news-egg.jpg") no-repeat;
+	background-position: 30% 50%;
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 100px;
@@ -472,7 +476,7 @@ blockquote::after {
 	font-family: "League Gothic";
 	text-transform: uppercase;
 	text-align: center;
-	right: 10%;
+	right: 35%;
 	top: 260px;
 	position: absolute;
 }
