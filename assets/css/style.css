@@ -77,7 +77,7 @@ header {
 #right-logo {
   height: 100px;
   width: 100px;
-  background-image: url("../images/egg-champion-pic-logo.png");
+  background-image: url("https://live.staticflickr.com/65535/52468465834_b3a9dfeb88_o_d.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
@@ -87,7 +87,7 @@ header {
 	z-index: 3;
 }
 
-.big-egg-outer {
+#big-egg-outer {
 	height: 100vh;
 	overflow: hidden;
 	position: relative;
@@ -95,7 +95,7 @@ header {
 
 #big-egg-1 {
 	height: 100vh;
-	background: url("../images/big-egg-1.jpg") no-repeat center;
+	background: url("https://live.staticflickr.com/65535/52460673942_1f776214b2_o_d.jpg") no-repeat center;
 	background-size: cover;
 	overflow: hidden;
 	margin-top: 60px;
@@ -115,7 +115,7 @@ header {
 
 #big-egg-2 {
 	height: 100vh;
-	background: url("../images/big-egg-2.jpg") no-repeat center;
+	background: url("https://live.staticflickr.com/65535/52479668456_335cc66f4d_o_d.jpg") no-repeat center;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -134,7 +134,7 @@ header {
 
 #big-egg-3 {
 	height: 100vh;
-	background: url("../images/big-egg-3.jpg") no-repeat center center;
+	background: url("https://live.staticflickr.com/65535/52480158110_73dea24e48_o_d.jpg") no-repeat center center;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -192,7 +192,7 @@ header {
 
 #egg-quiz {
 	margin-top: 40px;
-	background: url("../images/quiz-toast.jpg") no-repeat center center;
+	background: url("https://live.staticflickr.com/65535/52484998649_3924bdb40c_o_d.jpg") no-repeat center center;
 	background-color: #313131;
 	background-size: 60%;
 }
@@ -384,7 +384,7 @@ blockquote::after {
 }
 
 #history-box {
-	background-image: url("../images/egg-timer.jpg");
+	background-image: url("https://live.staticflickr.com/65535/52487174268_0200aa3bb9_o_d.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -402,7 +402,7 @@ blockquote::after {
 }
 
 #shop-box {
-	background-image: url("../images/feet-on-eggs.jpg");
+	background-image: url("https://live.staticflickr.com/65535/52489446559_7d9f5263b5_o_d.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 	background-position: center right;
@@ -422,8 +422,11 @@ blockquote::after {
 #shop-egg-outer {
 	height: 400px;
   width: 100vi;
+  background: url(https://live.staticflickr.com/65535/52486632532_640ece6d1c_o_d.jpg) no-repeat center right;
+  background-size: contain;
   margin-right: 200px;
 }
+
 
 /* Took the next two blocks from https://www.w3schools.com/howto/howto_css_three_columns.asp. Spliced with zazzle code. I don't understand what the point of 'content' is here */
 .column {
@@ -492,6 +495,9 @@ blockquote::after {
 	}
 
 	#shop-box {
+		background-image: url("https://live.staticflickr.com/65535/52489446559_7d9f5263b5_o_d.jpg");
+  	background-repeat: no-repeat;
+  	background-size: contain;
 		background-position: center center;
 		margin-right: 0px;
 	}
