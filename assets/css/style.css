@@ -87,7 +87,7 @@ header {
 	z-index: 3;
 }
 
-#big-egg-outer {
+.big-egg-outer {
 	height: 100vh;
 	overflow: hidden;
 	position: relative;
