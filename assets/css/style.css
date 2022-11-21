@@ -111,6 +111,10 @@ header {
 	text-align: center;
 }
 
+#big-egg-1-mobile-text, #big-egg-2-mobile-text, #big-egg-3-mobile-text {
+	display: none;
+}
+
 #big-egg-2 {
 	height: 100vh;
 	background: url("../images/big-egg-2.jpg") no-repeat center;
@@ -176,7 +180,7 @@ header {
 
 #quiz-info {
 	width: 30%;
-	margin-left: 20vw;
+	margin-left: 15vw;
 	font-size: 150%;
 	text-align: center;
 	color: #A8ACAD;
@@ -457,7 +461,75 @@ blockquote::after {
 	margin-top: 66px;
 }
 
-@media screen and (min-width: 944px) and (max-width: 1303px) {
+@media screen and (min-width: 1366px) and (max-width: 1618px) {
+	#quiz-egg-text, #history-egg-text, #shop-egg-text, #news-egg-text {
+	  left: 75%;
+	}
+
+	#big-egg-1-text {
+		left: 85%;
+	}
+
+	#big-egg-2-text {
+		left: 15%;
+	}
+	
+}
+
+@media screen and (max-width: 1365px) {
+	#big-egg-1, #big-egg-2, #big-egg-3 {
+		height: 60vh;
+	}
+	
+	#history-egg, #shop-egg, #news-egg, #quiz-egg {
+		background-position: top center;
+	}
+
+	.text-container {
+	  position: relative;
+	  height: 100%;
+	}	
+
+	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
+		display: none;
+	}
+
+	#big-egg-1-mobile-text, #big-egg-2-mobile-text, #big-egg-3-mobile-text {
+		display: block;
+		font-size: 200%;
+		font-family: "League Gothic";
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	#history-egg-text, #shop-egg-text, #news-egg-text, #quiz-egg-text {
+		font-size: 200%;
+		top: 65%;
+  	left: 50%;
+	}
+}
+
+@media screen and (max-width: 689px) {
+	#left-logo {
+		display:none;
+	}
+
+	#right-logo {
+		display:none;
+	}
+
+	#left-logo-mobile-view {
+		display: inline;
+		height: 60px;
+		margin-left: -12px;
+	}
+
+	#menu li {
+		margin-left: 15px;
+	}
+}
+
+/* @media screen and (min-width: 944px) and (max-width: 1303px) {
 	#history-egg {
 		background-position: center;
 		width: 100%;
@@ -599,4 +671,4 @@ blockquote::after {
 		background-attachment: fixed;
 	}
 	
-}
+} */
