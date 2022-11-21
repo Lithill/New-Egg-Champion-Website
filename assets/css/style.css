@@ -87,66 +87,64 @@ header {
 	z-index: 3;
 }
 
-#big-egg-outer {
-	height: 100vh;
-	overflow: hidden;
-	position: relative;
-}
-
 #big-egg-1 {
 	height: 100vh;
-	background: url("https://live.staticflickr.com/65535/52460673942_1f776214b2_o_d.jpg") no-repeat center;
+	background: url("../images/big-egg-1.jpg") no-repeat center;
 	background-size: cover;
 	overflow: hidden;
-	margin-top: 60px;
+	margin-top: 66px;
+}
+
+.text-container {
+  position: relative;
+  height: 100%;
 }
 
 #big-egg-1-text {
-	font-size: 500%;
+	font-size: 300%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
-	text-align: center;
-	vertical-align: middle;
-	top: 300px;
-	right: 75px;
-
 	position: absolute;
+	top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 #big-egg-2 {
 	height: 100vh;
-	background: url("https://live.staticflickr.com/65535/52479668456_335cc66f4d_o_d.jpg") no-repeat center;
-	background-size: cover;
+	background: url("../images/big-egg-2.jpg") no-repeat center;
+	background-size: contain;
 	overflow: hidden;
 }
 
 #big-egg-2-text {
-	font-size: 500%;
+	font-size: 300%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
-	text-align: center;
-
-	top: 1100px;
-	left: 75px;
-
 	position: absolute;
+	top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 #big-egg-3 {
 	height: 100vh;
-	background: url("https://live.staticflickr.com/65535/52480158110_73dea24e48_o_d.jpg") no-repeat center center;
-	background-size: cover;
+	background: url("../images/big-egg-3.jpg") no-repeat center;
+	background-size: contain;
 	overflow: hidden;
 }
 
 #big-egg-3-text {
-	font-size: 500%;
+	font-size: 300%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
-	text-align: center;
-	right: 41%;
-	top: 2000px;
 	position: absolute;
+	top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 .chevron {
