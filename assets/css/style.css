@@ -152,26 +152,26 @@ header {
 }
 
 #quiz-egg {
-	height: 70vh;
-	background: url("../images/quiz-egg.jpg") no-repeat;
-	background-position: 30% 50%;
+	height: 100vh;
+	background: url("../images/quiz-egg.jpg") no-repeat left;
 	background-size: contain;
 	overflow: hidden;
-	margin-top: 100px;
+	margin-top: 66px;
 }
 
 .margin-bottom {
 	margin-bottom: 120px;
 }
 
-#quiz-egg-text, #history-egg-text, #shop-egg-text {
-	font-size: 500%;
+#quiz-egg-text, #history-egg-text, #shop-egg-text, #news-egg-text {
+	font-size: 300%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
-	text-align: center;
-	right: 30%;
-	top: 260px;
 	position: absolute;
+	top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 #quiz-info {
@@ -217,12 +217,11 @@ table {
 }
 
 #history-egg {
-	height: 70vh;
-	background: url("../images/history-egg.jpg") no-repeat;
-	background-position: 30% 50%;
+	height: 100vh;
+	background: url("../images/history-egg.jpg") no-repeat left;
 	background-size: contain;
 	overflow: hidden;
-	margin-top: 80px;
+	margin-top: 66px;
 }
 
 select {
@@ -391,12 +390,11 @@ blockquote::after {
 }
 
 #shop-egg {
-	height: 70vh;
-	background: url("../images/shop-egg.jpg") no-repeat;
-	background-position: 30% 50%;
+	height: 100vh;
+	background: url("../images/shop-egg.jpg") no-repeat left;
 	background-size: contain;
 	overflow: hidden;
-	margin-top: 100px;
+	margin-top: 66px;
 }
 
 #shop-box {
@@ -416,15 +414,6 @@ blockquote::after {
 	background: rgba(0,0,0,0.80);
 	line-height: 2;
 }
-
-#shop-egg-outer {
-	height: 400px;
-  width: 100vi;
-  background: url(https://live.staticflickr.com/65535/52486632532_640ece6d1c_o_d.jpg) no-repeat center right;
-  background-size: contain;
-  margin-right: 200px;
-}
-
 
 /* Took the next two blocks from https://www.w3schools.com/howto/howto_css_three_columns.asp. Spliced with zazzle code. I don't understand what the point of 'content' is here */
 .column {
@@ -461,22 +450,11 @@ blockquote::after {
 }
 
 #news-egg {
-	height: 70vh;
-	background: url("../images/news-egg.jpg") no-repeat;
-	background-position: 30% 50%;
+	height: 100vh;
+	background: url("../images/news-egg.jpg") no-repeat left;
 	background-size: contain;
 	overflow: hidden;
-	margin-top: 100px;
-}
-
-#news-egg-text {
-	font-size: 500%;
-	font-family: "League Gothic";
-	text-transform: uppercase;
-	text-align: center;
-	right: 35%;
-	top: 260px;
-	position: absolute;
+	margin-top: 66px;
 }
 
 @media screen and (min-width: 944px) and (max-width: 1303px) {
