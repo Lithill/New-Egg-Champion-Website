@@ -302,14 +302,13 @@ footer {
 	display: inline;
 }
 
-.social-networks i {
+#youtube-button, .social-networks i {
 	font-size: 160%;
-/* 	margin: 1%; */
 	padding: 1%;
 	color:white;
 }
 
-li i:hover {
+#youtube-button:hover, li i:hover {
 	color: #FFD800;
 }
 
@@ -461,6 +460,31 @@ blockquote::after {
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 66px;
+}
+
+#channel-plug {
+	font-size: 150%;
+  text-align: center;
+  color: #A8ACAD;
+	line-height: 2;
+}
+
+#vs-background {
+	height: 100vh;
+	background: url("../images/vs-background.jpg") no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#vs-background-text {
+	font-size: 500%;
+	font-family: "League Gothic";
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1618px) {
