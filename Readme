@@ -174,3 +174,5 @@ I wanted it to look less like a youtube video so used info here - [Freshy Sites]
 23) Fixed positioning for index page. I found code on [Stack Overflow] (https://stackoverflow.com/questions/45641440/vertically-center-content-in-a-vh-height-div) which helped me to vertically centre the text in the div. Although I'm not entirely sure why this works. I realised the last text section didn't look centered because the image it was below wasn't centered. I also switched the Flikr hosting to local hosting for these images. 
 
 24) The previous fixes changed how the @media code worked, so I re-wrote it. The shop page seems to be strangely indenting to the left in mobile view. 
+
+25) The video didn't behave as expected in mobile view. It did not become full screen when the phone was rotated, so I found the code on [YouTube] (https://support.google.com/youtube/answer/171780?hl=en)
