@@ -37,8 +37,10 @@ This website has been created for a fictional sport called Egg Champion. It give
 
 ### Media
 
-- The two Egg Champion logos in the menu bar were created by the developer
+- The two Egg Champion logos in the menu bar were created by the developer, using Paint.net.
 - The egg timer photograph used on the history page was taken and edited by Jordan Benton, and found on [Pexels] (https://www.pexels.com/photo/shallow-focus-photography-of-hourglass-1095602/). 
+- The egg crack overlay used on the News page was created by b0red, and found on [Pixabay] (href="https://pixabay.com/vectors/crack-distress-effect-chip-distress-2249743/)
+- The image for the News page background was created by Edward Jenner, and found on [Pexels] (https://www.pexels.com/photo/multiple-overlay-patterns-of-monochrome-design-4252890/)
 - Merchandise pictures were generated through [Zazzle] (https://www.zazzle.co.uk/).
 - [Dall-E 2] (https://openai.com/dall-e-2/) was used to create the rest of the artwork.
 - The video was made by the developer, using [InVideo] (https://invideo.io/).
@@ -176,3 +178,5 @@ I wanted it to look less like a youtube video so used info here - [Freshy Sites]
 24) The previous fixes changed how the @media code worked, so I re-wrote it. The shop page seems to be strangely indenting to the left in mobile view. 
 
 25) The video didn't behave as expected in mobile view. It did not become full screen when the phone was rotated, so I found the code on [YouTube] (https://support.google.com/youtube/answer/171780?hl=en)
+
+26) Found out how to create text-shadow via css at [MDN Web Docs] (https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow).

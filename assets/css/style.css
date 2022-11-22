@@ -485,6 +485,7 @@ blockquote::after {
   left: 50%;
   transform: translate(-50%, -50%);
 	text-align: center;
+	text-shadow: -10px 10px 1px black;
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1618px) {
