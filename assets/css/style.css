@@ -523,7 +523,7 @@ blockquote::after {
 }
 
 .img-size {
-	height: 80vh;
+	height: 60vh;
 	width: auto;
 }
 
@@ -547,6 +547,26 @@ blockquote::after {
 	position: absolute;
 	top: 15%;
   left: 74.5%;
+  transform: translate(-50%, -50%);
+	text-shadow: -10px 10px 1px black;
+}
+
+#vs-background-arrow-3 {
+	font-size: 500%;
+	font-family: "League Gothic";
+	position: absolute;
+	top: 85%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+	text-shadow: -10px 10px 1px black;
+}
+
+#vs-background-arrow-4 {
+	font-size: 500%;
+	font-family: "League Gothic";
+	position: absolute;
+	top: 15%;
+  left: 25%;
   transform: translate(-50%, -50%);
 	text-shadow: -10px 10px 1px black;
 }
