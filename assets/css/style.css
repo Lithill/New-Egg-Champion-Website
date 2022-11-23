@@ -629,24 +629,24 @@ a:hover {
 }
 
 @media screen and (max-width: 1365px) {
-	#big-egg-1, #big-egg-2, #big-egg-3 {
+	#big-egg-1, #big-egg-2, #big-egg-3, #history-egg, #shop-egg, #news-egg, #quiz-egg {
 		height: 60vh;
 	}
 	
-	#history-egg, #shop-egg, #news-egg, #quiz-egg {
-		background-position: top center;
-	}
+.margin-bottom {
+	margin-bottom: 0;
+}
 
-	.text-container {
+/* 	.text-container {
 	  position: relative;
 	  height: 100%;
-	}	
+	}	 */
 
-	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
+	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text, #history-egg-text, #news-egg-text, #quiz-egg-text, #shop-egg-text {
 		display: none;
 	}
 
-	#big-egg-1-mobile-text, #big-egg-2-mobile-text, #big-egg-3-mobile-text {
+	#big-egg-1-mobile-text, #big-egg-2-mobile-text, #big-egg-3-mobile-text, #history-egg-mobile-text, #news-egg-mobile-text, #quiz-egg-mobile-text, #shop-egg-mobile-text {
 		display: block;
 		font-size: 200%;
 		font-family: "League Gothic";
@@ -654,11 +654,14 @@ a:hover {
 		text-align: center;
 	}
 
-	#history-egg-text, #shop-egg-text, #news-egg-text, #quiz-egg-text {
-		font-size: 200%;
-		top: 65%;
-  	left: 50%;
+	#history-egg-mobile-text, #news-egg-mobile-text, #quiz-egg-mobile-text, #shop-egg-mobile-text {
+		margin-bottom: 40px;
 	}
+
+/* 	#history-egg-mobile-text, #shop-egg-mobile-text, #news-egg-mobile-text, #quiz-egg-mobile-text {
+		font-size: 200%;
+		text-align: center;
+	} */
 
 	#shop-box {
 	  margin: 0;
