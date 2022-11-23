@@ -637,6 +637,10 @@ a:hover {
 	margin-bottom: 0;
 }
 
+iframe {
+	width: 100vw;
+}
+	
 /* 	.text-container {
 	  position: relative;
 	  height: 100%;
@@ -673,13 +677,29 @@ a:hover {
 		padding: 0 10px;
 	}
 	
-.column {
-	float: none;
-  width: 100%;
-	text-align: center;
-	line-height:150%;
-	padding: 20px 0;
-}
+	.column {
+		float: none;
+  	width: 100%;
+		text-align: center;
+		line-height:150%;
+		padding: 20px 0;
+	}
+
+	.mobile-padding {
+		padding-left: 13px;
+		padding-right: 13px;
+	}
+
+/* Quiz */
+
+	#quiz-info {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	#egg-quiz {
+		background-size: cover;
+	}
 
 @media screen and (max-width: 689px) {
 	#left-logo {
@@ -698,6 +718,33 @@ a:hover {
 
 	#menu li {
 		margin-left: 15px;
+	}
+
+	/* 	History */
+
+	#article {
+		padding: 6px 6px;
+		background: rgba(0,0,0,0.80);
+	}
+
+	#history-box {
+		background-image: none;
+		width: 100%;
+		margin: 0;
+	}
+
+	.article-text {
+		font-size: 18px;
+		padding: 13px 13px;
+		color: #A8ACAD;
+	}
+
+	.img-right-wrap, .img-left-wrap, #necklace {
+		float: none;
+		padding: 0;
+		width: 90vw;
+		margin-left: 13px;
+  	margin-right: 13px;
 	}
 }
 
