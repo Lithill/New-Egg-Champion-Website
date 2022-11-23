@@ -495,7 +495,7 @@ a:hover {
 	overflow: hidden;
 }
 
-#vs-background-text {
+.vs-background-text {
 	font-size: 500%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
@@ -506,7 +506,7 @@ a:hover {
 	text-shadow: -10px 10px 1px black;
 }
 
-#vs-background-text-2 {
+.vs-background-text-2 {
 	font-size: 200%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
@@ -515,6 +515,30 @@ a:hover {
   left: 10%;
   transform: translate(-50%, -50%);
 	text-shadow: -10px 10px 1px black;
+}
+
+.vs-name-left {
+	font-size: 200%;
+	font-family: "League Gothic";
+	text-transform: uppercase;
+	position: absolute;
+	top: 70%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+	text-shadow: -10px 10px 1px black;
+	z-index: 1;
+}
+
+.vs-name-right {
+	font-size: 200%;
+	font-family: "League Gothic";
+	text-transform: uppercase;
+	position: absolute;
+	top: 70%;
+  left: 74.5%;
+  transform: translate(-50%, -50%);
+	text-shadow: -10px 10px 1px black;
+	z-index: 1;
 }
 
 #results {
