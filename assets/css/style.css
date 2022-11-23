@@ -487,6 +487,17 @@ blockquote::after {
 	text-shadow: -10px 10px 1px black;
 }
 
+#vs-background-text-2 {
+	font-size: 200%;
+	font-family: "League Gothic";
+	text-transform: uppercase;
+	position: absolute;
+	top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+	text-shadow: -10px 10px 1px black;
+}
+
 #results {
 	font-size: 500%;
 	font-family: "League Gothic";
@@ -509,6 +520,16 @@ blockquote::after {
   left: 75%;
   transform: translate(-50%, -50%);
 	object-fit: contain;
+}
+
+.img-size {
+	height: 80vh;
+	width: auto;
+}
+
+/*  */
+.img-flip {
+
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1618px) {
