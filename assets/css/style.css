@@ -12,16 +12,15 @@ body {
 	background-color: black;
 }
 
-h1 {
+h1, h2, h3, h4 {
 	font-family: "League Gothic";
-	letter-spacing: 2px;
+	letter-spacing: 4px;
 	color: #D6A000;
 }
 
-h2 {
-	font-family: "League Gothic";
-	letter-spacing: 2px;
-	color: white;
+p {
+	letter-spacing: 1px;
+	line-height: 35px;
 }
 
 #left-logo {
@@ -201,7 +200,7 @@ header {
 
 #form {
 	color: #F4F4F4;
-	font-size: 170%;
+	font-size: 18px;
 	text-align: center;
 }
 
@@ -211,6 +210,7 @@ header {
 	font-weight: 550;
 	letter-spacing: 2px;
 	padding: 10px 20px;
+	font-size: 20px;
 }
 
 table {
@@ -337,7 +337,6 @@ footer {
 .article-text {
 	font-size: 18px;
 	padding: 20px 80px 20px 80px;
-	text-align: justify;
 	color: #A8ACAD;
 }
 
@@ -451,7 +450,7 @@ blockquote::after {
 	color: white;
 	text-decoration: none; 
 	text-align: center;
-	font-size: 150%;
+	font-size: 18px;
 }
 
 #news-egg {
@@ -462,16 +461,36 @@ blockquote::after {
 	margin-top: 66px;
 }
 
-#channel-plug {
+.page-intro {
 	font-size: 150%;
   text-align: center;
   color: #A8ACAD;
 	line-height: 2;
 }
 
+a {
+	font-family: Trirong;
+	color: #A8ACAD;
+}
+
+a:hover {
+	color: #FFD800;
+}
+
+#menu a:hover {
+	color: #FFD800;
+}
+
 #vs-background {
 	height: 100vh;
 	background: url("../images/vs-background.jpg") no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#vs-background-flipped {
+	height: 100vh;
+	background: url("../images/vs-background-flipped.jpg") no-repeat center;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -528,7 +547,7 @@ blockquote::after {
 }
 
 .arrow {
-	color: #846100;
+	color: #d6a000;
 }
 
 #vs-background-arrow-1 {
