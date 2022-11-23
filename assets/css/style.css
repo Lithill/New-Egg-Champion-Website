@@ -527,9 +527,28 @@ blockquote::after {
 	width: auto;
 }
 
-/*  */
-.img-flip {
+.arrow {
+	color: #846100;
+}
 
+#vs-background-arrow-1 {
+	font-size: 500%;
+	font-family: "League Gothic";
+	position: absolute;
+	top: 85%;
+  left: 74.5%;
+  transform: translate(-50%, -50%);
+	text-shadow: -10px 10px 1px black;
+}
+
+#vs-background-arrow-2 {
+	font-size: 500%;
+	font-family: "League Gothic";
+	position: absolute;
+	top: 15%;
+  left: 74.5%;
+  transform: translate(-50%, -50%);
+	text-shadow: -10px 10px 1px black;
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1618px) {
