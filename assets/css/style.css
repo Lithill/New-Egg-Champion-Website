@@ -461,6 +461,10 @@ blockquote::after {
 	margin-top: 66px;
 }
 
+#news-egg-mobile-text, #shop-egg-mobile-text, #quiz-egg-mobile-text, #history-egg-mobile-text {
+	display: none;
+}
+
 .page-intro {
 	font-size: 150%;
   text-align: center;
