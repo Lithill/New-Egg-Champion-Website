@@ -182,3 +182,8 @@ I wanted it to look less like a youtube video so used info here - [Freshy Sites]
 26) Found out how to create text-shadow via css at [MDN Web Docs] (https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow).
     
 28) The video on the home page was too big for the container in tablet and mobile view. This resulted in a side scroll appearing at narrower screen widths. I used chrome developer tools to confirm that the video was the culprit. I pasted fresh embed code from YouTube, and then used code from [w3schools] (https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) to make the video responsive. This removed the side-scroll. I then wanted to make the video smaller, but noticed that when I did, it was no longer centered. I fixed it by using code I found from [Stack Overflow] (https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally)
+    
+30) Improved legibility of news page fight information, as users found the images confusing. I used the following sources to help with this code: [Stack Overflow for outlining] (https://stackoverflow.com/questions/4772906/css-is-it-possible-to-add-a-black-outline-around-each-character-in-text), [w3schools for centering text over an image] (o	https://www.w3schools.com/howto/howto_css_image_text.asp), and [CodePen] (o	https://codepen.io/gylidian/pen/zyabWX) for slanting text.
+    
+32) 
+ 

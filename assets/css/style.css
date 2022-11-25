@@ -503,6 +503,7 @@ a:hover {
 	background: url("../images/vs-background.jpg") no-repeat center;
 	background-size: cover;
 	overflow: hidden;
+	border: 3px solid #dfbc78;
 }
 
 #vs-background-flipped {
@@ -510,6 +511,7 @@ a:hover {
 	background: url("../images/vs-background-flipped.jpg") no-repeat center;
 	background-size: cover;
 	overflow: hidden;
+	border: 3px solid #dfbc78;
 }
 
 .vs-background-text {
@@ -538,24 +540,54 @@ a:hover {
 	font-size: 200%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
-	position: absolute;
+/* 	position: absolute; */
 	top: 70%;
   left: 25%;
   transform: translate(-50%, -50%);
 	text-shadow: -10px 10px 1px black;
 	z-index: 1;
+
+	position: relative;
+  text-align: center;
 }
 
 .vs-name-right {
 	font-size: 200%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
-	position: absolute;
+/* 	position: absolute; */
 	top: 70%;
   left: 74.5%;
   transform: translate(-50%, -50%);
 	text-shadow: -10px 10px 1px black;
 	z-index: 1;
+	
+	position: relative;
+  text-align: center;
+}
+
+.winner {
+	font-size: 600%;
+	font-family: "League Gothic";
+	text-transform: uppercase;
+	position: absolute;
+  top: 45%;
+  left: 30%;
+	transform: rotate(-20deg)
+             skew(-20deg);
+	text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+	z-index: 2;
+}
+
+#round2, #round3 {
+	font-size: 200%;
+	font-family: "League Gothic";
+	text-transform: uppercase;
+	position: absolute;
+	top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+	text-shadow: -10px 10px 1px black;
 }
 
 #results {
@@ -585,50 +617,6 @@ a:hover {
 .img-size {
 	height: 60vh;
 	width: auto;
-}
-
-.arrow {
-	color: #d6a000;
-}
-
-#vs-background-arrow-1 {
-	font-size: 500%;
-	font-family: "League Gothic";
-	position: absolute;
-	top: 85%;
-  left: 74.5%;
-  transform: translate(-50%, -50%);
-	text-shadow: -10px 10px 1px black;
-}
-
-#vs-background-arrow-2 {
-	font-size: 500%;
-	font-family: "League Gothic";
-	position: absolute;
-	top: 15%;
-  left: 74.5%;
-  transform: translate(-50%, -50%);
-	text-shadow: -10px 10px 1px black;
-}
-
-#vs-background-arrow-3 {
-	font-size: 500%;
-	font-family: "League Gothic";
-	position: absolute;
-	top: 85%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-	text-shadow: -10px 10px 1px black;
-}
-
-#vs-background-arrow-4 {
-	font-size: 500%;
-	font-family: "League Gothic";
-	position: absolute;
-	top: 15%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-	text-shadow: -10px 10px 1px black;
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1618px) {
