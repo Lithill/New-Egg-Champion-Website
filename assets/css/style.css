@@ -428,6 +428,11 @@ blockquote::after {
 	line-height: 2;
 }
 
+.zazzle-image {
+	max-width: 80%;
+	max-height: auto;
+}
+
 /* Took the next two blocks from https://www.w3schools.com/howto/howto_css_three_columns.asp. Spliced with zazzle code. I don't understand what the point of 'content' is here */
 .column {
 	float: left;
@@ -438,11 +443,11 @@ blockquote::after {
 }
 
 .left, .right {
-  width: 38%;
+  width: 33.33%;
 }
 
 .middle {
-  width: 24%;
+  width: 33.33%;
 }
 
 .row {
@@ -664,14 +669,6 @@ a:hover {
 	#shop-info {
 		padding: 0 10px;
 	}
-	
-	.column {
-		float: none;
-  	width: 100%;
-		text-align: center;
-		line-height:150%;
-		padding: 20px 0;
-	}
 
 	.mobile-padding {
 		padding-left: 13px;
@@ -739,6 +736,18 @@ a:hover {
 		background-color: black;
 		padding: 4px;
 		position: relative;
+	}
+
+	.column {
+		float: none;
+  	width: 100%;
+		text-align: center;
+		line-height:150%;
+		padding: 20px 0;
+	}
+
+	.zazzle-image {
+		width: 70vw;
 	}
 }
 	

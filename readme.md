@@ -30,6 +30,7 @@ This website has been created for a fictional sport called Egg Champion. It give
 - I found code to help text wrap around an image on this [ThoughtCo article] (https://www.thoughtco.com/wrapping-text-around-image-3466530#:~:text=Enter%20.,the%20text%20wraps%20around%20it). I have lightly edited it.
 - I borrowed some blockquote stying code from [CSS Tricks - blockquote styling] (https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/), [Java2s] (http://www.java2s.com/Code/HTMLCSS/Tags/borderforblockquote.htm) and [CSS Tricks - html quotations] (https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/)
 - To create columns for the Zazzle products, I used code from [W3Schools] (https://www.w3schools.com/howto/howto_css_three_columns.asp)
+- Embed code from [Zazzle] (https://zazzle.co.uk) and [YouTube] (https://www.youtube.com/)
 
 ### Content
 
@@ -41,7 +42,7 @@ This website has been created for a fictional sport called Egg Champion. It give
 - The egg timer photograph used on the history page was taken and edited by Jordan Benton, and found on [Pexels] (https://www.pexels.com/photo/shallow-focus-photography-of-hourglass-1095602/). 
 - The egg crack overlay used on the News page was created by b0red, and found on [Pixabay] (href="https://pixabay.com/vectors/crack-distress-effect-chip-distress-2249743/)
 - The image for the News page background was created by Edward Jenner, and found on [Pexels] (https://www.pexels.com/photo/multiple-overlay-patterns-of-monochrome-design-4252890/)
-- Merchandise pictures were generated through [Zazzle] (https://www.zazzle.co.uk/).
+- Replacement merchandise pictures were generated through [Spreadshirt] (www.spreadshirt.co.uk).
 - [Dall-E 2] (https://openai.com/dall-e-2/) was used to create the rest of the artwork.
 - The video was made by the developer, using [InVideo] (https://invideo.io/).
 
@@ -181,9 +182,9 @@ I wanted it to look less like a youtube video so used info here - [Freshy Sites]
 
 26) Found out how to create text-shadow via css at [MDN Web Docs] (https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow).
     
-28) The video on the home page was too big for the container in tablet and mobile view. This resulted in a side scroll appearing at narrower screen widths. I used chrome developer tools to confirm that the video was the culprit. I pasted fresh embed code from YouTube, and then used code from [w3schools] (https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) to make the video responsive. This removed the side-scroll. I then wanted to make the video smaller, but noticed that when I did, it was no longer centered. I fixed it by using code I found from [Stack Overflow] (https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally)
+27) The video on the home page was too big for the container in tablet and mobile view. This resulted in a side scroll appearing at narrower screen widths. I used chrome developer tools to confirm that the video was the culprit. I pasted fresh embed code from YouTube, and then used code from [w3schools] (https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) to make the video responsive. This removed the side-scroll. I then wanted to make the video smaller, but noticed that when I did, it was no longer centered. I fixed it by using code I found from [Stack Overflow] (https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally)
     
-30) Improved legibility of news page fight information, as users found the images confusing. I used the following sources to help with this code: [Stack Overflow for outlining] (https://stackoverflow.com/questions/4772906/css-is-it-possible-to-add-a-black-outline-around-each-character-in-text), [w3schools for centering text over an image] (o	https://www.w3schools.com/howto/howto_css_image_text.asp), and [CodePen] (o	https://codepen.io/gylidian/pen/zyabWX) for slanting text.
+28) Improved legibility of news page fight information, as users found the images confusing. I used the following sources to help with this code: [Stack Overflow for outlining] (https://stackoverflow.com/questions/4772906/css-is-it-possible-to-add-a-black-outline-around-each-character-in-text), [w3schools for centering text over an image] (o	https://www.w3schools.com/howto/howto_css_image_text.asp), and [CodePen] (https://codepen.io/gylidian/pen/zyabWX) for slanting text.
     
-32) 
+29) The images from the Zazzle embed code were blurry. I tried to get better images from the Zazzle website, but could not. Instead, I used [Spreadshirt] (https://www.spreadshirt.co.uk/create-your-own) to create mockup images of merchandise to replace the zazzle images on the Shop page. 
  
