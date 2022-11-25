@@ -76,7 +76,7 @@ header {
 #right-logo {
   height: 100px;
   width: 100px;
-  background-image: url("https://live.staticflickr.com/65535/52468465834_b3a9dfeb88_o_d.png");
+  background-image: url("../images/right-logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
@@ -193,7 +193,7 @@ header {
 
 #egg-quiz {
 	margin-top: 40px;
-	background: url("https://live.staticflickr.com/65535/52484998649_3924bdb40c_o_d.jpg") no-repeat center center;
+	background: url("../images/toast.jpg") no-repeat center center;
 	background-color: #313131;
 	background-size: 60%;
 }
@@ -385,7 +385,7 @@ blockquote::after {
 }
 
 #history-box {
-	background-image: url("https://live.staticflickr.com/65535/52487174268_0200aa3bb9_o_d.jpg");
+	background-image: url("../images/egg-timer.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -402,7 +402,7 @@ blockquote::after {
 }
 
 #shop-box {
-	background-image: url("https://live.staticflickr.com/65535/52489446559_7d9f5263b5_o_d.jpg");
+	background-image: url("../images/feet.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 	background-position: center right;
