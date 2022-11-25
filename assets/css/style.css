@@ -751,6 +751,12 @@ a:hover {
 	}
 }
 
+@media screen and (max-width: 355px) {
+	#menu {
+    font-size: 150%;
+	}
+}
+
 /* @media screen and (min-width: 944px) and (max-width: 1303px) {
 	#history-egg {
 		background-position: center;
