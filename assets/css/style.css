@@ -541,12 +541,12 @@ a:hover {
 	font-size: 200%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
-	top: 70%;
-  left: 25%;
+	top: 70vh;
+  left: 25vw;
   transform: translate(-50%, -50%);
 	text-shadow: -10px 10px 1px black;
 	z-index: 1;
-	position: relative;
+	position: absolute;
   text-align: center;
 }
 
@@ -554,12 +554,12 @@ a:hover {
 	font-size: 200%;
 	font-family: "League Gothic";
 	text-transform: uppercase;
-	top: 70%;
-  left: 74.5%;
+	top: 70vh;
+  left: 74.5vw;
   transform: translate(-50%, -50%);
 	text-shadow: -10px 10px 1px black;
 	z-index: 1;
-	position: relative;
+	position: absolute;
   text-align: center;
 }
 
@@ -728,6 +728,7 @@ a:hover {
 		text-shadow: none;
 		background-color: black;
 		padding: 4px;
+		position: relative;
 	}
 
 	.vs-name-right {
@@ -737,6 +738,7 @@ a:hover {
 		text-shadow: none;
 		background-color: black;
 		padding: 4px;
+		position: relative;
 	}
 }
 	
