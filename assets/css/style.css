@@ -150,6 +150,45 @@ header {
 	text-align: center;
 }
 
+/* New title section */
+
+#title-div {
+	height: 100vh;
+}
+
+.title-text-container {
+	position: relative;
+  height: 100%;
+}
+
+.title-image-and-text {
+	position: absolute;
+	top: 50%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+	object-fit: contain;
+}
+
+.title-img-size {
+	height: 60vh;
+	width: auto;
+	max-width: 527px;
+}
+
+.title-text {
+	font-size: 300%;
+	font-family: "League Gothic";
+	text-transform: uppercase;
+	position: absolute;
+  top: 50%;
+  left: 100%;
+	z-index: 2;
+	text-align: center;
+	margin-left: 10%;
+}
+
+/* ---------------------------------------------------- */
+
 #chevron1, #chevron2, #chevron3, #chevron4, #chevron5, #chevron6, #chevron7 {
 	color: white;
 	text-decoration: none;
@@ -229,9 +268,13 @@ table {
 	margin-top: 66px;
 }
 
-#history-egg-mobile {
+/* #history-egg-mobile {
 	display: none;
-}
+} */
+
+	#history-egg-mobile-text {
+
+	}
 
 select {
 	font-size: 100%;
@@ -483,9 +526,9 @@ blockquote::after {
 	padding-top: 80px;
 }
 
-#news-egg-mobile-text, #shop-egg-mobile-text, #quiz-egg-mobile-text, #history-egg-mobile-text {
+/* #news-egg-mobile-text, #shop-egg-mobile-text, #quiz-egg-mobile-text, #history-egg-mobile-text {
 	display: none;
-}
+} */
 
 .page-intro {
 	font-size: 150%;
@@ -700,13 +743,13 @@ a:hover {
 		display: none;
 	}
 
-	#history-egg-mobile {
+/* 	#history-egg-mobile {
 		display: block;
 		margin-top: 80px;
 		margin-left: auto;
  		margin-right: auto;
   	width: 50%;
-	}
+	} */
 	
 	.img-size {
 		width: 40vw;
@@ -769,6 +812,22 @@ a:hover {
 
 	.zazzle-image {
 		width: 70vw;
+	}
+
+	.title-text {
+		position: static;
+		margin: 0 auto;
+	}
+
+	.title-image-and-text {
+		top: 50%;
+	  left: 50%;
+	}
+
+	.title-img-size {
+		width: 90vw;
+		height: auto;
+		max-width: 527px;
 	}
 }
 	
