@@ -229,6 +229,10 @@ table {
 	margin-top: 66px;
 }
 
+#history-egg-mobile {
+	display: none;
+}
+
 select {
 	font-size: 100%;
 	color: black;
@@ -638,11 +642,12 @@ a:hover {
 @media screen and (max-width: 1365px) {
 	#big-egg-1, #big-egg-2, #big-egg-3, #history-egg, #shop-egg, #news-egg, #quiz-egg {
 		height: 60vh;
+		background-position: center center;
 	}
 	
-.margin-bottom {
-	margin-bottom: 0;
-}
+	.margin-bottom {
+		margin-bottom: 0;
+	}
 
 	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text, #history-egg-text, #news-egg-text, #quiz-egg-text, #shop-egg-text {
 		display: none;
@@ -687,6 +692,22 @@ a:hover {
 	}
 
 @media screen and (max-width: 890px) {
+	#history-egg {
+		display: none;
+	}
+
+	.text-container {
+		display: none;
+	}
+
+	#history-egg-mobile {
+		display: block;
+		margin-top: 80px;
+		margin-left: auto;
+ 		margin-right: auto;
+  	width: 50%;
+	}
+	
 	.img-size {
 		width: 40vw;
 		height: auto;
@@ -770,8 +791,12 @@ a:hover {
 		margin-left: 15px;
 	}
 
-	/* 	History */
+	/* 	Index */
+	#big-egg-2, #big-egg-3 {
+		background-size: cover;
+	}
 
+	/* 	History */
 	#article {
 		padding: 6px 6px;
 		background: rgba(0,0,0,0.80);
