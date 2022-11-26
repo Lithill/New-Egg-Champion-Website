@@ -550,7 +550,7 @@ a:hover {
 	color: #FFD800;
 }
 
-#vs-background {
+.vs-background {
 	height: 100vh;
 	background: url("../images/vs-background.jpg") no-repeat center;
 	background-size: cover;
@@ -738,18 +738,6 @@ a:hover {
 	#history-egg {
 		display: none;
 	}
-
-	.text-container {
-		display: none;
-	}
-
-/* 	#history-egg-mobile {
-		display: block;
-		margin-top: 80px;
-		margin-left: auto;
- 		margin-right: auto;
-  	width: 50%;
-	} */
 	
 	.img-size {
 		width: 40vw;
