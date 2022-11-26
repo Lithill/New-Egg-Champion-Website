@@ -186,5 +186,7 @@ I wanted it to look less like a youtube video so used info here - [Freshy Sites]
     
 28) Improved legibility of news page fight information, as users found the images confusing. I used the following sources to help with this code: [Stack Overflow for outlining] (https://stackoverflow.com/questions/4772906/css-is-it-possible-to-add-a-black-outline-around-each-character-in-text), [w3schools for centering text over an image] (o	https://www.w3schools.com/howto/howto_css_image_text.asp), and [CodePen] (https://codepen.io/gylidian/pen/zyabWX) for slanting text.
     
-29) The images from the Zazzle embed code were blurry. I tried to get better images from the Zazzle website, but could not. Instead, I used [Spreadshirt] (https://www.spreadshirt.co.uk/create-your-own) to create mockup images of merchandise to replace the zazzle images on the Shop page. 
+29) The images from the Zazzle embed code were blurry. I tried to get better images from the Zazzle website, but could not. Instead, I used [Spreadshirt] (https://www.spreadshirt.co.uk/create-your-own) to create mockup images of merchandise to replace the zazzle images on the Shop page.
+
+30) There was too much space between title images and text in longer mobile views, which was difficult to lessen when the image was a background. So I switched the background-image to an img when the screen hit a lower width. I later decided this made the code unnecessarily complex, and made all title images imgs instead of background-images. I noticed this new method made the title image and text spill under navigation bars on an iPhone SE. 
  
