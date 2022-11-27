@@ -194,5 +194,7 @@ I wanted it to look less like a youtube video so used info here - [Freshy Sites]
     
 33) When testing all mobile sizes in chrome developer tools, I noticed that the title image becomes distorted in 912px x 1368px - Surface Pro 7. So I changed the mobile media query to start at 912px instead.
     
-34) When testing all mobile sizes in chrome developer tools, I noticed that the history link is pushed off the navigation bar in the Galaxy Fold view. So I made the link text slightly smaller in mobile view. 
+34) When testing all mobile sizes in chrome developer tools, I noticed that the history link is pushed off the navigation bar in the Galaxy Fold view. So I made the link text slightly smaller in mobile view.
+    
+35) Added customisation for quiz radio buttons with code from [Useful Angle] (https://usefulangle.com/post/389/css-radio-button-color).
  

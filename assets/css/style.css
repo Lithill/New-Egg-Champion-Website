@@ -217,6 +217,10 @@ header {
 	margin-top: 66px;
 }
 
+input[name="mayo"] {
+	accent-color: #313131;
+}
+
 .margin-bottom {
 	margin-bottom: 120px;
 }
