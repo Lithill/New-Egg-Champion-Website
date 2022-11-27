@@ -188,5 +188,9 @@ I wanted it to look less like a youtube video so used info here - [Freshy Sites]
     
 29) The images from the Zazzle embed code were blurry. I tried to get better images from the Zazzle website, but could not. Instead, I used [Spreadshirt] (https://www.spreadshirt.co.uk/create-your-own) to create mockup images of merchandise to replace the zazzle images on the Shop page.
 
-30) There was too much space between title images and text in longer mobile views, which was difficult to lessen when the image was a background. So I switched the background-image to an img when the screen hit a lower width. I later decided this made the code unnecessarily complex, and made all title images imgs instead of background-images. I noticed this new method made the title image and text spill under navigation bars on an iPhone SE. 
+30) There was too much space between title images and text in longer mobile views, which was difficult to lessen when the image was a background. So I starte on the history page, and switched the background-image to an img when the screen hit a lower width. I later decided this made the code unnecessarily complex, and made the title image imgs instead of background-images. Will refine this before changing all pages to this solution.
+    
+31) When testing on my iPhone SE, I noticed this new method made the title image and text spill under navigation bars. So I changed title image and text sizes to fit. 
+    
+33) When testing all mobile sizes in chrome developer tools, I noticed that the title image becomes distorted in 912px x 1368px - Surface Pro 7. So I changed the mobile media query to start at 912px instead. 
  

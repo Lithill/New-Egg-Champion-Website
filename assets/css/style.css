@@ -152,7 +152,7 @@ header {
 
 /* New title section */
 
-#title-div {
+.title-div {
 	height: 100vh;
 }
 
@@ -172,7 +172,6 @@ header {
 .title-img-size {
 	height: 60vh;
 	width: auto;
-	max-width: 527px;
 }
 
 .title-text {
@@ -734,11 +733,7 @@ a:hover {
 		background-size: cover;
 	}
 
-@media screen and (max-width: 890px) {
-	#history-egg {
-		display: none;
-	}
-	
+@media screen and (max-width: 912px) {
 	.img-size {
 		width: 40vw;
 		height: auto;
@@ -801,10 +796,11 @@ a:hover {
 	.zazzle-image {
 		width: 70vw;
 	}
-
+	
 	.title-text {
 		position: static;
 		margin: 0 auto;
+		font-size: 150%;
 	}
 
 	.title-image-and-text {
@@ -813,9 +809,8 @@ a:hover {
 	}
 
 	.title-img-size {
-		width: 90vw;
+		width: 60vw;
 		height: auto;
-		max-width: 527px;
 	}
 }
 	
