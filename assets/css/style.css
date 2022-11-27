@@ -150,7 +150,7 @@ header {
 	text-align: center;
 }
 
-/* New title section */
+/* Title image and text for News, Shop, Quiz & History */
 
 .title-div {
 	height: 100vh;
@@ -183,7 +183,23 @@ header {
   left: 100%;
 	z-index: 2;
 	text-align: center;
+	white-space: nowrap;
+}
+
+#history-title-text {
 	margin-left: 40%;
+}
+
+#egg-quiz-title-text {
+	margin-left: 11%;
+}
+
+#news-title-text {
+	margin-left: 50%;
+}
+
+#shop-title-text {
+	margin-left: 52%;
 }
 
 /* ---------------------------------------------------- */
@@ -266,14 +282,6 @@ table {
 	overflow: hidden;
 	margin-top: 66px;
 }
-
-/* #history-egg-mobile {
-	display: none;
-} */
-
-	#history-egg-mobile-text {
-
-	}
 
 select {
 	font-size: 100%;
@@ -525,10 +533,6 @@ blockquote::after {
 	padding-top: 80px;
 }
 
-/* #news-egg-mobile-text, #shop-egg-mobile-text, #quiz-egg-mobile-text, #history-egg-mobile-text {
-	display: none;
-} */
-
 .page-intro {
 	font-size: 150%;
   text-align: center;
@@ -695,16 +699,12 @@ a:hover {
 		display: none;
 	}
 
-	#big-egg-1-mobile-text, #big-egg-2-mobile-text, #big-egg-3-mobile-text, #history-egg-mobile-text, #news-egg-mobile-text, #quiz-egg-mobile-text, #shop-egg-mobile-text {
+	#big-egg-1-mobile-text, #big-egg-2-mobile-text, #big-egg-3-mobile-text {
 		display: block;
 		font-size: 200%;
 		font-family: "League Gothic";
 		text-transform: uppercase;
 		text-align: center;
-	}
-
-	#history-egg-mobile-text, #news-egg-mobile-text, #quiz-egg-mobile-text, #shop-egg-mobile-text {
-		margin-bottom: 40px;
 	}
 
 	#shop-box {
@@ -796,6 +796,8 @@ a:hover {
 	.zazzle-image {
 		width: 70vw;
 	}
+
+/* 	Page title image and text for news, shop, quiz & history */
 	
 	.title-text {
 		position: static;
@@ -812,7 +814,14 @@ a:hover {
 		width: 60vw;
 		height: auto;
 	}
+
+	#history-title-text, #egg-quiz-title-text, #news-title-text, #shop-title-text {
+		margin-left: 0;
+	}
+
 }
+
+/* 	---------------------------- */
 	
 @media screen and (max-width: 689px) {
 	#left-logo {
