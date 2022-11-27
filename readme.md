@@ -192,5 +192,7 @@ I wanted it to look less like a youtube video so used info here - [Freshy Sites]
     
 31) When testing on my iPhone SE, I noticed this new method made the title image and text spill under navigation bars. So I changed title image and text sizes to fit. 
     
-33) When testing all mobile sizes in chrome developer tools, I noticed that the title image becomes distorted in 912px x 1368px - Surface Pro 7. So I changed the mobile media query to start at 912px instead. 
+33) When testing all mobile sizes in chrome developer tools, I noticed that the title image becomes distorted in 912px x 1368px - Surface Pro 7. So I changed the mobile media query to start at 912px instead.
+    
+34) When testing all mobile sizes in chrome developer tools, I noticed that the history link is pushed off the navigation bar in the Galaxy Fold view. So I made the link text slightly smaller in mobile view. 
  

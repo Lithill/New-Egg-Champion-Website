@@ -876,38 +876,8 @@ a:hover {
 
 @media screen and (max-width: 355px) {
 	#menu {
-    font-size: 150%;
+    font-size: 140%;
 	}
-}
-
-/* @media screen and (min-width: 944px) and (max-width: 1303px) {
-	#history-egg {
-		background-position: center;
-		width: 100%;
-		background-size: contain;
-	}
-	
-	#history-egg-text {
-		position: static;
-		text-align: right;
-		font-size: 400%;
-	}
-
-	#shop-box {
-		background-image: url("https://live.staticflickr.com/65535/52489446559_7d9f5263b5_o_d.jpg");
-  	background-repeat: no-repeat;
-  	background-size: contain;
-		background-position: center center;
-		margin-right: 0px;
-	}
-
-	.column {
-  	width: 100%;
-		text-align: center;
-		line-height:150%;
-		padding: 60px 0;
-	}
-	
 }
 
 @media screen and (min-width: 944px) and (max-width: 1417px) { 
@@ -924,7 +894,6 @@ a:hover {
 	#egg-quiz {
 		background-size: cover;
 	}
-
 	
 }
 
@@ -1022,4 +991,4 @@ a:hover {
 		background-attachment: fixed;
 	}
 	
-} */
+} 
