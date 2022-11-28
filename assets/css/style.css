@@ -50,7 +50,7 @@ p {
 	text-decoration: none;
 }
 
-#menu a:hover, #chevron1:hover, #chevron2:hover, #chevron3:hover, #chevron4:hover, #chevron5:hover, #chevron6:hover, #chevron7:hover {
+#menu a:hover, #chevron1:hover, #chevron2:hover, #chevron3:hover, #chevron4:hover, #chevron5:hover, #chevron6:hover, #chevron7:hover, #chevron8:hover {
 	color: #FFD800;
 }
 
@@ -66,7 +66,7 @@ header {
 	background-color: black;
 	height: 60px;
   border: 3px solid #dfbc78;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   top: 0;
   left: 0;
@@ -202,9 +202,13 @@ header {
 	margin-left: 52%;
 }
 
+#answers-title-text {
+	margin-left: 3%;
+}
+
 /* ---------------------------------------------------- */
 
-#chevron1, #chevron2, #chevron3, #chevron4, #chevron5, #chevron6, #chevron7 {
+#chevron1, #chevron2, #chevron3, #chevron4, #chevron5, #chevron6, #chevron7, #chevron8 {
 	color: white;
 	text-decoration: none;
 }
@@ -357,6 +361,8 @@ footer {
 	height: 60px;
 	background-color: black;
 	border: 3px solid #dfbc78;
+/* 	position: fixed;
+	width: 100vw; */
 	bottom: 0;
 }
 
@@ -673,6 +679,16 @@ a:hover {
 .img-size {
 	height: 60vh;
 	width: auto;
+}
+
+/* Thankyou page */
+
+#answers {
+	font-family: Trirong;
+	font-size: 2em;
+	text-transform: none;
+	margin-bottom: 100px;
+	text-align: center;
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1618px) {
