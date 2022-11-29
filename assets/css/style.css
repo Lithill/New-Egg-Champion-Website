@@ -847,6 +847,10 @@ a:hover {
 		font-size: 16px;
 	}
 
+	#small-print-left {
+		margin-left: 30px;
+	}
+
 	#history-title-text, #egg-quiz-title-text, #news-title-text, #shop-title-text {
 		margin-left: 0;
 	}
@@ -907,6 +911,7 @@ a:hover {
 
 	blockquote {
 		font-size: 18px;
+		margin-top: 15px;
 	}
 
 	.shop-links {
@@ -996,8 +1001,12 @@ a:hover {
 	}
 
 	.article-text {
-		padding: 10px;
+		padding: 25px 10px;
 		text-align: start;
+	}
+
+	#necklace {
+		margin-bottom: 35px;
 	}
 
 	.img-right-wrap, .img-left-wrap, #necklace {
@@ -1017,7 +1026,11 @@ a:hover {
 	}
 
 	#shop-info {
-		padding: 0 10px;
+		padding: 0 10px 40px 10px;
+	}
+
+	#shop-background {
+		background: #313131;
 	}
 
 	.column {
