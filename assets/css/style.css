@@ -392,14 +392,14 @@ footer {
 /* Took this class code from https://www.thoughtco.com/wrapping-text-around-image-3466530#:~:text=Enter%20.,the%20text%20wraps%20around%20it. And edited it*/
 .img-right-wrap {
 	float: right; 
-	padding: 80px;
-	width: 33%;
+	padding: 30px 80px 30px 40px;
+	width: 25%;
 }
 
 .img-left-wrap {
 	float: left; 
-	padding: 80px;
-	width: 30%;
+	padding: 30px 40px 30px 80px;
+	width: 25%;
 }
 
 #article {
@@ -408,7 +408,7 @@ footer {
 }
 
 .article-text {
-	font-size: 18px;
+	font-size: 24px;
 	padding: 20px 80px 20px 80px;
 	color: #A8ACAD;
 }
@@ -422,7 +422,7 @@ footer {
 blockquote {
 	text-align: center;
   quotes: "“" "”" "‘" "’";
-	font-size: 20px;
+	font-size: 22px;
 	font-style: italic;
 	width: 90%;
 	margin: 40px auto;
@@ -457,12 +457,16 @@ blockquote::after {
 	margin-bottom: 20px;
 }
 
+hr {
+	border: 1px solid #dfbc78;
+}
+
 #history-box {
 	background-image: url("../images/egg-timer.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	width: 60%;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -540,14 +544,16 @@ blockquote::after {
 }
 
 #results, #shop-info, #article {
-	padding-top: 80px;
+	padding-top: 100px;
 }
 
 .page-intro {
-	font-size: 150%;
+	font-size: 26px;
   text-align: center;
   color: #A8ACAD;
 	line-height: 2;
+	font-weight: bold; 
+	padding-bottom: 20px;
 }
 
 a {
@@ -709,6 +715,10 @@ a:hover {
 	#big-egg-2-text {
 		left: 15%;
 	}
+
+	#history-box {
+		width: 70%;
+	}
 }
 
 @media screen and (max-width: 1365px) {
@@ -744,8 +754,7 @@ a:hover {
 	}
 
 	.mobile-padding {
-		padding-left: 13px;
-		padding-right: 13px;
+		padding: 0 30px;
 	}
 
 /* Quiz */
@@ -887,18 +896,25 @@ a:hover {
 		margin: 0;
 	}
 
-	.article-text {
+ 	.page-intro {
 		font-size: 18px;
+	}
+	
+	.article-text {
+		font-size: 16px;
 		padding: 13px 13px;
 		color: #A8ACAD;
+	}
+
+	blockquote {
+		font-size: 18px;
 	}
 
 	.img-right-wrap, .img-left-wrap, #necklace {
 		float: none;
 		padding: 0;
-		width: 90vw;
-		margin-left: 13px;
-  	margin-right: 13px;
+		width: 80vw;
+		margin: auto 0;
 	}
 }
 
