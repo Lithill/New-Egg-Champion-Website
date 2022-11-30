@@ -526,17 +526,19 @@ blockquote::after {
 }
 
 .vs-background, #vs-background-flipped {
-	background-size: cover;
+	height: 100vh;
 	overflow: hidden;
 	border: 3px solid #dfbc78;
 }
 
 .vs-background {
 	background: url("../images/vs-background.jpg") no-repeat center;
+	background-size: cover;
 }
 
 #vs-background-flipped {
 	background: url("../images/vs-background-flipped.jpg") no-repeat center;
+	background-size: cover;
 }
 
 .vs-background-text, .vs-background-text-2, .vs-name-left, .vs-name-right {
