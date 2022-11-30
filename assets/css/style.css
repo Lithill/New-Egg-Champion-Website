@@ -8,7 +8,7 @@
 
 body {
 	font-family: Trirong;
-	color: white;
+	color: #a2a19c;
 	background-color: black;
 }
 
@@ -99,15 +99,17 @@ header {
   height: 100%;
 }
 
-#big-egg-1-text {
+#big-egg-1-text, #big-egg-2-text, #big-egg-3-text, .title-text, #quiz-egg-text, #history-egg-text, #shop-egg-text, #news-egg-text {
 	font-size: 300%;
-	font-family: "League Gothic";
 	text-transform: uppercase;
 	position: absolute;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+#big-egg-1-text {
 	top: 50%;
   left: 80%;
-  transform: translate(-50%, -50%);
-	text-align: center;
 }
 
 #big-egg-1-mobile-text, #big-egg-2-mobile-text, #big-egg-3-mobile-text {
@@ -122,14 +124,8 @@ header {
 }
 
 #big-egg-2-text {
-	font-size: 300%;
-	font-family: "League Gothic";
-	text-transform: uppercase;
-	position: absolute;
 	top: 50%;
   left: 20%;
-  transform: translate(-50%, -50%);
-	text-align: center;
 }
 
 #big-egg-3 {
@@ -140,14 +136,8 @@ header {
 }
 
 #big-egg-3-text {
-	font-size: 300%;
-	font-family: "League Gothic";
-	text-transform: uppercase;
-	position: absolute;
 	top: 85%;
   left: 50%;
-  transform: translate(-50%, -50%);
-	text-align: center;
 }
 
 /* Title image and text for News, Shop, Quiz, Thankyou & History */
@@ -175,14 +165,9 @@ header {
 }
 
 .title-text {
-	font-size: 300%;
-	font-family: "League Gothic";
-	text-transform: uppercase;
-	position: absolute;
   top: 50%;
   left: 100%;
 	z-index: 2;
-	text-align: center;
 	white-space: nowrap;
 }
 
@@ -230,14 +215,8 @@ input[name="mayo"] {
 }
 
 #quiz-egg-text, #history-egg-text, #shop-egg-text, #news-egg-text {
-	font-size: 300%;
-	font-family: "League Gothic";
-	text-transform: uppercase;
-	position: absolute;
 	top: 50%;
   left: 65%;
-  transform: translate(-50%, -50%);
-	text-align: center;
 }
 
 #small-print-right {
@@ -432,13 +411,13 @@ blockquote {
 /* Next two are partly stolen from https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/ */
 blockquote::before {
   content: open-quote;
-	font-size: 18px;
+	font-size: 22px;
 	color: #bb9260;
 }
 
 blockquote::after {
   content: close-quote;
-	font-size: 18px;
+	font-size: 22px;
 	color: #bb9260;
 }
 
@@ -684,14 +663,14 @@ a:hover {
 
 #answers {
 	font-family: Trirong;
-	font-size: 2em;
+	font-size: 24px;
 	text-transform: none;
 	margin-bottom: 100px;
 	text-align: center;
 }
 
 .questions {
-	text-decoration: underline solid #dfbc78 2px;
+/* 	text-decoration: underline solid #dfbc78 2px; */
 	color: #dfbc78;
 	font-weight: bold;
 }
