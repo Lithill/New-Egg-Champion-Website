@@ -23,6 +23,54 @@ p {
 	line-height: 35px;
 }
 
+/* ------------------------------ Misc ----------------------------------- */
+
+#menu a:hover, #chevron1:hover, #chevron2:hover, #chevron3:hover, #chevron4:hover, #chevron5:hover, #chevron6:hover, #chevron7:hover, #chevron8:hover {
+	color: #FFD800;
+}
+
+#chevron1, #chevron2, #chevron3, #chevron4, #chevron5, #chevron6, #chevron7, #chevron8 {
+	color: white;
+	text-decoration: none;
+}
+
+#youtube-button, .social-networks i {
+	font-size: 160%;
+	padding: 1%;
+	color:white;
+}
+
+#youtube-button:hover, li i:hover {
+	color: #FFD800;
+}
+
+.active {
+	color: #FFD800;
+}
+
+hr {
+	border: 1px solid #dfbc78;
+}
+
+#results, #shop-info, #article {
+	padding-top: 100px;
+}
+
+.page-intro {
+	font-size: 26px;
+  text-align: center;
+  color: #A8ACAD;
+	line-height: 2;
+	font-weight: bold; 
+	padding-bottom: 20px;
+}
+
+a {
+	color: #A8ACAD;
+}
+
+/* ------------------------------ Header ----------------------------------- */
+
 #left-logo {
 	height: 100%;
 	width: auto;
@@ -50,7 +98,7 @@ p {
 	text-decoration: none;
 }
 
-#menu a:hover, #chevron1:hover, #chevron2:hover, #chevron3:hover, #chevron4:hover, #chevron5:hover, #chevron6:hover, #chevron7:hover, #chevron8:hover {
+#menu a:hover {
 	color: #FFD800;
 }
 
@@ -86,67 +134,44 @@ header {
 	z-index: 3;
 }
 
-#big-egg-1 {
-	height: 100vh;
-	background: url("../images/big-egg-1.jpg") no-repeat center;
-	background-size: cover;
-	overflow: hidden;
-	margin-top: 66px;
+/* ----------------------------- Footer ---------------------------------- */
+
+footer {
+	height: 60px;
+	background-color: black;
+	border: 3px solid #dfbc78;
+	bottom: 0;
 }
 
-.text-container {
-  position: relative;
-  height: 100%;
+.social-networks {
+	text-align: center;
+	line-height: 60px;
 }
+
+.social-networks li {
+	display: inline;
+}
+
+/* ------------------------- Page Title Text ------------------------------ */
 
 #big-egg-1-text, #big-egg-2-text, #big-egg-3-text, .title-text, #quiz-egg-text, #history-egg-text, #shop-egg-text, #news-egg-text {
 	font-size: 300%;
 	text-transform: uppercase;
 	position: absolute;
 	text-align: center;
+}
+
+#big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
 	transform: translate(-50%, -50%);
 }
 
-#big-egg-1-text {
-	top: 50%;
-  left: 80%;
-}
-
-#big-egg-1-mobile-text, #big-egg-2-mobile-text, #big-egg-3-mobile-text {
-	display: none;
-}
-
-#big-egg-2 {
-	height: 100vh;
-	background: url("../images/big-egg-2.jpg") no-repeat center;
-	background-size: contain;
-	overflow: hidden;
-}
-
-#big-egg-2-text {
-	top: 50%;
-  left: 20%;
-}
-
-#big-egg-3 {
-	height: 100vh;
-	background: url("../images/big-egg-3.jpg") no-repeat center;
-	background-size: contain;
-	overflow: hidden;
-}
-
-#big-egg-3-text {
-	top: 85%;
-  left: 50%;
-}
-
-/* Title image and text for News, Shop, Quiz, Thankyou & History */
+/* ------Title image and text spacing for News, Shop, Quiz, Thankyou & History -----*/
 
 .title-div {
 	height: 100vh;
 }
 
-.title-text-container {
+.text-container {
 	position: relative;
   height: 100%;
 }
@@ -191,122 +216,47 @@ header {
 	margin-left: 3%;
 }
 
-/* ---------------------------------------------------- */
+/* --------------------------- Index Page -------------------------------- */
 
-#chevron1, #chevron2, #chevron3, #chevron4, #chevron5, #chevron6, #chevron7, #chevron8 {
-	color: white;
-	text-decoration: none;
-}
-
-#quiz-egg {
+#big-egg-1 {
 	height: 100vh;
-	background: url("../images/quiz-egg.jpg") no-repeat left;
-	background-size: contain;
+	background: url("../images/big-egg-1.jpg") no-repeat center;
+	background-size: cover;
 	overflow: hidden;
 	margin-top: 66px;
 }
 
-input[name="mayo"] {
-	accent-color: #313131;
-}
-
-.margin-bottom {
-	margin-bottom: 120px;
-}
-
-#quiz-egg-text, #history-egg-text, #shop-egg-text, #news-egg-text {
+#big-egg-1-text {
 	top: 50%;
-  left: 65%;
+  left: 80%;
 }
 
-#small-print-right {
-	float: right;
-	margin-right: 5%;
-	color: #A8ACAD;
-	font-size: 16px;
+#big-egg-1-mobile-text, #big-egg-2-mobile-text, #big-egg-3-mobile-text {
+	display: none;
 }
 
-#egg-quiz {
-	margin-top: 40px;
-	background: url("../images/toast.jpg") no-repeat center center;
-	background-color: #313131;
-	background-size: 60%;
-}
-
-#form {
-	color: #F4F4F4;
-	font-size: 24px;
-	text-align: center;
-}
-
-#egg-quiz h2 {
-	color: #F4F4F4;
-	font-family: Trirong;
-	font-weight: 550;
-	letter-spacing: 2px;
-	padding: 10px 20px;
-	font-size: 26px;
-}
-
-table {
-	margin-left:auto; 
-  margin-right:auto;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-#history-egg {
+#big-egg-2 {
 	height: 100vh;
-	background: url("../images/history-egg.jpg") no-repeat left;
+	background: url("../images/big-egg-2.jpg") no-repeat center;
 	background-size: contain;
 	overflow: hidden;
-	margin-top: 66px;
 }
 
-select {
-	font-size: 100%;
-	color: black;
-	border-radius: 10px;
-	padding: 5px;
-	background-color: #F4F4F4;
+#big-egg-2-text {
+	top: 50%;
+  left: 20%;
 }
 
-/* found this code here - https://stackoverflow.com/questions/3313456/css-borders-between-table-columns-only */
-table td + td { 
-	border-left:2px solid #F4F4F4; 
-}
-/* above */
-
-input {
-	font-size: 100%;
-	border-radius: 10px;
-	padding: 5px;
-	background-color: #F4F4F4;
+#big-egg-3 {
+	height: 100vh;
+	background: url("../images/big-egg-3.jpg") no-repeat center;
+	background-size: contain;
+	overflow: hidden;
 }
 
-button {
-	font-size: 100%;
-	border-radius: 10px;
-	padding: 5px;
-	background-color: #DFBC78;
-}
-
-#reset {
-	background-color: transparent;
-	color: #F4F4F4;
-}
-
-input:hover {
-	background-color: #DFBC78;
-}
-      
-select:hover {
-  background-color: #DFBC78;
-}
-
-#small-print-left {
-	margin-left: 5%;
-	color: #A8ACAD;
+#big-egg-3-text {
+	top: 85%;
+  left: 50%;
 }
 
 /* Took code for iframe-container and iframe from [w3schools] (https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) and [Stack Overflow] (https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally) */
@@ -329,49 +279,111 @@ iframe {
 	margin: 0 auto;
 }
 
-footer {
-	height: 60px;
-	background-color: black;
-	border: 3px solid #dfbc78;
-/* 	position: fixed;
-	width: 100vw; */
-	bottom: 0;
+/* --------------------------- Quiz Page -------------------------------- */
+
+#quiz-egg {
+	height: 100vh;
+	background: url("../images/quiz-egg.jpg") no-repeat left;
+	background-size: contain;
+	overflow: hidden;
+	margin-top: 66px;
 }
 
-.social-networks {
+#egg-quiz {
+	margin-top: 40px;
+	background: url("../images/toast.jpg") no-repeat center center;
+	background-color: #313131;
+	background-size: 60%;
+}
+
+input[name="mayo"] {
+	accent-color: #313131;
+}
+
+.margin-bottom {
+	margin-bottom: 120px;
+}
+
+#small-print-right {
+	float: right;
+	margin-right: 5%;
+}
+
+#small-print-left {
+	margin-left: 5%;
+}
+
+#small-print-right, #small-print-left {
+	color: #A8ACAD;
+	font-size: 16px;
+}
+
+#form {
+	color: #F4F4F4;
+	font-size: 24px;
 	text-align: center;
-	line-height: 60px;
 }
 
-.social-networks li {
-	display: inline;
+/* Change this below - not h2 */
+#egg-quiz h2 {
+	color: #F4F4F4;
+	font-family: Trirong;
+	font-weight: 550;
+	letter-spacing: 2px;
+	padding: 10px 20px;
+	font-size: 26px;
 }
 
-#youtube-button, .social-networks i {
-	font-size: 160%;
-	padding: 1%;
-	color:white;
+table {
+	margin-left:auto; 
+  margin-right:auto;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-#youtube-button:hover, li i:hover {
-	color: #FFD800;
+/* found this code here - 
+https://stackoverflow.com/questions/3313456/css-borders-between-table-columns-only */
+table td + td { 
+	border-left: 2px solid #F4F4F4; 
 }
 
-.active {
-	color: #FFD800;
+select, input, button {
+	font-size: 100%;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #F4F4F4;
 }
 
-/* Took this class code from https://www.thoughtco.com/wrapping-text-around-image-3466530#:~:text=Enter%20.,the%20text%20wraps%20around%20it. And edited it*/
-.img-right-wrap {
-	float: right; 
-	padding: 30px 80px 30px 40px;
-	width: 25%;
+select {
+	color: black;
 }
 
-.img-left-wrap {
-	float: left; 
-	padding: 30px 40px 30px 80px;
-	width: 25%;
+input:hover, select:hover, button {
+	background-color: #DFBC78;
+}
+
+#reset {
+	background-color: transparent;
+	color: #F4F4F4;
+}
+
+/* -------------------------- History Page ------------------------------- */
+
+#history-egg {
+	height: 100vh;
+	background: url("../images/history-egg.jpg") no-repeat left;
+	background-size: contain;
+	overflow: hidden;
+	margin-top: 66px;
+}
+
+#history-box {
+	background-image: url("../images/egg-timer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 50%;
+	margin: 0 auto;
 }
 
 #article {
@@ -390,7 +402,11 @@ footer {
 	color: #A8ACAD;
 }
 
-/* Partly stolen from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ and http://www.java2s.com/Code/HTMLCSS/Tags/borderforblockquote.htm*/
+a:hover {
+	color: #FFD800;
+}
+
+/* Partly taken from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ and http://www.java2s.com/Code/HTMLCSS/Tags/borderforblockquote.htm*/
 blockquote {
 	text-align: center;
   quotes: "“" "”" "‘" "’";
@@ -398,17 +414,11 @@ blockquote {
 	font-style: italic;
 	width: 90%;
 	margin: 40px auto;
-	
-	border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #dfbc78;
-	
-	border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #dfbc78;
+	border-top: 1px solid #dfbc78;
+	border-bottom: 1px solid #dfbc78;
 }
 
-/* Next two are partly stolen from https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/ */
+/* Next two blocks are partly taken from https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/ */
 blockquote::before {
   content: open-quote;
 	font-size: 22px;
@@ -421,6 +431,19 @@ blockquote::after {
 	color: #bb9260;
 }
 
+/* Took this class code from https://www.thoughtco.com/wrapping-text-around-image-3466530#:~:text=Enter%20.,the%20text%20wraps%20around%20it. And edited it*/
+.img-right-wrap {
+	float: right; 
+	padding: 30px 80px 30px 40px;
+	width: 25%;
+}
+
+.img-left-wrap {
+	float: left; 
+	padding: 30px 40px 30px 80px;
+	width: 25%;
+}
+
 #necklace {
 	width: 25%;
 	display: block;
@@ -429,18 +452,7 @@ blockquote::after {
 	margin-bottom: 20px;
 }
 
-hr {
-	border: 1px solid #dfbc78;
-}
-
-#history-box {
-	background-image: url("../images/egg-timer.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	width: 50%;
-	margin: 0 auto;
-}
+/* -------------------------- Shop Page ------------------------------- */
 
 #shop-egg {
 	height: 100vh;
@@ -473,7 +485,7 @@ hr {
 	max-height: auto;
 }
 
-/* Took the next two blocks from https://www.w3schools.com/howto/howto_css_three_columns.asp. Spliced with zazzle code. I don't understand what the point of 'content' is here */
+/* Took the next few blocks from https://www.w3schools.com/howto/howto_css_three_columns.asp. */
 .column {
 	float: left;
   width: 33.33%;
@@ -482,11 +494,7 @@ hr {
 	padding: 120px 0;
 }
 
-.left, .right {
-  width: 33.33%;
-}
-
-.middle {
+.left, .right, .middle {
   width: 33.33%;
 }
 
@@ -507,6 +515,8 @@ hr {
 	font-size: 24px;
 }
 
+/* -------------------------- News Page ------------------------------- */
+
 #news-egg {
 	height: 100vh;
 	background: url("../images/news-egg.jpg") no-repeat left;
@@ -515,100 +525,61 @@ hr {
 	margin-top: 66px;
 }
 
-#results, #shop-info, #article {
-	padding-top: 100px;
-}
-
-.page-intro {
-	font-size: 26px;
-  text-align: center;
-  color: #A8ACAD;
-	line-height: 2;
-	font-weight: bold; 
-	padding-bottom: 20px;
-}
-
-a {
-	font-family: Trirong;
-	color: #A8ACAD;
-}
-
-a:hover {
-	color: #FFD800;
-}
-
-#menu a:hover {
-	color: #FFD800;
+.vs-background, #vs-background-flipped {
+	background-size: cover;
+	overflow: hidden;
+	border: 3px solid #dfbc78;
 }
 
 .vs-background {
-	height: 100vh;
 	background: url("../images/vs-background.jpg") no-repeat center;
-	background-size: cover;
-	overflow: hidden;
-	border: 3px solid #dfbc78;
 }
 
 #vs-background-flipped {
-	height: 100vh;
 	background: url("../images/vs-background-flipped.jpg") no-repeat center;
-	background-size: cover;
-	overflow: hidden;
-	border: 3px solid #dfbc78;
+}
+
+.vs-background-text, .vs-background-text-2, .vs-name-left, .vs-name-right {
+	text-transform: uppercase;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+.vs-background-text, .vs-background-text-2, .vs-name-left, .vs-name-right {
+		text-shadow: -10px 10px 1px black;
 }
 
 .vs-background-text {
 	font-size: 500%;
-	font-family: "League Gothic";
-	text-transform: uppercase;
-	position: absolute;
 	top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-	text-shadow: -10px 10px 1px black;
 	z-index: 2;
 }
 
 .vs-background-text-2 {
 	font-size: 200%;
-	font-family: "League Gothic";
-	text-transform: uppercase;
-	position: absolute;
 	top: 10%;
   left: 10%;
-  transform: translate(-50%, -50%);
-	text-shadow: -10px 10px 1px black;
 }
 
 .vs-name-left {
 	font-size: 200%;
-	font-family: "League Gothic";
-	text-transform: uppercase;
 	top: 70vh;
   left: 25vw;
-  transform: translate(-50%, -50%);
-	text-shadow: -10px 10px 1px black;
 	z-index: 1;
-	position: absolute;
   text-align: center;
 }
 
 .vs-name-right {
 	font-size: 200%;
-	font-family: "League Gothic";
-	text-transform: uppercase;
 	top: 70vh;
   left: 74.5vw;
-  transform: translate(-50%, -50%);
-	text-shadow: -10px 10px 1px black;
 	z-index: 1;
-	position: absolute;
   text-align: center;
 }
 
 .winner {
 	font-size: 600%;
-	font-family: "League Gothic";
 	text-transform: uppercase;
 	position: absolute;
   top: 45%;
@@ -659,21 +630,20 @@ a:hover {
 	width: auto;
 }
 
-/* Thankyou page */
+/* -------------------------- Thankyou Page ------------------------------- */
 
 #answers {
-	font-family: Trirong;
 	font-size: 24px;
-	text-transform: none;
 	margin-bottom: 100px;
 	text-align: center;
 }
 
 .questions {
-/* 	text-decoration: underline solid #dfbc78 2px; */
 	color: #dfbc78;
 	font-weight: bold;
 }
+
+/* ------------------------ Mobiles / Tablets ----------------------------- */
 
 @media screen and (min-width: 1366px) and (max-width: 1618px) {
 	#quiz-egg-text, #history-egg-text, #shop-egg-text, #news-egg-text {
