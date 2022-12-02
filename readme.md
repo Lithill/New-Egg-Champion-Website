@@ -326,6 +326,8 @@ Content for the website was written by Rossanne Hamilton.
 
 ### Acknowledgements
 
+I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
+
 - My tutor Robert Mclaughlin for helpful feedback and sharing links for further learning.
 - My mentor Mitko Bachvarov for helpful feedback and sharing links for further learning.
 
