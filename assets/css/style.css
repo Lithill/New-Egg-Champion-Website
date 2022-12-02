@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&family=Trirong&family=League+Gothic);
+ @import url(https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&family=Trirong&family=League+Gothic);
 
 * {
 	margin:0;
@@ -931,11 +931,6 @@ blockquote::after {
 	text-align: center;
 	font-size: 200%;
 	}
-
-/* 	#quiz-egg, #history-egg, #shop-egg {
-		width: 100%;
-		background-position: center;
-	} */
 
 	#quiz-egg-text {
 		position: static;
