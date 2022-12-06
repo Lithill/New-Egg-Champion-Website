@@ -264,6 +264,8 @@ Then I thought that maybe it was because of the relationship between the header 
     
 21) I added customisation for quiz radio buttons with code from [Useful Angle](https://usefulangle.com/post/389/css-radio-button-color).
 
+22) Attempted to slim down youtube html embed code. But I was not able to find information about how to turn the following into css - "allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen".
+
 ### Known Bugs
 
 * I could not find a way to include image caption on wrapped image, so I removed the caption.

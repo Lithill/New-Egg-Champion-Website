@@ -277,6 +277,7 @@ iframe {
   height: 70%;
 	display: block;
 	margin: 0 auto;
+	border: none; 
 }
 
 /* --------------------------- Quiz Page -------------------------------- */
@@ -492,6 +493,7 @@ blockquote::after {
 	text-align: center;
 	line-height:150%;
 	padding: 120px 0;
+	border: none;
 }
 
 .left, .right, .middle {
