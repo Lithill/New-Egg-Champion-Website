@@ -36,14 +36,21 @@ Egg Champion is a world-wide sport with a rich history. The championship is held
 #### Client Goals
 
 * To be able to view the site on a range of device sizes.
-* To make it easy for potential fans to find out who the reigning champion is, and how to watch the next fight live. 
+* To make it easy for potential fans to find out:
+    * who the reigning champion is
+    ![Reigning Champion](assets/images/user-story-champion.jpg)
+    * and how to watch the next fight live. 
+    ![Upcoming Match Video Advert](assets/images/user-story-video.jpg)
+    ![Link to YouTube Channel](assets/images/user-story-subscribe.jpg)
 * To sell egg champion merchandise to fans.
+    
 
 #### First Time Visitor Goals
 
 * I want to find out about the egg championship. (Please note that the details of the exact workings of this sport are intentionally vague, as this is a spoof site, and it was felt that keeping this a mystery would be funnier. During testing, the developer was asked by several testers "Is this a real sport?")
 * I want to be able to navigate the site easily to find information.
-* I want to be able to find their YouTube channel.
+* I want to be able to find their YouTube channel and other social media accounts.
+![Link to YouTube Channel](assets/images/user-story-social-media.jpg)
 
 #### Returning Visitor Goals
 
@@ -53,6 +60,7 @@ Egg Champion is a world-wide sport with a rich history. The championship is held
 #### Frequent Visitor Goals
 
 * I want to buy merchandise. 
+![Link to YouTube Channel](assets/images/user-story-shop.jpg)
 
 ## Design
 
