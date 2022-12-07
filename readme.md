@@ -300,7 +300,8 @@ Then I thought that it may be because of the relationship between the header and
 
 * I could not find a way to include image caption on wrapped image, so I removed the caption.
 * In some laptop views (Nest Hub, Nes Hub Max and Latitude 7420), you cannot see the heading text of the index page without scrolling down.
-* Chevron links do not always take you to where you expect they will on Latitude 7420. This also needs testing on other sized screens.
+* Chevron links do not always take you to where you expect they will on Latitude 7420 with Chrome, and Gigabyte laptop with Firefox. This also needs testing on other sized screens with different browsers.
+* The video seems to be having difficulty playing in Firefox.
 
 ### Lighthouse
 
