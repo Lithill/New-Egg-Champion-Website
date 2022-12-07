@@ -46,11 +46,31 @@ Egg Champion is a world-wide sport with a rich history. The championship is held
 
 ## Design
 
-### Colour scheme
+### Early Design Phases
+
+A few different designs were considered before choosing the final one. The index page has the most early design variations, as this was the first page that was considered: 
+
+![Index Page First Design](assets/images/index-idea-1.jpg) 
+![Index Page Second Design](assets/images/index-idea-2.jpg)
+![Index Page Third Design](assets/images/index-idea-3.jpg)
+![Index Page Fourth Design](assets/images/index-idea-4.jpg)
+
+The history page had fewer early design variations:
+
+![History Page First Design](assets/images/history-idea-1.jpg)
+![History Page Second Design](assets/images/history-idea-2.jpg)
+
+The shop page was one of the last to be designed, so only has one early variation:
+
+![Shop Page First Design](assets/images/shop-idea-1.jpg)
+
+I continued refining the design as I made the website, e.g. making the egg in the right-hand corner smaller, and making a footer for the social media icons. This is why I do not have any images that show the final design. 
+
+### Colour Scheme
 
 ![Colour Scheme](assets/images/colour-scheme.png)
 
-The website uses a palette of colours that were based on the image of a gold crown on a black background, as it was felt that the site should feel important, mysterious, and slightly dangerous. 
+The website uses a palette of colours that were based on the image of a gold crown on a black background, as seen in index page version 3. It was decided that that the site should feel important, mysterious, and slightly dangerous, and that this colour palette would lend itself to this. 
 
 ### Typography
 
@@ -130,8 +150,8 @@ HTML5 and CSS3 were used to create this website.
 
 - [Google Fonts](https://fonts.google.com/) was used to import IM Fell Double Pica, Trirong, and League Gothic.
 - [Font Awesome](https://fontawesome.com/) was used on the footer for the social media icons.
-- [Replit](replit.com) was used as the main programm to write the code, which was then sent to GitHub for version control.
-- [GitHub](https://github.com/) was used to store the project's code after being pushed from Replit.
+- [Replit](replit.com) was used as the main programm to write the code, which was then sent to GitHub for version control. The reader can see the [Replit version here](https://replit.com/@RossHamilton/New-Egg-Champion-Website#index.html).
+- [GitHub](https://github.com/) was used to store the project's code after being pushed from Replit, and to handle version control.
 - [Paint.Net](https://www.getpaint.net/download.html) was used to create the logos on each corner of the header.
 - [InVideo](https://invideo.io/) was used to create the video on the index page. 
 - [YouTube](https://www.youtube.com/) was used to host the video.
