@@ -6,6 +6,17 @@ This website was created for a fictional sport called Egg Champion. It gives up-
 
 [View the live project here](https://lithill.github.io/New-Egg-Champion-Website/)
 
+## Table of Contents
+
+1. [User Experience](#user-experience)
+3. [Design](#design)
+4. [Features](#features)
+5. [Accessibility](#accessibility)
+6. [Technologies Used](#technologies-used)
+7. [Deployment and Local Development](#deployment-and-local-development)
+8. [Testing](#testing)
+9. [Credits](#credits)
+
 ## User Experience
 
 ### Initial Discussion
@@ -159,7 +170,7 @@ HTML5 and CSS3 were used to create this website.
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/) was used to troubleshoot and test features and solve issues with responsiveness and styling.
 - [Am I Responsive?](https://ui.dev/amiresponsive) was used to show the website image on a range of devices.
   
-## Deployment & Local Development
+## Deployment and Local Development
 
 ### Deployment
 
