@@ -87,6 +87,7 @@ Google Fonts was used for the following fonts:
 - Replacement merchandise pictures were generated through [Spreadshirt](www.spreadshirt.co.uk).
 - [Dall-E 2](https://openai.com/dall-e-2/) was used to create the rest of the artwork.
 - The video was made by the developer, using [InVideo](https://invideo.io/).
+
 ## Features
 
 The website is comprised of six pages, five of which are accessible from the navigation menu (home page, news, shop, quiz, history). The fifth page is a thank you page which appears once a user submits the form on the quiz page. 
@@ -157,6 +158,7 @@ HTML5 and CSS3 were used to create this website.
 - [Zazzle](https://www.zazzle.co.uk/) was used to create functioning merchandise links.
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/) was used to troubleshoot and test features and solve issues with responsiveness and styling.
 - [Am I Responsive?](https://ui.dev/amiresponsive) was used to show the website image on a range of devices.
+  
 ## Deployment & Local Development
 
 ### Deployment
@@ -190,6 +192,7 @@ To clone the New-Egg-Champion-Website repository:
 4) Click "Open with GitHub Desktop" to clone and open the repository with GitHub Desktop.
 5) Click "Choose..." and, using Windows Explorer, navigate to a local path where you want to clone the repository.
 6) Click "Clone".
+   
 ## Testing
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
@@ -212,6 +215,12 @@ The following issues were raised during my mid project meeting with my mentor:
 * Spacing on the egg quiz form needed improving. This has now been done.
 * The quiz needed a thank you page. This has been created and linked to the form submission button.
 * Spacing was too wide between images and text on the history page. This has now been changed.
+  
+The following issues were raised by friends and family who helped to test the website:
+
+* The "vs" text on the news page goes over the navigation bar when scrolling down the page. This has now been fixed.
+* Clicking on chevron navigation links will not scroll to the expected areas of a page on a Latitude 7420 laptop (Display resolution 1920x1280 pixels). This will be fixed in a future update.
+* The index page does not display "Have They" text without scrolling down on a Latitude 7420 laptop. This will be fixed in a future update.
 
 ### W3C Validator
 
@@ -284,13 +293,15 @@ Then I thought that it may be because of the relationship between the header and
 21) I added customisation for quiz radio buttons with code from [Useful Angle](https://usefulangle.com/post/389/css-radio-button-color).
 
 22) Attempted to slim down YouTube html embed code. But I was not able to find information about how to turn the following into CSS - "allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen".
+    
+23) "VS" text on news page was appearing over the header when scrolling down the page. I fixed this by adding "z-index: 5;" to the CSS for the header.
 
 ### Known Bugs
 
 * I could not find a way to include image caption on wrapped image, so I removed the caption.
 * In some laptop views (Nest Hub, Nes Hub Max and Latitude 7420), you cannot see the heading text of the index page without scrolling down.
-* The "vs" text on the news page rolls over the navigation bar when scrolling down the page.
-* Chevron links do not always take you to where you expect they will on some sized screens.
+* Chevron links do not always take you to where you expect they will on Latitude 7420 with Chrome, and Gigabyte laptop with Firefox. This also needs testing on other sized screens with different browsers.
+* The video seems to be having difficulty playing in Firefox.
 
 ### Lighthouse
 
@@ -308,7 +319,7 @@ Then I thought that it may be because of the relationship between the header and
 
 ### Full Testing
 
-To fully test my website, I went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
+To fully test my website, I went through each page using Google Chrome Developer Tools to ensure that they responsive on all available screen sizes. Testing was performed on a variety of browsers (Chrome, Microsoft Edge and Firefox) and devices (Gigabyte gaming laptop, iPhone SE, Android 1+9 mobile, HP Compaq Elite 8300 desktop, Latitude 7420 laptop).
 
 #### Links:
 
