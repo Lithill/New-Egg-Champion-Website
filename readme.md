@@ -78,11 +78,13 @@ The history page had fewer early design variations:
 ![History Page First Design](assets/images/history-idea-1.jpg)
 ![History Page Second Design](assets/images/history-idea-2.jpg)
 
-The shop page was one of the last designed, so only has one early variation:
+The shop page was one of the last designed, so only has one early variation. It was decided that the phrase "There can be only one" could not be used on the website, as it is from Highlander:
 
 ![Shop Page First Design](assets/images/shop-idea-1.jpg)
 
-I continued refining the design as I made the website, e.g., making the egg in the right-hand corner smaller, and making a footer for the social media icons. Therefore, I do not have any images that show the final design. 
+I took inspiration from the [MMA Fighting](	https://www.mmafighting.com/) website's navigation bar. Which you can see influenced the design in the later versions.
+
+I continued refining the design as I made the website, e.g., shrinking the egg in the right-hand corner, and making a footer for the social media icons. Therefore, I do not have any images that show the final design. 
 
 ### Colour Scheme
 
