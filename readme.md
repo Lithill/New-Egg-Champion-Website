@@ -357,18 +357,204 @@ Recommendations:
     * Keep request counts low and transfer sizes small 
     * Largest Contentful Paint element 
     * Avoid large layout shifts 
-    
+
 * Mobile
+    * Serve images in next-gen formats
+    * Properly size images
+    * Eliminate render-blocking resources
+    * Reduce unused CSS
+    * Efficiently encode images
+    * Enable text compression
+    * Preconnect to required origins Error!
+    * Preload Largest Contentful Paint image Error!
+    * Serve static assets with an efficient cache policy 8 resources found
+    * Ensure text remains visible during webfont load
+    * Some third-party resources can be lazy loaded with a facade 
+    * Does not use passive listeners to improve scrolling performance
+    * Image elements do not have explicit width and height
+    * Avoid enormous network payloads 
+    * Avoid chaining critical requests 
+    * Keep request counts low and transfer sizes small 
+    * Avoid large layout shifts 
+    * Avoid long main-thread tasks 
 
 #### News Page
 
+Initial testing: [Desktop](assets/images/lighthouse-desktop-news1.png) ~ [Mobile](assets/images/lighthouse-mobile-news1.png)
+
+Recommendations:
+
+* Desktop
+    * Serve images in next-gen formats
+    * Efficiently encode images
+    * Properly size images
+    * Eliminate render-blocking resources
+    * Serve static assets with an efficient cache policy
+    * Ensure text remains visible during webfont load
+    * Image elements do not have explicit width and height
+    * Avoid enormous network payloads 
+    * Avoid chaining critical requests 
+    * Keep request counts low and transfer sizes small 
+    * Largest Contentful Paint element 
+    * Avoid large layout shifts 
+
+* Mobile
+    * Serve images in next-gen formats
+    * Efficiently encode images
+    * Properly size images
+    * Eliminate render-blocking resources
+    * Reduce unused CSS
+    * Enable text compression
+    * Serve static assets with an efficient cache policy 
+    * Ensure text remains visible during webfont load
+    * Image elements do not have explicit width and height
+    * Avoid enormous network payloads 
+    * Avoid chaining critical requests 
+    * Keep request counts low and transfer sizes small 
+    * Largest Contentful Paint element 
+    * Avoid large layout shifts 
+    * Avoid long main-thread tasks
+
 #### Shop Page
+
+Initial testing: [Desktop](assets/images/lighthouse-desktop-shop1.png) ~ [Mobile](assets/images/lighthouse-mobile-shop1.png)
+
+Recommendations:
+
+* Desktop
+    * Serve images in next-gen formats
+    * Efficiently encode images
+    * Eliminate render-blocking resources
+    * Properly size images
+    * Ensure text remains visible during webfont load
+    * Image elements do not have explicit width and height
+    * Serve static assets with an efficient cache policy 
+    * Avoid chaining critical requests 
+    * Keep request counts low and transfer sizes small
+    * Largest Contentful Paint element 
+    * Avoid large layout shifts 
+
+* Mobile
+    * Serve images in next-gen formats
+    * Efficiently encode images
+    * Eliminate render-blocking resources
+    * Properly size images
+    * Reduce unused CSS
+    * Enable text compression
+    * Ensure text remains visible during webfont load
+    * Image elements do not have explicit width and height
+    * Serve static assets with an efficient cache policy
+    * Avoid chaining critical requests
+    * Keep request counts low and transfer sizes small 
+    * Largest Contentful Paint element 
+    * Avoid large layout shifts
+    * Avoid long main-thread tasks 
 
 #### Quiz Page
 
+Initial testing: [Desktop](assets/images/lighthouse-desktop-quiz1.png) ~ [Mobile](assets/images/lighthouse-mobile-quiz1.png)
+
+Recommendations:
+
+* Desktop
+    * Serve images in next-gen formats
+    * Efficiently encode images
+    * Properly size images
+    * Eliminate render-blocking resources
+    * Ensure text remains visible during webfont load
+    * Image elements do not have explicit width and height
+    * Serve static assets with an efficient cache policy
+    * Avoid chaining critical requests 
+    * Keep request counts low and transfer sizes small 
+    * Largest Contentful Paint element 
+    * Avoid large layout shifts 
+
+* Mobile
+    * Serve images in next-gen formats
+    * Efficiently encode images
+    * Properly size images
+    * Eliminate render-blocking resources
+    * Reduce unused CSS
+    * Enable text compression
+    * Ensure text remains visible during webfont load
+    * Image elements do not have explicit width and height
+    * Serve static assets with an efficient cache policy 
+    * Avoid chaining critical requests 
+    * Keep request counts low and transfer sizes small 
+    * Largest Contentful Paint element 
+    * Avoid large layout shifts 
+    * Avoid long main-thread tasks 
+
 #### History Page
 
+Initial testing: [Desktop](assets/images/lighthouse-desktop-history1.png) ~ [Mobile](assets/images/lighthouse-mobile-history1.png)
+
+Recommendations:
+
+* Desktop
+    * Serve images in next-gen formats
+    * Properly size images
+    * Eliminate render-blocking resources
+    * Efficiently encode images
+    * Serve static assets with an efficient cache policy 
+    * Ensure text remains visible during webfont load
+    * Image elements do not have explicit width and height
+    * Avoid enormous network payloads 
+    * Avoid chaining critical requests
+    * Keep request counts low and transfer sizes small 
+    * Largest Contentful Paint element 
+    * Avoid large layout shifts 
+    
+* Mobile
+    * Serve images in next-gen formats
+    * Properly size images
+    * Efficiently encode images
+    * Eliminate render-blocking resources
+    * Reduce unused CSS
+    * Enable text compression
+    * Serve static assets with an efficient cache policy 
+    * Ensure text remains visible during webfont load
+    * Image elements do not have explicit width and height
+    * Avoid enormous network payloads 
+    * Avoid chaining critical requests
+    * Keep request counts low and transfer sizes small 
+    * Largest Contentful Paint element 
+    * Avoid large layout shifts 
+    * Avoid long main-thread tasks 
+
 #### Thank You Page
+
+Initial testing: [Desktop](assets/images/lighthouse-desktop-thankyou1.png) ~ [Mobile](assets/images/lighthouse-mobile-thankyou1.png)
+
+Recommendations:
+
+* Desktop
+    * Properly size images
+    * Eliminate render-blocking resources
+    * Serve images in next-gen formats
+    * Ensure text remains visible during webfont load
+    * Image elements do not have explicit width and height
+    * Serve static assets with an efficient cache policy
+    * Avoid chaining critical requests
+    * Keep request counts low and transfer sizes small 
+    * Largest Contentful Paint element 
+    * Avoid large layout shifts 
+
+* Mobile
+    * Properly size images
+    * Serve images in next-gen formats
+    * Eliminate render-blocking resources
+    * Reduce unused CSS
+    * Efficiently encode images
+    * Enable text compression
+    * Ensure text remains visible during webfont load
+    * Image elements do not have explicit width and height
+    * Serve static assets with an efficient cache policy 
+    * Avoid chaining critical requests 
+    * Keep request counts low and transfer sizes small 
+    * Largest Contentful Paint element 
+    * Avoid large layout shifts 
+    * Avoid long main-thread tasks 
 
 ### Full Testing
 

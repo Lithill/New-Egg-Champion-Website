@@ -249,7 +249,7 @@ footer {
 
 #big-egg-1 {
 	height: 100vh;
-	background: url("../images/big-egg-1.jpg") no-repeat center;
+	background: url("../images/big-egg-1.webp") no-repeat center;
 	background-size: cover;
 	overflow: hidden;
 	margin-top: 66px;
@@ -266,7 +266,7 @@ footer {
 
 #big-egg-2 {
 	height: 100vh;
-	background: url("../images/big-egg-2.jpg") no-repeat center;
+	background: url("../images/big-egg-2.webp") no-repeat center;
 	background-size: contain;
 	overflow: hidden;
 }
@@ -278,7 +278,7 @@ footer {
 
 #big-egg-3 {
 	height: 100vh;
-	background: url("../images/big-egg-3.jpg") no-repeat center;
+	background: url("../images/big-egg-3.webp") no-repeat center;
 	background-size: contain;
 	overflow: hidden;
 }
