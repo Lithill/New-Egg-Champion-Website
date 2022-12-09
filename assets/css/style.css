@@ -25,11 +25,32 @@ p {
 
 /* ------------------------------ Misc ----------------------------------- */
 
-#menu a:hover, #chevron1:hover, #chevron2:hover, #chevron3:hover, #chevron4:hover, #chevron5:hover, #chevron6:hover, #chevron7:hover, #chevron8:hover, #chevron1-mobile:hover, #chevron2-mobile:hover, #chevron3-mobile:hover {
+#menu a:hover, 
+#chevron1:hover, 
+#chevron2:hover, 
+#chevron3:hover, 
+#chevron4:hover, 
+#chevron5:hover, 
+#chevron6:hover, 
+#chevron7:hover, 
+#chevron8:hover, 
+#chevron1-mobile:hover, 
+#chevron2-mobile:hover, 
+#chevron3-mobile:hover {
 	color: #FFD800;
 }
 
-#chevron1, #chevron2, #chevron3, #chevron4, #chevron5, #chevron6, #chevron7, #chevron8, #chevron1-mobile, #chevron2-mobile, #chevron3-mobile {
+#chevron1, 
+#chevron2, 
+#chevron3, 
+#chevron4, 
+#chevron5, 
+#chevron6, 
+#chevron7, 
+#chevron8, 
+#chevron1-mobile, 
+#chevron2-mobile, 
+#chevron3-mobile {
 	color: white;
 	text-decoration: none;
 }
@@ -114,24 +135,24 @@ a {
 header {
 	background-color: black;
 	height: 60px;
-  border: 3px solid #dfbc78;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  left: 0;
+  	border: 3px solid #dfbc78;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
 	z-index: 5;
 }
 
 #right-logo {
-  height: 100px;
-  width: 100px;
-  background-image: url("../images/right-logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right top;
-  position: fixed;
-  top: 15px;
-  right: 15px;
+	height: 100px;
+	width: 100px;
+	background-image: url("../images/right-logo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right top;
+	position: fixed;
+	top: 15px;
+	right: 15px;
 	z-index: 6;
 }
 
@@ -155,7 +176,14 @@ footer {
 
 /* ------------------------- Page Title Text ------------------------------ */
 
-#big-egg-1-text, #big-egg-2-text, #big-egg-3-text, .title-text, #quiz-egg-text, #history-egg-text, #shop-egg-text, #news-egg-text {
+#big-egg-1-text, 
+#big-egg-2-text, 
+#big-egg-3-text, 
+.title-text, 
+#quiz-egg-text, 
+#history-egg-text, 
+#shop-egg-text, 
+#news-egg-text {
 	font-size: 300%;
 	text-transform: uppercase;
 	position: absolute;
@@ -174,14 +202,14 @@ footer {
 
 .text-container {
 	position: relative;
-  height: 100%;
+  	height: 100%;
 }
 
 .title-image-and-text {
 	position: absolute;
 	top: 50%;
-  left: 32%;
-  transform: translate(-50%, -50%);
+	left: 32%;
+	transform: translate(-50%, -50%);
 	object-fit: contain;
 }
 
@@ -191,8 +219,8 @@ footer {
 }
 
 .title-text {
-  top: 50%;
-  left: 100%;
+	top: 50%;
+	left: 100%;
 	z-index: 2;
 	white-space: nowrap;
 }
@@ -229,7 +257,7 @@ footer {
 
 #big-egg-1-text {
 	top: 50%;
-  left: 80%;
+  	left: 80%;
 }
 
 #big-egg-1-mobile-text, #big-egg-2-mobile-text, #big-egg-3-mobile-text {
@@ -245,7 +273,7 @@ footer {
 
 #big-egg-2-text {
 	top: 50%;
-  left: 20%;
+  	left: 20%;
 }
 
 #big-egg-3 {
@@ -257,25 +285,25 @@ footer {
 
 #big-egg-3-text {
 	top: 85%;
-  left: 50%;
+  	left: 50%;
 }
 
 /* Took code for iframe-container and iframe from [w3schools] (https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) and [Stack Overflow] (https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally) */
 
 .iframe-container {
 	position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
+	overflow: hidden;
+	padding-top: 56.25%;
 }
 
 iframe {
 	position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 70%;
-  height: 70%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 70%;
+	height: 70%;
 	display: block;
 	margin: 0 auto;
 	border: none; 
@@ -410,7 +438,7 @@ a:hover {
 /* Partly taken from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ and http://www.java2s.com/Code/HTMLCSS/Tags/borderforblockquote.htm*/
 blockquote {
 	text-align: center;
-  quotes: "“" "”" "‘" "’";
+  	quotes: "“" "”" "‘" "’";
 	font-size: 22px;
 	font-style: italic;
 	width: 90%;
@@ -421,13 +449,13 @@ blockquote {
 
 /* Next two blocks are partly taken from https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/ */
 blockquote::before {
-  content: open-quote;
+  	content: open-quote;
 	font-size: 22px;
 	color: #bb9260;
 }
 
 blockquote::after {
-  content: close-quote;
+  	content: close-quote;
 	font-size: 22px;
 	color: #bb9260;
 }
@@ -448,8 +476,8 @@ blockquote::after {
 #necklace {
 	width: 25%;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 20px;
 }
 
@@ -465,17 +493,17 @@ blockquote::after {
 
 #shop-box {
 	background-image: url("../images/feet.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
+	background-repeat: no-repeat;
+	background-size: contain;
 	background-position: center right;
 	margin-right: 220px;
 }
 
 #shop-info {
-  font-size: 26px;
-  text-align: center;
-  color: #A8ACAD;
-  padding-top: 40px;
+	font-size: 26px;
+	text-align: center;
+	color: #A8ACAD;
+	padding-top: 40px;
 	padding-bottom: 40px;
 	background: rgba(0,0,0,0.80);
 	line-height: 2;
@@ -488,7 +516,7 @@ blockquote::after {
 /* Took the next few blocks from https://www.w3schools.com/howto/howto_css_three_columns.asp. */
 .column {
 	float: left;
-  width: 33.33%;
+  	width: 33.33%;
 	text-align: center;
 	line-height:150%;
 	padding: 120px 0;
@@ -496,7 +524,7 @@ blockquote::after {
 }
 
 .left, .right, .middle {
-  width: 33.33%;
+  	width: 33.33%;
 }
 
 .row {
@@ -504,9 +532,9 @@ blockquote::after {
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .shop-links {
@@ -549,46 +577,46 @@ blockquote::after {
 }
 
 .vs-background-text, .vs-background-text-2, .vs-name-left, .vs-name-right {
-		text-shadow: -10px 10px 1px black;
+	text-shadow: -10px 10px 1px black;
 }
 
 .vs-background-text {
 	font-size: 500%;
 	top: 50%;
-  left: 50%;
+  	left: 50%;
 	z-index: 2;
 }
 
 .vs-background-text-2 {
 	font-size: 200%;
 	top: 10%;
-  left: 10%;
+  	left: 10%;
 }
 
 .vs-name-left {
 	font-size: 200%;
 	top: 70vh;
-  left: 25vw;
+  	left: 25vw;
 	z-index: 1;
-  text-align: center;
+  	text-align: center;
 }
 
 .vs-name-right {
 	font-size: 200%;
 	top: 70vh;
-  left: 74.5vw;
+  	left: 74.5vw;
 	z-index: 1;
-  text-align: center;
+  	text-align: center;
 }
 
 .winner {
 	font-size: 600%;
 	text-transform: uppercase;
 	position: absolute;
-  top: 45%;
-  left: 30%;
-	transform: rotate(-20deg)
-             skew(-20deg);
+	top: 45%;
+	left: 30%;
+	transform: 	rotate(-20deg)
+             	skew(-20deg);
 	text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
 	z-index: 2;
 }
@@ -599,8 +627,8 @@ blockquote::after {
 	text-transform: uppercase;
 	position: absolute;
 	top: 10%;
-  left: 10%;
-  transform: translate(-50%, -50%);
+	left: 10%;
+	transform: translate(-50%, -50%);
 	text-shadow: -10px 10px 1px black;
 }
 
@@ -615,16 +643,16 @@ blockquote::after {
 .vs-left {
 	position: absolute;
 	top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
+	left: 25%;
+	transform: translate(-50%, -50%);
 	object-fit: contain;
 }
 
 .vs-right {
 	position: absolute;
 	top: 50%;
-  left: 75%;
-  transform: translate(-50%, -50%);
+	left: 75%;
+	transform: translate(-50%, -50%);
 	object-fit: contain;
 }
 
@@ -676,7 +704,13 @@ blockquote::after {
 		margin-bottom: 0;
 	}
 
-	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text, #history-egg-text, #news-egg-text, #quiz-egg-text, #shop-egg-text {
+	#big-egg-1-text, 
+	#big-egg-2-text, 
+	#big-egg-3-text, 
+	#history-egg-text, 
+	#news-egg-text, 
+	#quiz-egg-text, 
+	#shop-egg-text {
 		display: none;
 	}
 
@@ -689,7 +723,7 @@ blockquote::after {
 	}
 
 	#shop-box {
-	  margin: 0;
+	  	margin: 0;
 		padding: 0;
 		background: transparent;
 	}
@@ -702,11 +736,12 @@ blockquote::after {
 		padding: 0 30px;
 	}
 
-/* Quiz */
+	/* Quiz */
 
 	#egg-quiz {
 		background-size: cover;
 	}
+}
 
 @media screen and (max-width: 912px) {
 	.img-size {
@@ -900,6 +935,7 @@ blockquote::after {
 
 	#egg-quiz {
 		background-size: cover;
+	}
 }
 
 @media screen and (max-width: 944px) {
