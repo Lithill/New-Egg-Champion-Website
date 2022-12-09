@@ -518,7 +518,7 @@ blockquote::after {
 	float: left;
   	width: 33.33%;
 	text-align: center;
-	line-height:150%;
+	line-height: 150%;
 	padding: 120px 0;
 	border: none;
 }

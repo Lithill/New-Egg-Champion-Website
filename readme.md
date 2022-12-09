@@ -337,7 +337,28 @@ Then I thought that it may be because of the relationship between the header and
 
 ### Lighthouse
 
+I used Lighthouse through Chrome Developer Tools to test accessibility, performance, best practices and SEO of the website.
+
 #### Index Page
+
+Initial testing: [Desktop](assets/images/lighthouse-desktop-index1.png) ~ [Mobile](assets/images/lighthouse-mobile-index1.png)
+
+Recommendations:
+
+* Desktop
+    * Serve images in next-gen formats
+    * Efficiently encode images
+    * Ensure text remains visible during webfont load
+    * Some third-party resources can be lazy loaded with a facade 
+    * Does not use passive listeners to improve scrolling performance
+    * Image elements do not have explicit width and height
+    * Serve static assets with an efficient cache policy
+    * Avoid chaining critical requests 
+    * Keep request counts low and transfer sizes small 
+    * Largest Contentful Paint element 
+    * Avoid large layout shifts 
+    
+* Mobile
 
 #### News Page
 
