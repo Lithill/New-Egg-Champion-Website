@@ -248,8 +248,13 @@ The following issues were raised by friends and family who helped to test the we
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
 * [Index Page HTML](assets/images/html-checker-index.png)
-* [History Page HTML](assets/images/html-checker-history.png)
 * [News Page HTML](assets/images/html-checker-news.png)
+* [Shop Page HTML](assets/images/html-checker-shop.png)
+* [Quiz Page HTML](assets/images/html-checker-quiz.png)
+* [History Page HTML](assets/images/html-checker-history.png)
+* [Thank You Page HTML](assets/images/html-checker-thankyou.png)
+* [Stylesheet CSS](assets/images/html-checker-css.png)
+
 
 ### Solved Bugs
 
