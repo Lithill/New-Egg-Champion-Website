@@ -179,6 +179,8 @@ HTML5 and CSS3 were used to create this website.
 - [Zazzle](https://www.zazzle.co.uk/) was used to create functioning merchandise links.
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/) was used to troubleshoot and test features and solve issues with responsiveness and styling.
 - [Am I Responsive?](https://ui.dev/amiresponsive) was used to show the website image on a range of devices.
+- [Any WEBP](https://anywebp.com/) was used to convert website images into webp format.
+- [Tiny PNG](https://tinypng.com/) was used to compress website images without losing quality.
   
 ## Deployment and Local Development
 
