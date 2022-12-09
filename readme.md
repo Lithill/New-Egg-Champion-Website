@@ -245,7 +245,7 @@ The following issues were raised by friends and family who helped to test the we
 
 ### W3C Validator
 
-The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML on all pages of the website. The [W3C CSS Validator](https://jigsaw.w3.org/) was used to validate CSS in the style.css file.
 
 * [Index Page HTML](assets/images/html-checker-index.png)
 * [News Page HTML](assets/images/html-checker-news.png)
