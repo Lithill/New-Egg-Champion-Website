@@ -145,7 +145,7 @@ header {
 #right-logo {
 	height: 100px;
 	width: 100px;
-	background-image: url("../images/right-logo.png");
+	background-image: url("../images/right-logo.webp");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right top;

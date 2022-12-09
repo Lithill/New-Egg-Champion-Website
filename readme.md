@@ -326,6 +326,8 @@ Then I thought that it may be because of the relationship between the header and
     
 23) "VS" text on news page was appearing over the header when scrolling down the page. I fixed this by adding "z-index: 5;" to the CSS for the header.
 
+24) When I changed the right-logo to webp format, it disappeared in desktop view, but not in mobile view. This is because I forgot to change the format in the stylesheet too.
+
 ### Known Bugs
 
 * I could not find a way to include image caption on wrapped image, so I removed the caption.
