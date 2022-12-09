@@ -43,7 +43,6 @@ Egg Champion is a world-wide sport with a rich history. The championship is held
     ![Upcoming Match Video Advert](assets/images/user-story-video.jpg)
     ![Link to YouTube Channel](assets/images/user-story-subscribe.jpg)
 * To sell egg champion merchandise to fans.
-    
 
 #### First Time Visitor Goals
 
@@ -172,6 +171,7 @@ HTML5 and CSS3 were used to create this website.
 - [Google Fonts](https://fonts.google.com/) was used to import IM Fell Double Pica, Trirong, and League Gothic.
 - [Font Awesome](https://fontawesome.com/) was used on the footer for the social media icons.
 - [Replit](replit.com) was used as the main programme to write the code, which was then sent to GitHub for version control. The reader can see the [Replit version here](https://replit.com/@RossHamilton/New-Egg-Champion-Website#index.html).
+- [Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to commit to Git and Push to GitHub.
 - [GitHub](https://github.com/) was used to store the project's code after being pushed from Replit, and to handle version control.
 - [Paint.Net](https://www.getpaint.net/download.html) was used to create the logos on each corner of the header.
 - [InVideo](https://invideo.io/) was used to create the video on the index page. 
@@ -246,6 +246,10 @@ The following issues were raised by friends and family who helped to test the we
 ### W3C Validator
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+* [Index Page HTML](assets/images/html-checker-index.png)
+* [History Page HTML](assets/images/html-checker-history.png)
+* [News Page HTML](assets/images/html-checker-news.png)
 
 ### Solved Bugs
 
@@ -323,6 +327,7 @@ Then I thought that it may be because of the relationship between the header and
 * In some laptop views (Nest Hub, Nes Hub Max and Latitude 7420), you cannot see the heading text of the index page without scrolling down.
 * Chevron links do not always take you to where you expect they will on Latitude 7420 with Chrome, and Gigabyte laptop with Firefox. This also needs testing on other sized screens with different browsers.
 * The video seems to be having difficulty playing in Firefox.
+* The navigation bar does not have a border on it's right side.
 
 ### Lighthouse
 

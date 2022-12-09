@@ -1,4 +1,4 @@
- @import url(https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&family=Trirong&family=League+Gothic);
+@import url(https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&family=Trirong&family=League+Gothic);
 
 * {
 	margin:0;
@@ -25,11 +25,11 @@ p {
 
 /* ------------------------------ Misc ----------------------------------- */
 
-#menu a:hover, #chevron1:hover, #chevron2:hover, #chevron3:hover, #chevron4:hover, #chevron5:hover, #chevron6:hover, #chevron7:hover, #chevron8:hover {
+#menu a:hover, #chevron1:hover, #chevron2:hover, #chevron3:hover, #chevron4:hover, #chevron5:hover, #chevron6:hover, #chevron7:hover, #chevron8:hover, #chevron1-mobile:hover, #chevron2-mobile:hover, #chevron3-mobile:hover {
 	color: #FFD800;
 }
 
-#chevron1, #chevron2, #chevron3, #chevron4, #chevron5, #chevron6, #chevron7, #chevron8 {
+#chevron1, #chevron2, #chevron3, #chevron4, #chevron5, #chevron6, #chevron7, #chevron8, #chevron1-mobile, #chevron2-mobile, #chevron3-mobile {
 	color: white;
 	text-decoration: none;
 }
@@ -58,11 +58,12 @@ hr {
 
 .page-intro {
 	font-size: 26px;
-  text-align: center;
-  color: #A8ACAD;
+  	text-align: center;
+  	color: #A8ACAD;
 	line-height: 2;
 	font-weight: bold; 
 	padding-bottom: 20px;
+	margin-top: 500px;
 }
 
 a {
@@ -325,7 +326,6 @@ input[name="mayo"] {
 	text-align: center;
 }
 
-/* Change this below - not h2 */
 #egg-quiz h2 {
 	color: #F4F4F4;
 	font-family: Trirong;
@@ -483,7 +483,6 @@ blockquote::after {
 
 .zazzle-image {
 	max-width: 80%;
-	max-height: auto;
 }
 
 /* Took the next few blocks from https://www.w3schools.com/howto/howto_css_three_columns.asp. */
@@ -901,8 +900,6 @@ blockquote::after {
 
 	#egg-quiz {
 		background-size: cover;
-	}
-	
 }
 
 @media screen and (max-width: 944px) {
@@ -994,5 +991,4 @@ blockquote::after {
 		margin: 0 auto;
 		background-attachment: fixed;
 	}
-	
-} 
+}
