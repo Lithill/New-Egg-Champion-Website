@@ -330,14 +330,15 @@ Then I thought that it may be because of the relationship between the header and
 
 24) When I changed the right-logo to webp format, it disappeared in desktop view, but not in mobile view. This is because I forgot to change the format in the stylesheet too.
 
+25) In some laptop views (Nest Hub, Nes Hub Max and Latitude 7420), you could not see the heading text of the index page without scrolling down. This was fixed by changing width in existing media queries. 
+
 ### Known Bugs
 
-* I could not find a way to include image caption on wrapped image, so I removed the caption.
-* In some laptop views (Nest Hub, Nes Hub Max and Latitude 7420), you cannot see the heading text of the index page without scrolling down.
 * Chevron links do not always take you to where you expect they will on Latitude 7420 with Chrome, and Gigabyte laptop with Firefox. This also needs testing on other sized screens with different browsers.
 * The video seems to be having difficulty playing in Firefox.
 * The navigation bar does not have a border on its' right side.
 * The Egg Champion logo in the video does not have a transparent background. Therefore the fireworks in the background are not visible when they should be. 
+* In some laptop views (Nest Hub, Nes Hub Max and Latitude 7420), you cannot see the top of the header image in the index page.
 
 ### Lighthouse
 

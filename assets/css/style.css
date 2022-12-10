@@ -675,11 +675,8 @@ blockquote::after {
 
 /* ------------------------ Mobiles / Tablets ----------------------------- */
 
+/* Index Page */
 @media screen and (min-width: 1366px) and (max-width: 1618px) {
-	#quiz-egg-text, #history-egg-text, #shop-egg-text, #news-egg-text {
-	  left: 75%;
-	}
-
 	#big-egg-1-text {
 		left: 85%;
 	}
@@ -693,23 +690,27 @@ blockquote::after {
 	}
 }
 
-@media screen and (max-width: 1365px) {
-	#big-egg-1, #big-egg-2, #big-egg-3, #history-egg, #shop-egg, #news-egg, #quiz-egg {
+@media screen and (min-width: 944px) and (max-width: 1317px) { 
+	#big-egg-1, #big-egg-2, #big-egg-3, .container {
+	  height: 70vw;
+  }
+
+  #big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
+	  position: static;
+	  text-align: center;
+	  font-size: 400%;
+  }
+}
+
+@media screen and (max-width: 1317px) {
+	#big-egg-1, #big-egg-2, #big-egg-3 {
 		height: 60vh;
 		background-position: center center;
-	}
-	
-	.margin-bottom {
-		margin-bottom: 0;
 	}
 
 	#big-egg-1-text, 
 	#big-egg-2-text, 
-	#big-egg-3-text, 
-	#history-egg-text, 
-	#news-egg-text, 
-	#quiz-egg-text, 
-	#shop-egg-text {
+	#big-egg-3-text {
 		display: none;
 	}
 
@@ -719,6 +720,53 @@ blockquote::after {
 		font-family: "League Gothic";
 		text-transform: uppercase;
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 944px) {
+	#big-egg-1, #big-egg-2, #big-egg-3 {
+		height: 100vw;
+	}
+
+	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
+		position: static;
+		text-align: center;
+		font-size: 200%;
+	}
+}
+
+@media screen and (max-width: 689px) {
+	#big-egg-2, #big-egg-3 {
+		background-size: cover;
+	}
+}
+/* ---------- */
+
+@media screen and (min-width: 1366px) and (max-width: 1618px) {
+	#quiz-egg-text, #history-egg-text, #shop-egg-text, #news-egg-text {
+	  left: 75%;
+	}
+
+	#history-box {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 1365px) {
+	#history-egg, #shop-egg, #news-egg, #quiz-egg {
+		height: 60vh;
+		background-position: center center;
+	}
+	
+	.margin-bottom {
+		margin-bottom: 0;
+	}
+
+	#history-egg-text, 
+	#news-egg-text, 
+	#quiz-egg-text, 
+	#shop-egg-text {
+		display: none;
 	}
 
 	#shop-box {
@@ -734,8 +782,6 @@ blockquote::after {
 	.mobile-padding {
 		padding: 0 30px;
 	}
-
-	/* Quiz */
 
 	#egg-quiz {
 		background-size: cover;
@@ -919,11 +965,6 @@ blockquote::after {
 		margin-left: 15px;
 	}
 
-	/* 	Index */
-	#big-egg-2, #big-egg-3 {
-		background-size: cover;
-	}
-
 	/* 	History */
 	#article {
 		padding: 6px 6px;
@@ -977,16 +1018,6 @@ blockquote::after {
 }
 
 @media screen and (min-width: 944px) and (max-width: 1417px) { 
-  	#big-egg-1, #big-egg-2, #big-egg-3, .container {
-		height: 70vw;
-	}
-
-	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text {
-		position: static;
-		text-align: center;
-		font-size: 400%;
-	}
-
 	#egg-quiz {
 		background-size: cover;
 	}
@@ -1011,11 +1042,11 @@ blockquote::after {
 		margin-left: 15px;
 	}
 	
-	#big-egg-1, #big-egg-2, #big-egg-3, .container {
+	.container {
 		height: 100vw;
 	}
 
-	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text, #history-egg-text, #shop-egg-text {
+	#history-egg-text, #shop-egg-text {
 		position: static;
 		text-align: center;
 		font-size: 200%;
