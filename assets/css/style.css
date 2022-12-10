@@ -788,7 +788,7 @@ blockquote::after {
 	}
 }
 
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 1188px) {
 	.column {
 		float: none;
   		width: 100%;
@@ -806,7 +806,7 @@ blockquote::after {
 	.title-text {
 		position: static;
 		margin: 0 auto;
-		font-size: 150%;
+		font-size: 200%;
 		white-space: normal;
 	}
 
@@ -816,7 +816,7 @@ blockquote::after {
 	}
 
 	.title-img-size {
-		width: 60vw;
+		width: 50vw;
 		height: auto;
 	}
 
