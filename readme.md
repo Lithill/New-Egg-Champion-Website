@@ -594,7 +594,7 @@ Please find the current Lighthouse stats below for each page.
 
 ##### Quiz Page
 
-[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
+[Desktop](assets/images/lighthouse-desktop-quiz2.png) ~ [Mobile](assets/images/lighthouse-mobile-quiz2.png)
 
 ##### History Page
 
