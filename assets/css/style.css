@@ -1046,8 +1046,11 @@ blockquote::after {
 
 	.img-right-wrap, .img-left-wrap, #necklace {
 		float: none;
-		padding: 10px;
-		width: 90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		padding: 30px 40px 30px 40px;
 	}
 
 	.margin-bottom {
