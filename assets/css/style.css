@@ -145,7 +145,7 @@ header {
 #right-logo {
 	height: 100px;
 	width: 100px;
-	background-image: url("../images/right-logo.webp");
+	background-image: url("assets/images/right-logo.webp");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right top;
@@ -248,7 +248,7 @@ footer {
 
 #big-egg-1 {
 	height: 100vh;
-	background: url("../images/big-egg-1.webp") no-repeat center;
+	background: url("assets/images/big-egg-1.webp") no-repeat center;
 	background-size: cover;
 	overflow: hidden;
 	margin-top: 66px;
@@ -265,7 +265,7 @@ footer {
 
 #big-egg-2 {
 	height: 100vh;
-	background: url("../images/big-egg-2.webp") no-repeat center;
+	background: url("assets/images/big-egg-2.webp") no-repeat center;
 	background-size: contain;
 	overflow: hidden;
 }
@@ -277,7 +277,7 @@ footer {
 
 #big-egg-3 {
 	height: 100vh;
-	background: url("../images/big-egg-3.webp") no-repeat center;
+	background: url("assets/images/big-egg-3.webp") no-repeat center;
 	background-size: contain;
 	overflow: hidden;
 }
@@ -312,7 +312,7 @@ iframe {
 
 #quiz-egg {
 	height: 100vh;
-	background: url("../images/quiz-egg.jpg") no-repeat left;
+	background: url("assets/images/quiz-egg.jpg") no-repeat left;
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 66px;
@@ -320,7 +320,7 @@ iframe {
 
 #egg-quiz {
 	margin-top: 40px;
-	background: url("../images/toast.webp") no-repeat center center;
+	background: url("assets/images/toast.webp") no-repeat center center;
 	background-color: #313131;
 	background-size: 60%;
 }
@@ -399,14 +399,14 @@ input:hover, select:hover, button {
 
 #history-egg {
 	height: 100vh;
-	background: url("../images/history-egg.jpg") no-repeat left;
+	background: url("assets/images/history-egg.jpg") no-repeat left;
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 66px;
 }
 
 #history-box {
-	background-image: url("../images/egg-timer.webp");
+	background-image: url("assets/images/egg-timer.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -484,14 +484,14 @@ blockquote::after {
 
 #shop-egg {
 	height: 100vh;
-	background: url("../images/shop-egg.jpg") no-repeat left;
+	background: url("assets/images/shop-egg.jpg") no-repeat left;
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 66px;
 }
 
 #shop-box {
-	background-image: url("../images/feet.webp");
+	background-image: url("assets/images/feet.webp");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center right;
@@ -547,7 +547,7 @@ blockquote::after {
 
 #news-egg {
 	height: 100vh;
-	background: url("../images/news-egg.jpg") no-repeat left;
+	background: url("assets/images/news-egg.jpg") no-repeat left;
 	background-size: contain;
 	overflow: hidden;
 	margin-top: 66px;
@@ -560,12 +560,12 @@ blockquote::after {
 }
 
 .vs-background {
-	background: url("../images/vs-background.webp") no-repeat center;
+	background: url("assets/images/vs-background.webp") no-repeat center;
 	background-size: cover;
 }
 
 #vs-background-flipped {
-	background: url("../images/vs-background-flipped.webp") no-repeat center;
+	background: url("assets/images/vs-background-flipped.webp") no-repeat center;
 	background-size: cover;
 }
 
