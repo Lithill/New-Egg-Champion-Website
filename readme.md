@@ -224,31 +224,6 @@ To clone the New-Egg-Champion-Website repository:
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
-The following issues were raised by my tutor as feedforward:
-
-* There was a lack of control around font sizes. Font sizes have now been more clearly defined throughout the site. 
-* The article on the history page was difficult to read. Padding was added to make the column thinner that was used for the article. 
-
-The following issues were raised during my mid project meeting with my mentor:
-
-* The file path for images did not work when accessed through GitPages. The file path has been changed to fix this.
-* The video on the homepage was too large on mobile view and created a vertical scroll. It has since been resized.
-* The links on the navigation bar overspilled on smaller mobile views. The links have been made smaller so that this does not happen.
-* It was felt that users would expect the chevrons to be clickable. This has been implemented. 
-* Images on the news page were not responsive and overlapped each other on smaller screens. They have now been made a percentage of the screen width to overcome this. 
-* Images from the Zazzle embed code were blurry. Images were created on Spreadshirt instead to be used.
-* Heading titles and images were too spaced out in mobile view. This was the effect of using a background image, so the code was re-written to use an image instead.
-* Heading images did not centre in mobile view. This has been rectified. 
-* Spacing on the egg quiz form needed improving. This has now been done.
-* The quiz needed a thank you page. This has been created and linked to the form submission button.
-* Spacing was too wide between images and text on the history page. This has now been changed.
-  
-The following issues were raised by friends and family who helped to test the website:
-
-* The "vs" text on the news page goes over the navigation bar when scrolling down the page. This has now been fixed.
-* Clicking on chevron navigation links will not scroll to the expected areas of a page on a Latitude 7420 laptop (Display resolution 1920x1280 pixels). This will be fixed in a future update.
-* The index page does not display "Have They" text without scrolling down on a Latitude 7420 laptop. This will be fixed in a future update.
-
 ### W3C Validator
 
 The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML on all pages of the website. The [W3C CSS Validator](https://jigsaw.w3.org/) was used to validate CSS in the style.css file.
@@ -264,77 +239,80 @@ The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTM
 
 ### Solved Bugs
 
-1) The Egg Champion left logo would not change size via pixel width in CSS. So, I put the id in the "img" rather than "a".
-
-2) Left logo was overspilling header. Tried overflow: hidden, and z-index but these did not work.
-	
-	#left-logo {
-		height: auto;
-		width: 250px;
-		float: left;
-		z-index: 1;
-		overflow: hidden;
-	}
-
-I also tried giving header z-index 2 and that didn't work.
-
-Then I thought that it may be because of the relationship between the header and the image, so I set the left-logo image height to 100% and that worked. But then the rest of the nav words are out of line, so I needed to change their line-height.
-
-3) I needed to change the header height to pixels rather than % so that I could set the margin-top correctly for the 1st image on the index page to remove gaps or hiding of the image. This meant I also needed to change the line-height of the text again. 
-
-4) I could not seem to centre the text on big-egg-3. I tried text-align, and margin-left & right auto. These did not work, so I used right: 38%; instead.
-
-5) The index page needed a payoff, so I made a video. I had difficulty getting video to show. This website helped - [Free Code Camp](https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262). I then had difficulties with sizing and used this as I wanted it full screen - [Stack Overflow](https://stackoverflow.com/questions/24157940/iframe-height-auto-css). But it was too big, and text got missed out when you played it. Nothing I tried worked out, so I made a div to fit the video to. Ended up doing this, but it was not responsive:
-
- .container {
-    width: 100vi;
-    height: 655px;
- }
-
- .video {
-	 height: 100%;
-	 width: 100%;
- }
-
-6) I used the love running footer as the basis for my footer. I was having trouble with white space under footer. I read this - [Stack Overflow](https://stackoverflow.com/questions/54836610/why-is-the-background-color-of-my-footer-not-filling-my-entire-footer) and changed my background colour. But then when I put the height to 60px, the border rode up. Debugged in chrome and figured out it was the margin on the social network class.
-
-7) I wanted the menu link of the page you are on to be yellow. But the 'active' class was being overridden by "menu a"'s text colour. Making it an id did not work. So, I took the text colour out of "menu a" and created a "not-active" class where the text is white and applied that to all other header links. 
-
-8) Mobile fix for header - I created a new link image in the header and turned off display when not in mobile view. This is how I switched logo images in mobile view.
-
-9) I wanted the heading images and titles to fill the screen. I tested them on a larger screen, and they looked messy. So, I changed the image code to 100vh instead of width 100%. 
-
-10) I fixed the positioning for the index page. I found code on [Stack Overflow](https://stackoverflow.com/questions/45641440/vertically-center-content-in-a-vh-height-div), which helped me to vertically centre the text in the "It Takes" div.
-   
-11) I realised the "It Takes" section did not look centred because the image it was below was not centred. I edited the image so that the file itself was centred.
-
-12) The video did not behave as expected in mobile view. It did not become full screen when the phone was rotated, so I found the code on [YouTube](https://support.google.com/youtube/answer/171780?hl=en). I must have previously edited this part of the code out.
-
-13) Found out how to create text-shadow via CSS at [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow). I used this on the news page. 
+1) 
+    1) Expected behaviour: Left logo contained in navigation bar.
+    2) Actual behaviour: Left logo overspilling navigation bar.
+    3) Solution: Set the left-logo image height to 100% and edited line-height to compensate. 
     
-14) The video on the home page was too big for the container in tablet and mobile views. This resulted in a side scroll appearing at narrower screen widths. I used chrome developer tools to confirm that the video was the culprit. I pasted a fresh embed code from YouTube, and then used code from [w3schools](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) to make the video responsive. This removed the side-scroll. I then wanted to make the video smaller, but noticed that when I did, it was no longer centred. I fixed it by using code I found from [Stack Overflow](https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally)
-    
-15) Improved legibility of news page fight information, as users found the images confusing. I used the following sources to help with this code: [Stack Overflow for outlining](https://stackoverflow.com/questions/4772906/css-is-it-possible-to-add-a-black-outline-around-each-character-in-text), [w3schools for centering text over an image](https://www.w3schools.com/howto/howto_css_image_text.asp), and [CodePen](https://codepen.io/gylidian/pen/zyabWX) for slanting text.
-    
-16) The images from the Zazzle embed code were blurry. I tried to get better images from the Zazzle website but could not. Instead, I used [Spreadshirt](https://www.spreadshirt.co.uk/create-your-own) to create mock-up images of the merchandise to replace the Zazzle images on the Shop page.
+2)
+    1) Expected behaviour: Top of first div image in line with the bottom of the navigation bar.
+    2) Actual behaviour: Top of first div image hidden under navigation bar.
+    3) Solution: Changed header height to pixels and set the same amount of pixels as margin-top for first div image.
 
-17) There was too much space between title images and text in longer mobile views, which was difficult to lessen when the image was a background. So, I switched the background-image to an image when the screen hit a lower width. I later decided this made the code unnecessarily complex and made the title image all images instead of background-images.
-    
-18) When testing on my iPhone SE, I noticed this new method made the title image and text spill under navigation bars. So, I changed the title image and text sizes to fit. 
-    
-19) When testing all mobile sizes in chrome developer tools, I noticed that the title image became distorted in 912px x 1368px (Surface Pro 7). So, I changed the mobile media query that pushes the text under the images to start at 912px wide instead.
-    
-20) When testing all mobile sizes in chrome developer tools, I noticed that the history link is pushed off the navigation bar in the Galaxy Fold view. So, I made the link text slightly smaller in mobile view.
-    
-21) I added customisation for quiz radio buttons with code from [Useful Angle](https://usefulangle.com/post/389/css-radio-button-color).
+3)
+    1) Expected behaviour: Footer sitting at bottom of the page.
+    2) Actual behaviour: Footer riding up and leaving a gap at the bottom of the page. 
+    3) Solution: Decrease the margin on the social network class.
 
-22) Attempted to slim down YouTube html embed code. But I was not able to find information about how to turn the following into CSS - "allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen".
+4)
+    1) Expected behaviour: Current page's menu link highlighted in yellow.
+    2) Actual behaviour: Current page's menu link the same colour as the rest.
+    3) Solution: 'Active' class was being overridden by "menu s"'s in the css. Took text colour out of "menu a" and created a "not-active" class to use instead to apply to all other header links. 
+
+5)
+    1) Expected behaviour: "It Takes" text on index page looks centered. 
+    2) Actual behaviour: "It Takes" text on index page does not look centered. 
+    3) Solution: Edit image directly above it so that the image is centered. White space was uneven. 
+
+6)
+    1) Expected behaviour: Video becomes full screen when mobile is rotated. 
+    2) Actual behaviour: Video does not become full screen when mobile is rotated. 
+    3) Solution: Re-copy and paste code from YouTube. 
+
+7)
+    1) Expected behaviour: Sharp images on Zazzle products.
+    2) Actual behaviour: Blurry images on Zazzle products.
+    3) Solution: Used [Spreadshirt](https://www.spreadshirt.co.uk/create-your-own) to create mock-up images of the merchandise to replace the Zazzle images on the Shop page.
+
+8)
+    1) Expected behaviour: Title image and text occupy their own space.
+    2) Actual behaviour: Title image and text spill under navigation bar.
+    3) Solution: Changed title image and text sizes to fit.
+
+9)
+    1) Expected behaviour: Title image maintains maintaines ratio.
+    2) Actual behaviour: Title image becomes distorted in 912px x 1368px (Surface Pro 7).
+    3) Solution: Changed the mobile media query that pushes the text under the images to start at 912px wide instead.
+
+10)
+    1) Expected behaviour: History link stay on navigation bar.
+    2) Actual behaviour: History link pushed off navigation bar on narrower screen widths. 
+    3) Solution: Made link text slightly smaller in mobile view. 
+
+11)
+    1) Expected behaviour: "VS" text scrolling underneath navigation bar.
+    2) Actual behaviour: "VS" text scrolling over navigation bar.
+    3) Solution: Added "z-index: 5;" to the CSS for the header. And "z-index: 6;" to right-logo.
     
-23) "VS" text on news page was appearing over the header when scrolling down the page. I fixed this by adding "z-index: 5;" to the CSS for the header.
+12)
+    1) Expected behaviour: User can see the heading text of the index page without scrolling down.
+    2) Actual behaviour: User cannot see the heading text of the index page without scrolling down.
+    3) Solution: Change width in existing media queries. 
 
-24) When I changed the right-logo to webp format, it disappeared in desktop view, but not in mobile view. This is because I forgot to change the format in the stylesheet too.
+13)
+    1) Expected behaviour: Images load on Git Pages
+    2) Actual behaviour: Images did not load on Git Pages
+    3) Solution: Change file path type
 
-25) In some laptop views (Nest Hub, Nes Hub Max and Latitude 7420), you could not see the heading text of the index page without scrolling down. This was fixed by changing width in existing media queries. 
+13)
+    1) Expected behaviour: No vertical scroll throughout the website
+    2) Actual behaviour: Verticle scroll on index page
+    3) Solution: Resize video on index page
+
+14)
+    1) Expected behaviour: Images not to overlap on news page.
+    2) Actual behaviour: Images overlap on news page.
+    3) Solution: Made image size based on percentage of screen width instead of pixel width.
 
 ### Known Bugs
 
