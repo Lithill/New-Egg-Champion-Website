@@ -37,9 +37,9 @@ Egg Champion is a world-wide sport with a rich history. The championship is held
 
 * To be able to view the site on a range of device sizes.
 * To make it easy for potential fans to find out:
-    * who the reigning champion is
+    * Who the reigning champion is
     ![Reigning Champion](assets/images/user-story-champion.jpg)
-    * and how to watch the next fight live. 
+    * And how to watch the next fight live. 
     ![Upcoming Match Video Advert](assets/images/user-story-video.jpg)
     ![Link to YouTube Channel](assets/images/user-story-subscribe.jpg)
 * To sell egg champion merchandise to fans.
@@ -81,7 +81,7 @@ The shop page was one of the last designed, so only has one early variation. It 
 
 ![Shop Page First Design](assets/images/shop-idea-1.jpg)
 
-I took inspiration from the [MMA Fighting](	https://www.mmafighting.com/) website's navigation bar. Which you can see influenced the design in the later versions.
+I took inspiration from the [MMA Fighting]( https://www.mmafighting.com/) website's navigation bar. Which you can see influenced the design in the later versions.
 
 I continued refining the design as I made the website, e.g., shrinking the egg in the right-hand corner, and making a footer for the social media icons. Therefore, I do not have any images that show the final design. 
 
@@ -125,7 +125,7 @@ The website is comprised of six pages, five of which are accessible from the nav
 
 * News Page:
 
-    * Link to the Egg Champion YouTube channel. (Shown in User Stories.)
+    * Link to the Egg Champion YouTube channel. 
     * Information about the most-recent Egg Champion fight results. 
 
 * Shop Page:
@@ -152,7 +152,6 @@ The website is comprised of six pages, five of which are accessible from the nav
 
     * Use JavaScript to create a fight scroll animation on the News Page.
     * Include images on history page that become full screen when you click on them.
-
 
 ## Accessibility
 
@@ -236,7 +235,6 @@ The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTM
 * [Thank You Page HTML](assets/images/html-checker-thankyou.png)
 * [Stylesheet CSS](assets/images/html-checker-css.png)
 
-
 ### Solved Bugs
 
 1) 
@@ -247,7 +245,7 @@ The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTM
 2)
     1) Expected behaviour: Top of first div image in line with the bottom of the navigation bar.
     2) Actual behaviour: Top of first div image hidden under navigation bar.
-    3) Solution: Changed header height to pixels and set the same amount of pixels as margin-top for first div image.
+    3) Solution: Changed header height to pixels and set the same number of pixels as margin-top for first div image.
 
 3)
     1) Expected behaviour: Footer sitting at bottom of the page.
@@ -257,12 +255,12 @@ The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTM
 4)
     1) Expected behaviour: Current page's menu link highlighted in yellow.
     2) Actual behaviour: Current page's menu link the same colour as the rest.
-    3) Solution: 'Active' class was being overridden by "menu s"'s in the css. Took text colour out of "menu a" and created a "not-active" class to use instead to apply to all other header links. 
+    3) Solution: 'Active' class was being overridden by "menu s"'s in the CSS. Took text colour out of "menu a" and created a "not-active" class to use instead to apply to all other header links. 
 
 5)
-    1) Expected behaviour: "It Takes" text on index page looks centered. 
-    2) Actual behaviour: "It Takes" text on index page does not look centered. 
-    3) Solution: Edit image directly above it so that the image is centered. White space was uneven. 
+    1) Expected behaviour: "It Takes" text on index page looks centred. 
+    2) Actual behaviour: "It Takes" text on index page does not look centred. 
+    3) Solution: Edit image directly above it so that the image is centred. White space was uneven. 
 
 6)
     1) Expected behaviour: Video becomes full screen when mobile is rotated. 
@@ -280,7 +278,7 @@ The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTM
     3) Solution: Changed title image and text sizes to fit.
 
 9)
-    1) Expected behaviour: Title image maintains maintaines ratio.
+    1) Expected behaviour: Title image maintains ratio.
     2) Actual behaviour: Title image becomes distorted in 912px x 1368px (Surface Pro 7).
     3) Solution: Changed the mobile media query that pushes the text under the images to start at 912px wide instead.
 
@@ -306,7 +304,7 @@ The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTM
 
 13)
     1) Expected behaviour: No vertical scroll throughout the website
-    2) Actual behaviour: Verticle scroll on index page
+    2) Actual behaviour: Vertical scroll on index page
     3) Solution: Resize video on index page
 
 14)
@@ -318,9 +316,9 @@ The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTM
 
 * Chevron links do not always take you to where you expect they will. This is especially apparent on Latitude 7420 with Chrome, and Gigabyte laptop with Firefox. This also needs testing on other sized screens with different browsers.
 * The video seems to be having difficulty playing in Firefox.
-* The Egg Champion logo in the video does not have a transparent background. Therefore the fireworks in the background are not visible when they should be. 
+* The Egg Champion logo in the video does not have a transparent background. Therefore, the fireworks in the background are not visible when they should be. 
 * In some laptop views (Nest Hub, Nes Hub Max and Latitude 7420), you cannot see the top of the header image in the index page.
-* History page egg is not centered on Galaxy Fold view.
+* History page egg is not centred on Galaxy Fold view.
 * On Nest Hub, Nest Hub MaxTitle, title eggs spill out of frame and text overlaps on History and Shop pages. 
 * Text under black and white long-sleeved t-shirt is badly spaced in mobile view, on shop page. 
 
@@ -552,7 +550,7 @@ Recommendations:
 As advised:
 * I compressed all of the website images
 * I changed all website image formats to webp
-* I took out all possible unused css code 
+* I took out all possible unused CSS code 
 * Missing aria-labels were added
 * The rest of the suggestions Lighthouse gave are either outside of the scope of this assignment, or outside of my ability due to hosting on Gitpod
 
