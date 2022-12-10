@@ -574,9 +574,9 @@ Recommendations:
 As advised:
 * I compressed all of the website images
 * I changed all website image formats to webp
-* I took out all unused css code possible. However, Lighthouse does not recognise when css code is used on a different page, so it still displays it as an issue. Furthmore, using fontawesome means that Lighthouse seems to pick up on the css code of theirs that I do not use. 
+* I took out all possible unused css code 
 * Missing aria-labels were added
-* The rest of the suggestions Lighthouse gave are either outside of the scope of this assignment, or outside of my ability due to hosting on Gitpod.
+* The rest of the suggestions Lighthouse gave are either outside of the scope of this assignment, or outside of my ability due to hosting on Gitpod
 
 Please find the current Lighthouse stats below for each page.
 
