@@ -2,7 +2,7 @@
 
 This website was created for a fictional sport called Egg Champion. It gives up-to-date news on which egg is the current champion, history of the sport, a shop where fans can buy merchandise, and a quiz about eggs. It has been designed with a range of different screen sizes in mind. 
 
-!["Am I Responsive" image](assets/images/website.png)
+!["Am I Responsive" image](assets/images/website-pic.jpg)
 
 [View the live project here](https://lithill.github.io/New-Egg-Champion-Website/)
 
