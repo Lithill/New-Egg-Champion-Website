@@ -120,16 +120,18 @@ The website is comprised of six pages, five of which are accessible from the nav
 * Home Page:
 
     * Teaser images and text, used to build excitement and anticipation.
+    ![Index Page](assets/images/index-1.png)
     * Video trailer for the upcoming championship battle. 
 
 * News Page:
 
-    * Link to the Egg Champion YouTube channel.
-    * Information about the most-recent Egg Champion fight results.
+    * Link to the Egg Champion YouTube channel. (Shown in User Stories.)
+    * Information about the most-recent Egg Champion fight results. 
 
 * Shop Page:
 
     * Motivation for buying Egg Champion merchandise.
+     ![Shop Page](assets/images/shop-motivation.png)
     * Merchandise links that take the user to the Egg Champion [Zazzle Shop](https://www.zazzle.co.uk/store/egg_champion).
 
 * Quiz Page:
@@ -138,16 +140,18 @@ The website is comprised of six pages, five of which are accessible from the nav
 
 * History Page:
 
-    * An article about the history of the Egg Championship. 
+    * An article about the history of the Egg Championship.
+    ![History Page](assets/images/history-article.png) 
 
 * Thankyou Page:
 
     * Providing the objectively factual answers to the egg quiz. 
+    ![Thank You Page](assets/images/thankyou.png) 
 
 * Future Implementations:
 
     * Use JavaScript to create a fight scroll animation on the News Page.
-    * Include images on history page that go full screen when you click on them.
+    * Include images on history page that become full screen when you click on them.
 
 
 ## Accessibility
