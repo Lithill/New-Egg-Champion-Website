@@ -602,7 +602,7 @@ Please find the current Lighthouse stats below for each page.
 
 ##### Thank You Page
 
-[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
+[Desktop](assets/images/lighthouse-desktop-thankyou2.png) ~ [Mobile](assets/images/lighthouse-mobile-thankyou2.png)
 
 ### Full Testing
 
