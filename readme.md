@@ -598,7 +598,7 @@ Please find the current Lighthouse stats below for each page.
 
 ##### History Page
 
-[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
+[Desktop](assets/images/lighthouse-desktop-history2.png) ~ [Mobile](assets/images/lighthouse-mobile-history2.png)
 
 ##### Thank You Page
 
