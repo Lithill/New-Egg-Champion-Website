@@ -518,7 +518,7 @@ blockquote::after {
   	width: 33.33%;
 	text-align: center;
 	line-height: 150%;
-	padding: 120px 0;
+	padding: 60px 0;
 	border: none;
 }
 
@@ -1072,7 +1072,7 @@ blockquote::after {
   		width: 100%;
 		text-align: center;
 		line-height:150%;
-		padding: 60px 0;
+		padding: 20;
 	}
 
 	#history-box {
