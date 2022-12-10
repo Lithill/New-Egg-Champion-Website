@@ -350,9 +350,11 @@ Then I thought that it may be because of the relationship between the header and
 
 I used Lighthouse through Chrome Developer Tools to test accessibility, performance, best practices and SEO of the website.
 
-#### Index Page
+#### Initial Testing
 
-Initial testing: [Desktop](assets/images/lighthouse-desktop-index1.png) ~ [Mobile](assets/images/lighthouse-mobile-index1.png)
+##### Index Page
+
+[Desktop](assets/images/lighthouse-desktop-index1.png) ~ [Mobile](assets/images/lighthouse-mobile-index1.png)
 
 Recommendations:
 
@@ -389,9 +391,9 @@ Recommendations:
     * Avoid large layout shifts 
     * Avoid long main-thread tasks 
 
-#### News Page
+##### News Page
 
-Initial testing: [Desktop](assets/images/lighthouse-desktop-news1.png) ~ [Mobile](assets/images/lighthouse-mobile-news1.png)
+[Desktop](assets/images/lighthouse-desktop-news1.png) ~ [Mobile](assets/images/lighthouse-mobile-news1.png)
 
 Recommendations:
 
@@ -426,9 +428,9 @@ Recommendations:
     * Avoid large layout shifts 
     * Avoid long main-thread tasks
 
-#### Shop Page
+##### Shop Page
 
-Initial testing: [Desktop](assets/images/lighthouse-desktop-shop1.png) ~ [Mobile](assets/images/lighthouse-mobile-shop1.png)
+[Desktop](assets/images/lighthouse-desktop-shop1.png) ~ [Mobile](assets/images/lighthouse-mobile-shop1.png)
 
 Recommendations:
 
@@ -461,9 +463,9 @@ Recommendations:
     * Avoid large layout shifts
     * Avoid long main-thread tasks 
 
-#### Quiz Page
+##### Quiz Page
 
-Initial testing: [Desktop](assets/images/lighthouse-desktop-quiz1.png) ~ [Mobile](assets/images/lighthouse-mobile-quiz1.png)
+[Desktop](assets/images/lighthouse-desktop-quiz1.png) ~ [Mobile](assets/images/lighthouse-mobile-quiz1.png)
 
 Recommendations:
 
@@ -496,9 +498,9 @@ Recommendations:
     * Avoid large layout shifts 
     * Avoid long main-thread tasks 
 
-#### History Page
+##### History Page
 
-Initial testing: [Desktop](assets/images/lighthouse-desktop-history1.png) ~ [Mobile](assets/images/lighthouse-mobile-history1.png)
+[Desktop](assets/images/lighthouse-desktop-history1.png) ~ [Mobile](assets/images/lighthouse-mobile-history1.png)
 
 Recommendations:
 
@@ -533,9 +535,9 @@ Recommendations:
     * Avoid large layout shifts 
     * Avoid long main-thread tasks 
 
-#### Thank You Page
+##### Thank You Page
 
-Initial testing: [Desktop](assets/images/lighthouse-desktop-thankyou1.png) ~ [Mobile](assets/images/lighthouse-mobile-thankyou1.png)
+[Desktop](assets/images/lighthouse-desktop-thankyou1.png) ~ [Mobile](assets/images/lighthouse-mobile-thankyou1.png)
 
 Recommendations:
 
@@ -566,6 +568,41 @@ Recommendations:
     * Largest Contentful Paint element 
     * Avoid large layout shifts 
     * Avoid long main-thread tasks 
+
+#### Fixes and Most Recent Lighthouse Testing
+
+As advised:
+* I compressed all of the website images
+* I changed all website image formats to webp
+* I took out all unused css code possible. However, Lighthouse does not recognise when css code is used on a different page, so it still displays it as an issue. Furthmore, using fontawesome means that Lighthouse seems to pick up on the css code of theirs that I do not use. 
+* Missing aria-labels were added
+* The rest of the suggestions Lighthouse gave are either outside of the scope of this assignment, or outside of my ability due to hosting on Gitpod.
+
+Please find the current Lighthouse stats below for each page.
+
+##### Index Page
+
+[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
+
+##### News Page
+
+[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
+
+##### Shop Page
+
+[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
+
+##### Quiz Page
+
+[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
+
+##### History Page
+
+[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
+
+##### Thank You Page
+
+[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
 
 ### Full Testing
 
