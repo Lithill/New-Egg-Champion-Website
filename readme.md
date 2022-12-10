@@ -590,7 +590,7 @@ Please find the current Lighthouse stats below for each page.
 
 ##### Shop Page
 
-[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
+[Desktop](assets/images/lighthouse-desktop-shop2.png) ~ [Mobile](assets/images/lighthouse-mobile-shop2.png)
 
 ##### Quiz Page
 
