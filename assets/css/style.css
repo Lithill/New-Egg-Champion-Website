@@ -743,60 +743,9 @@ blockquote::after {
 }
 
 @media screen and (max-width: 912px) {
-	.img-size {
-		width: 40vw;
-		height: auto;
-	}
-
-	.winner {
-		font-size: 5vw;
-		text-shadow: none;
-		background-color: black;
-		top: 48%;
-  	left: 33%;
-	}
-
-	.vs-background-text {
-		font-size: 10vw;
-		text-shadow: none;
-		background-color: black;
-		padding: 4px;
-	}
-
-	.vs-background-text-2, #round2, #round3 {
-		font-size: 10vw;
-		text-shadow: none;
-		background-color: black;
-		text-align: center;
-		top: 10%;
-	  left: 50%;
-		margin-top: 10%;
-		padding: 4px;
-	}
-
-	.vs-name-left {
-		font-size: 5vw;
-		top: 70%;
-	  left: 25%;
-		text-shadow: none;
-		background-color: black;
-		padding: 4px;
-		position: relative;
-	}
-
-	.vs-name-right {
-		font-size: 5vw;
-		top: 70%;
-	  left: 74.5%;
-		text-shadow: none;
-		background-color: black;
-		padding: 4px;
-		position: relative;
-	}
-
 	.column {
 		float: none;
-  	width: 100%;
+  		width: 100%;
 		text-align: center;
 		line-height:150%;
 		padding: 20px 0;
@@ -817,7 +766,7 @@ blockquote::after {
 
 	.title-image-and-text {
 		top: 50%;
-	  left: 50%;
+	  	left: 50%;
 	}
 
 	.title-img-size {
@@ -826,8 +775,8 @@ blockquote::after {
 	}
 
 	#form {
-	font-size: 18px;
-}
+		font-size: 18px;
+	}
 
 	#egg-quiz h2 {
 		font-size: 16px;
@@ -843,7 +792,113 @@ blockquote::after {
 
 }
 
-/* 	---------------------------- */
+/* For tablet view of News Page*/
+@media screen and (min-width: 626px) and (max-width: 912px) { 
+	.img-size {
+		width: 30vw;
+		height: auto;
+	}
+
+	.winner {
+		font-size: 4vw;
+		text-shadow: none;
+		background-color: black;
+		top: 48%;
+  		left: 33%;
+	}
+
+	.vs-background-text {
+		font-size: 7vw;
+		text-shadow: none;
+		background-color: black;
+		padding: 4px;
+	}
+
+	.vs-background-text-2, #round2, #round3 {
+		font-size: 7vw;
+		text-shadow: none;
+		background-color: black;
+		text-align: center;
+		top: 10%;
+	  	left: 50%;
+		margin-top: 10%;
+		padding: 4px;
+	}
+
+	.vs-name-left {
+		font-size: 5vw;
+		top: 70%;
+	  	left: 25%;
+		text-shadow: none;
+		background-color: black;
+		padding: 4px;
+		position: relative;
+	}
+
+	.vs-name-right {
+		font-size: 5vw;
+		top: 70%;
+	  	left: 74.5%;
+		text-shadow: none;
+		background-color: black;
+		padding: 4px;
+		position: relative;
+	}
+}
+
+/* For smaller mobile responsiveness for news page */
+@media screen and (max-width: 626px) {
+	.img-size {
+		width: 40vw;
+		height: auto;
+	}
+
+	.winner {
+		font-size: 5vw;
+		text-shadow: none;
+		background-color: black;
+		top: 48%;
+  		left: 33%;
+	}
+
+	.vs-background-text {
+		font-size: 10vw;
+		text-shadow: none;
+		background-color: black;
+		padding: 4px;
+	}
+
+	.vs-background-text-2, #round2, #round3 {
+		font-size: 10vw;
+		text-shadow: none;
+		background-color: black;
+		text-align: center;
+		top: 10%;
+	  	left: 50%;
+		margin-top: 10%;
+		padding: 4px;
+	}
+
+	.vs-name-left {
+		font-size: 5vw;
+		top: 70%;
+	  	left: 25%;
+		text-shadow: none;
+		background-color: black;
+		padding: 4px;
+		position: relative;
+	}
+
+	.vs-name-right {
+		font-size: 5vw;
+		top: 70%;
+	  	left: 74.5%;
+		text-shadow: none;
+		background-color: black;
+		padding: 4px;
+		position: relative;
+	}
+}
 	
 @media screen and (max-width: 689px) {
 	#left-logo {
@@ -886,7 +941,7 @@ blockquote::after {
 	}
 
 	#shop-info {
-	  font-size: 18px;
+	  	font-size: 18px;
 	}
 	
 	.article-text {
@@ -917,12 +972,12 @@ blockquote::after {
 
 @media screen and (max-width: 355px) {
 	#menu {
-    font-size: 140%;
+    	font-size: 140%;
 	}
 }
 
 @media screen and (min-width: 944px) and (max-width: 1417px) { 
-  #big-egg-1, #big-egg-2, #big-egg-3, .container {
+  	#big-egg-1, #big-egg-2, #big-egg-3, .container {
 		height: 70vw;
 	}
 
@@ -961,9 +1016,9 @@ blockquote::after {
 	}
 
 	#big-egg-1-text, #big-egg-2-text, #big-egg-3-text, #history-egg-text, #shop-egg-text {
-	position: static;
-	text-align: center;
-	font-size: 200%;
+		position: static;
+		text-align: center;
+		font-size: 200%;
 	}
 
 	#quiz-egg-text {
@@ -1000,7 +1055,7 @@ blockquote::after {
 	}
 	
 	#shop-box {
-	  margin-right: 0;
+	  	margin-right: 0;
 		background: transparent;
 		background-size: contain;
 	}
@@ -1014,7 +1069,7 @@ blockquote::after {
 	}
 
 	.column {
-  	width: 100%;
+  		width: 100%;
 		text-align: center;
 		line-height:150%;
 		padding: 60px 0;
