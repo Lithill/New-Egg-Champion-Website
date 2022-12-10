@@ -18,14 +18,9 @@ h1, h2, h3, h4 {
 	color: #D6A000;
 }
 
-p {
-	letter-spacing: 1px;
-	line-height: 35px;
-}
-
 /* ------------------------------ Misc ----------------------------------- */
 
-#menu a:hover, 
+a:hover, 
 #chevron1:hover, 
 #chevron2:hover, 
 #chevron3:hover, 
@@ -61,20 +56,12 @@ p {
 	color:white;
 }
 
-#youtube-button:hover, li i:hover {
-	color: #FFD800;
-}
-
-.active {
+#youtube-button:hover {
 	color: #FFD800;
 }
 
 hr {
 	border: 1px solid #dfbc78;
-}
-
-#results, #shop-info, #article {
-	padding-top: 100px;
 }
 
 .page-intro {
@@ -117,10 +104,6 @@ a {
 #menu a {
 	font-family: "League Gothic";
 	text-decoration: none;
-}
-
-#menu a:hover {
-	color: #FFD800;
 }
 
 .active {
@@ -428,10 +411,6 @@ input:hover, select:hover, button {
 .article-text a{
 	text-decoration: underline; 
 	color: #A8ACAD;
-}
-
-a:hover {
-	color: #FFD800;
 }
 
 /* Partly taken from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ and http://www.java2s.com/Code/HTMLCSS/Tags/borderforblockquote.htm*/
