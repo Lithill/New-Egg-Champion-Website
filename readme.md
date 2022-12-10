@@ -339,6 +339,9 @@ Then I thought that it may be because of the relationship between the header and
 * The navigation bar does not have a border on its' right side.
 * The Egg Champion logo in the video does not have a transparent background. Therefore the fireworks in the background are not visible when they should be. 
 * In some laptop views (Nest Hub, Nes Hub Max and Latitude 7420), you cannot see the top of the header image in the index page.
+* History page egg is not centered on Galaxy Fold view.
+* On Nest Hub, Nest Hub MaxTitle, title eggs spill out of frame and text overlaps on History and Shop pages. 
+* Text under black and white long-sleeved t-shirt is badly spaced in mobile view, on shop page. 
 
 ### Lighthouse
 
