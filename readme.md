@@ -334,7 +334,7 @@ Then I thought that it may be because of the relationship between the header and
 
 ### Known Bugs
 
-* Chevron links do not always take you to where you expect they will on Latitude 7420 with Chrome, and Gigabyte laptop with Firefox. This also needs testing on other sized screens with different browsers.
+* Chevron links do not always take you to where you expect they will. This is especially apparent on Latitude 7420 with Chrome, and Gigabyte laptop with Firefox. This also needs testing on other sized screens with different browsers.
 * The video seems to be having difficulty playing in Firefox.
 * The navigation bar does not have a border on its' right side.
 * The Egg Champion logo in the video does not have a transparent background. Therefore the fireworks in the background are not visible when they should be. 
