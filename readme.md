@@ -582,11 +582,11 @@ Please find the current Lighthouse stats below for each page.
 
 ##### Index Page
 
-[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
+[Desktop](assets/images/lighthouse-desktop-index2.png) ~ [Mobile](assets/images/lighthouse-mobile-index2.png)
 
 ##### News Page
 
-[Desktop](assets/images/lighthouse-desktop-#.png) ~ [Mobile](assets/images/lighthouse-mobile-#.png)
+[Desktop](assets/images/lighthouse-desktop-news2.png) ~ [Mobile](assets/images/lighthouse-mobile-news2.png)
 
 ##### Shop Page
 
