@@ -325,7 +325,7 @@ The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTM
 * In some laptop views (Nest Hub, Nes Hub Max and Latitude 7420), you cannot see the top of the header image in the index page.
 * History page egg is not centred on Galaxy Fold view.
 * On Nest Hub, Nest Hub MaxTitle, title eggs spill out of frame and text overlaps on History and Shop pages. 
-* Text under black and white long-sleeved t-shirt is badly spaced in mobile view, on shop page. 
+* Text under black and white long-sleeved t-shirt is badly spaced on shop page and does not seem to be responding to padding or margins added. 
 
 ### Lighthouse
 
