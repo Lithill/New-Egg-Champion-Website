@@ -602,6 +602,7 @@ To fully test my website, I went through each page using Google Chrome Developer
 
 1) Test the quiz form. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. I then chose a radio button and tried to submit the form. The form worked correctly and directed users to fill in the answer for the knock-knock joke. I then filled in both radio button and knock-knock joke. The drop-down answer is pre-filled, so users do not need to select that if they would like to submit the "100" option and adding their email address is optional. The form then opens the thank you page in the same browser window.
 2) I tried to submit the form with only the knock-knock joke answer. The form then directs the user to select a radio button. Once selected, the form then opens the thank you page in the same browser window. 
+
 ## Credits
 
 ### Code Used
@@ -622,7 +623,7 @@ Content for the website was written by Rossanne Hamilton.
 * The egg timer photograph used on the history page was taken and edited by Jordan Benton and found on [Pexels](https://www.pexels.com/photo/shallow-focus-photography-of-hourglass-1095602/). 
 * The egg crack overlay used on the News page was created by b0red and found on [Pixabay](https://pixabay.com/vectors/crack-overlay-distress-effect-2147059/).
 * The image for the News page background was created by Edward Jenner and found on [Pexels](https://www.pexels.com/photo/multiple-overlay-patterns-of-monochrome-design-4252890/). The developer edited the colours using paint.net.
-* Replacement merchandise pictures were generated through [Spreadshirt](www.spreadshirt.co.uk).
+* Replacement merchandise pictures were generated through [Spreadshirt](https://www.spreadshirt.co.uk/).
 
 ### Acknowledgements
 
