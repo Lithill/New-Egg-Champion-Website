@@ -312,6 +312,11 @@ The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTM
     2) Actual behaviour: Images overlap on news page.
     3) Solution: Made image size based on percentage of screen width instead of pixel width.
 
+15)
+    1) Expected behaviour: Shop merchandise to be displayed in three columns side by side on wider screens.
+    2) Actual behaviour: Shop merchandise displaying as one column on wider screens.
+    3) Solution: Changed @media width in CSS code.
+
 ### Known Bugs
 
 * Chevron links do not always take you to where you expect they will. This is especially apparent on Latitude 7420 with Chrome, and Gigabyte laptop with Firefox. This also needs testing on other sized screens with different browsers.
