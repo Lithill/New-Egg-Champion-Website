@@ -104,7 +104,7 @@ Google Fonts was used for the following fonts:
 - The egg timer photograph used on the history page was taken and edited by Jordan Benton and found on [Pexels](https://www.pexels.com/photo/shallow-focus-photography-of-hourglass-1095602/). 
 - The egg crack overlay used on the News page was created by b0red, and found on [Pixabay](https://pixabay.com/vectors/crack-overlay-distress-effect-2147059/)
 - The image for the News page background was created by Edward Jenner and found on [Pexels](https://www.pexels.com/photo/multiple-overlay-patterns-of-monochrome-design-4252890/). The developer edited the colours using paint.net.
-- Replacement merchandise pictures were generated through [Spreadshirt](www.spreadshirt.co.uk).
+- Replacement merchandise pictures were generated through [Spreadshirt](https://www.spreadshirt.co.uk).
 - [Dall-E 2](https://openai.com/dall-e-2/) was used to create the rest of the artwork.
 - The video was made by the developer, using [InVideo](https://invideo.io/).
 
@@ -173,7 +173,7 @@ HTML5 and CSS3 were used to create this website.
 
 - [Google Fonts](https://fonts.google.com/) was used to import IM Fell Double Pica, Trirong, and League Gothic.
 - [Font Awesome](https://fontawesome.com/) was used on the footer for the social media icons.
-- [Replit](replit.com) was used as the main programme to write the code, which was then sent to GitHub for version control. The reader can see the [Replit version here](https://replit.com/@RossHamilton/New-Egg-Champion-Website#index.html).
+- [Replit](https://replit.com/) was used as the main programme to write the code, which was then sent to GitHub for version control. The reader can see the [Replit version here](https://replit.com/@RossHamilton/New-Egg-Champion-Website#index.html).
 - [Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to commit to Git and Push to GitHub.
 - [GitHub](https://github.com/) was used to store the project's code after being pushed from Replit, and to handle version control.
 - [Paint.Net](https://www.getpaint.net/download.html) was used to create the logos on each corner of the header.
@@ -225,7 +225,7 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 ### W3C Validator
 
-The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML on all pages of the website. The [W3C CSS Validator](https://jigsaw.w3.org/) was used to validate CSS in the style.css file.
+The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML on all pages of the website. The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS in the style.css file.
 
 * [Index Page HTML](assets/images/html-checker-index.png)
 * [News Page HTML](assets/images/html-checker-news.png)
